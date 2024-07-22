@@ -6,6 +6,7 @@ from dotenv import load_dotenv
 import pandas as pd
 import os
 import shutil
+import pickle
 
 # Load environment variables. Assumes that project contains .env file with API keys
 load_dotenv()
@@ -13,6 +14,7 @@ load_dotenv()
 CHROMA_PATH = "chroma"
 DATA_PATH = "data_base.csv"
 BATCH_SIZE = 5000  # Change this to a value that works for your system
+DOCUMENTS_PATH = "stored_documents.pkl"  # Path to store the list of documents
 
 def generate_data_store():
     try:
@@ -20,6 +22,7 @@ def generate_data_store():
         print(f"Loaded {len(documents)} documents.")
         chunks = split_text(documents)
         print(f"Split {len(documents)} documents into {len(chunks)} chunks.")
+        store_documents(chunks)  # Store the chunks in a file
         save_to_chroma(chunks)
     except Exception as e:
         print(f"An error occurred in generate_data_store: {e}")
@@ -64,6 +67,11 @@ def chunk_documents(documents, batch_size):
     """Divide documents into smaller batches."""
     for i in range(0, len(documents), batch_size):
         yield documents[i:i + batch_size]
+
+def store_documents(documents):
+    """Store the documents in a file."""
+    with open(DOCUMENTS_PATH, 'wb') as f:
+        pickle.dump(documents, f)
 
 def save_to_chroma(chunks: list[Document]):
     try:

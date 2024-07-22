@@ -1,10 +1,6 @@
 from groq import Groq
 
-# Remplacez ceci par votre clé API réelle
-api_key = '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'
-
-# Créer une instance du client Groq avec la clé API
-client = Groq(api_key=api_key)
+client = Groq()
 completion = client.chat.completions.create(
     model="llama3-8b-8192",
     messages=[
