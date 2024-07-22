@@ -10,8 +10,7 @@ def query(payload):
     response.raise_for_status()  # Cette ligne lève une exception pour les erreurs HTTP
     return response.json()
 
-context = ("As a customer service representative, you are asking for more details from a customer "
-           "regarding their recent purchase to provide better support. Please be specific in your response.")
+context = ("Explain how the YOLO method works")
 prompt = context + " Can you please let us know more details about your recent purchase?"
 
 try:
