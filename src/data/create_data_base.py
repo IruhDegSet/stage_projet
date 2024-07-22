@@ -12,6 +12,7 @@ load_dotenv()
 
 CHROMA_PATH = "chroma"
 DATA_PATH = "data_base.csv"
+BATCH_SIZE = 5000  # Change this to a value that works for your system
 
 def generate_data_store():
     try:
@@ -28,7 +29,7 @@ def load_documents():
         df = pd.read_csv(DATA_PATH)
         print(f"CSV columns: {df.columns}")
         documents = []
-        for index, row in df.head(10).iterrows():  # Use only the first 10 rows for testing
+        for index, row in df.sample(frac=0.05).iterrows():  # Sample 5% of the data randomly
             content = row['description']
             metadata = {
                 "part": row['part'],
@@ -59,6 +60,11 @@ def split_text(documents: list[Document]):
     except Exception as e:
         print(f"An error occurred in split_text: {e}")
 
+def chunk_documents(documents, batch_size):
+    """Divide documents into smaller batches."""
+    for i in range(0, len(documents), batch_size):
+        yield documents[i:i + batch_size]
+
 def save_to_chroma(chunks: list[Document]):
     try:
         # Clear out the database first.
@@ -68,12 +74,18 @@ def save_to_chroma(chunks: list[Document]):
         # Create a valid embedding object for Hugging Face
         embedding = HuggingFaceEmbeddings(model_name="sentence-transformers/all-MiniLM-L6-v2")
 
-        # Create a new database from the documents.
-        db = Chroma.from_documents(
-            chunks, embedding, persist_directory=CHROMA_PATH
-        )
+        # Create a new Chroma instance
+        db = Chroma(persist_directory=CHROMA_PATH, embedding_function=embedding)
+
+        # Add documents in batches
+        for batch in chunk_documents(chunks, BATCH_SIZE):
+            db.add_documents(
+                documents=batch
+            )
+            print(f"Added a batch of {len(batch)} chunks to Chroma.")
+
         db.persist()
-        print(f"Saved {len(chunks)} chunks to {CHROMA_PATH}.")
+        print(f"Saved all chunks to {CHROMA_PATH}.")
     except Exception as e:
         print(f"An error occurred in save_to_chroma: {e}")
 
