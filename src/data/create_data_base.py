@@ -7,22 +7,28 @@ import pandas as pd
 import os
 import shutil
 import pickle
+import time
 
 # Load environment variables. Assumes that project contains .env file with API keys
 load_dotenv()
 
 CHROMA_PATH = "chroma"
 DATA_PATH = "data_base.csv"
-BATCH_SIZE = 5000  # Change this to a value that works for your system
+BATCH_SIZE = 10000  # Change this to a value that works for your system
 DOCUMENTS_PATH = "stored_documents.pkl"  # Path to store the list of documents
 
 def generate_data_store():
     try:
         documents = load_documents()
+        if not documents:
+            print("No documents were loaded.")
+            return
         print(f"Loaded {len(documents)} documents.")
         chunks = split_text(documents)
+        if not chunks:
+            print("No chunks were created.")
+            return
         print(f"Split {len(documents)} documents into {len(chunks)} chunks.")
-        store_documents(chunks)  # Store the chunks in a file
         save_to_chroma(chunks)
     except Exception as e:
         print(f"An error occurred in generate_data_store: {e}")
@@ -49,6 +55,7 @@ def load_documents():
         return documents
     except Exception as e:
         print(f"An error occurred in load_documents: {e}")
+        return []
 
 def split_text(documents: list[Document]):
     try:
@@ -62,6 +69,7 @@ def split_text(documents: list[Document]):
         return chunks
     except Exception as e:
         print(f"An error occurred in split_text: {e}")
+        return []
 
 def chunk_documents(documents, batch_size):
     """Divide documents into smaller batches."""
@@ -83,14 +91,20 @@ def save_to_chroma(chunks: list[Document]):
         embedding = HuggingFaceEmbeddings(model_name="sentence-transformers/all-MiniLM-L6-v2")
 
         # Create a new Chroma instance
+        print("Creating Chroma instance...")
         db = Chroma(persist_directory=CHROMA_PATH, embedding_function=embedding)
 
         # Add documents in batches
-        for batch in chunk_documents(chunks, BATCH_SIZE):
-            db.add_documents(
-                documents=batch
-            )
-            print(f"Added a batch of {len(batch)} chunks to Chroma.")
+        for batch_index, batch in enumerate(chunk_documents(chunks, BATCH_SIZE)):
+            print(f"Processing batch {batch_index + 1} of {len(chunks)//BATCH_SIZE + 1}...")
+            print(f"Adding batch of {len(batch)} chunks to Chroma...")
+            start_time = time.time()
+            try:
+                db.add_documents(documents=batch)
+                print(f"Batch {batch_index + 1} added in {time.time() - start_time:.2f} seconds.")
+            except Exception as e:
+                print(f"An error occurred while adding batch {batch_index + 1}: {e}")
+                break  # Stop processing if an error occurs
 
         db.persist()
         print(f"Saved all chunks to {CHROMA_PATH}.")
