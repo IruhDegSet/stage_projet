@@ -8,3 +8,993 @@ part: C13T619100 fournisseur: West Cost description: EPSON BAC RECUP ENCRE marqu
 part: 01ET977 fournisseur: Also description: LENOVO PW 1YR Parts Delivered NBD marque: lenovo prix: 271.68 quantity: 100
 part: SU515A fournisseur: techdata description: Samsung CLT-Y506L - À rendement élevé - jaune - original - cartouche de toner (SU515A) - pour Samsung CLP-680DW, CLP-680ND, CLX-6260FD, CLX-6260FR, CLX-6260FW, CLX-6260ND marque: hp prix: 145.68 quantity: 4
 part: 220-80E-00003 fournisseur: Jarltech description: Zebra 220Xi4, 8 pts/mm (203 dpi), RTC, ZPLII, multi-IF marque: zebra prix: 5995.83 quantity: 17
+part: U7PV5E fournisseur: macle description: EPACK 1YR NBD WCDMR 513024G4SF marque: hewlett packard enterprise prix: 227.0 quantity: 50
+part: 21L30031MB fournisseur: Copaco description: L16 G1 T\16_WUXGA_AG_300N\CORE_ULT7_155U_1.7G_12C_14T\16GB_DDR5_5600_SODIMM\512GB_SSD_M.2_2280_G4_TLC_OP\W11_P64-WE_ML AZERTY BE marque: lenovo prix: 1501.36 quantity: 39
+part: P86550314 fournisseur: Also description: HP Poly 3yr Poly+ Onsite G7500 4k Codec-Wireless Presentation Sys Touch Cntrl EEIV-4x cam mic remote marque: hp inc. prix: 2684.84 quantity: 100
+part: 42W2820 fournisseur: macle description: LENOVO FAN FOR TP T61 marque: lenovo prix: 47.0 quantity: 5
+part: DELL-WD22TB4 fournisseur: Siewert & Kau description: Dell notebook docking station WD22TB4 Thunderbolt marque: dell prix: 218.31 quantity: 17
+part: MSP2630 fournisseur: EET description: Paper Pickup Roller marque: coreparts prix: 9.3 quantity: 17
+part: DS70S-950WH1 fournisseur: Siewert & Kau description: Neomounts DS70S-950WH1 mounting kit - full-motion - for monitor - white marque: neomounts prix: 163.78 quantity: 20
+part: H2ZT2E fournisseur: macle description: EPACK 1YR FC 4H EXCH 7005 CTR marque: hewlett packard enterprise prix: 490.0 quantity: 50
+part: 1.445-330.0 fournisseur: Difox description: KÃ¤rcher PGS 4-18 Scie marque: kärcher prix: 58.01 quantity: 1
+part: 0-HDMI200ETHNYROTCAV fournisseur: MGF description: C ble HDMI 1.4 M/M, fiche or 2 mètres , nylon tressé, Ehternet 1 c té 90 c fixe, marque: heden prix: 4.92 quantity: 104
+part: 404673-001-RFB fournisseur: EET description: Systemboard marque: hewlett packard enterprise prix: 173.7 quantity: 1
+part: MT103ZM/A fournisseur: techdata description: Apple - Coque de protection pour téléphone portable - compatibilité avec MagSafe - silicone - noir - pour iPhone 15 Plus marque: apple prix: 49.17 quantity: 32
+part: TL-SG1005P fournisseur: PICATA description: TL-SG1005P - 5 Ports Gigabit dont 4 PoE marque: tp-link prix: 33.35 quantity: 1
+part: H8CQ1E fournisseur: techdata description: HPE Foundation Care Next Business Day Exchange Service - Contrat de maintenance prolongé - remplacement - 4 années - expédition - 9x5 - temps de réponse : NBD - universitaire, pour les particuliers - pour P/N: JX957AR marque: hewlett packard enterprise prix: 38.0 quantity: 9876
+part: TB4CDOCKUE fournisseur: Ingram description: THUNDERBOLT 4 DOCK 96W DUAL 4K marque: startech prix: 245.5 quantity: 3
+part: MZ-V9E1T0BW fournisseur: Also description: SAMSUNG SSD 990 EVO 1To M.2 NVMe PCIe marque: samsung prix: 114.57 quantity: 100
+part: U3WZ9E fournisseur: macle description: EPACK 3YR NBD 66/88XX FIREWALL marque: hewlett packard enterprise prix: 4596.0 quantity: 50
+part: CL-P039-AL12BL-A fournisseur: PICATA description: Contac Silent 12 CPU Cooler marque: thermaltake prix: 21.31 quantity: 1
+part: 22450121 fournisseur: Ingram description: RP-F10-K27J1-3 10819 BLK EU marque: seiko prix: 176.96 quantity: 22
+part: OCM815B fournisseur: Ingram description: FIXATION PLAFOND UNIV. VP marque: optoma technology prix: 64.52 quantity: 9
+part: ARKCWPK fournisseur: Difox description: AgfaPhoto Realikids Water Proof pink marque: agfaphoto prix: 43.2 quantity: 1
+part: 13450-20 fournisseur: Difox description: Gardena SystÃ¨me goutte Ã  goutte kit potager/parterre 60mÂ² marque: gardena prix: 39.56 quantity: 10
+part: CE742A fournisseur: Ingram description: TONER CARTRIDGE 307A YELLOW marque: hp inc. prix: 254.41 quantity: 7
+part: CFQ7TTC0LF8S-0002-1J1J fournisseur: terra computer description: YY CSP Office 365 E5 [1J1J] New Commerce [EOS 01.10.23] marque: microsoft prix: 410.72 quantity: 100
+part: SMFIBLCLC1 fournisseur: techdata description: StarTech.com 1m Fiber Optic Cable - Single-Mode Duplex 9/125 - LSZH - LC/LC - OS1 - LC to LC Fiber Patch Cable (SMFIBLCLC1) - Cordon de raccordement - mode unique LC (M) pour mode unique LC (M) - 1 m - fibre optique - duplex - 9 / 125 micromètres - OS1 - marque: startech prix: 19.99 quantity: 6
+part: CFQ7TTC0LHRR-000S-1M1M fournisseur: terra computer description: CSP Microsoft Defender for Cloud Apps (Education Student Pricing) [1M1M] marque: microsoft prix: 0.65 quantity: 100
+part: HR4Z0E fournisseur: techdata description: HPE Foundation Care Next Business Day Exchange Service - Contrat de maintenance prolongé - remplacement - 3 années - expédition - 9x5 - temps de réponse : NBD - pour P/N: JL661A marque: hewlett packard enterprise prix: 540.0 quantity: 9876
+part: FW5L5_3PS5PSP fournisseur: Ingram description: 3Y PROSPT TO 5Y PROSPT PLUS marque: dell emc prix: 168.95 quantity: 9999
+part: MC-SFTP6A01G fournisseur: EET description: CAT6A S/FTP 1m Green LSZH marque: microconnect prix: 1.5 quantity: 2638
+part: 358348-B21 fournisseur: macle description: HPE MEM 1GB DDR PC 2700 ECC DDR-333 marque: hewlett packard enterprise prix: 59.0 quantity: 7
+part: APTHP35AE fournisseur: Supplies24 description: ORIGINAL Agfa Photo Toner Noir(e) APTHP35AE ~1500 Seiten Agfa Photo 35A (CB435A) marque: apthp35ae prix: 14.98 quantity: 1
+part: CON-ECMU-UPGADGF fournisseur: Also description: CISCO SWSS UPGRADES NX-OS Upgrade License Ess To Adv 1G Pl marque: cisco prix: 160.86 quantity: 100
+part: 228373-001 fournisseur: macle description: 228373-001 HP POWER SUPPLY FOR STORAGEWORKS 3U marque: hewlett packard enterprise prix: 49.0 quantity: 43
+part: U41BCE fournisseur: Also description: HP 2 year Next Business Day Response Onsite Notebook Bundled Hardware Support marque: hp inc. prix: 23.61 quantity: 100
+part: 2078-AC60 fournisseur: macle description: IBM HDD 600GB 10K  SAS 2.5'' marque: ibm prix: 59.0 quantity: 50
+part: 1D0K9AA#ABB fournisseur: Also description: HP Creator 930 SLV WRLS Mouse marque: hp inc. prix: 72.45 quantity: 20
+part: 1102RV3NL0 fournisseur: techdata description: Kyocera ECOSYS P2235dn - Imprimante - Noir et blanc - Recto-verso - laser - A4/Legal - 1200 ppp - jusqu'à 35 ppm - capacité : 350 feuilles - USB 2.0, Gigabit LAN, hôte USB marque: kyocera prix: 291.0 quantity: 3
+part: R18-06432 fournisseur: terra computer description: MS SB Windows Server 2022 5 Device CAL [DE] marque: microsoft prix: 141.9 quantity: 46
+part: 71P7435 fournisseur: macle description: IBM 2GB FC, 300GB/10K DRIVE marque: ibm prix: 59.0 quantity: 5
+part: VEL-OW64736 fournisseur: Secomp description: VELCRO One Wrap 20x330mm 100p. aqua VEL-OW64736 marque: velcro prix: 27.94 quantity: 25
+part: RZ03-03390100-R3M1 fournisseur: biuroABC description: RAZER RZ03-03390100-R3M1 marque: rz03-03390100-r3m1 prix: 72.0 quantity: 41
+part: 006R04185 fournisseur: Ingram description: EVERYDAY CYAN TONER FOR HP 415A marque: xerox prix: 52.41 quantity: 100
+part: 80C2XCE fournisseur: Imcopex description: Lexmark Cartridge 802XCE Cyan (80C2XCE) marque: lexmark prix: 50.0 quantity: 1
+part: H5XC4E fournisseur: techdata description: HPE Foundation Care Next Business Day Service - Contrat de maintenance prolongé - pièces et main d'oeuvre - 3 années - sur site - 9x5 - temps de réponse : NBD - pour P/N: JL357A#BB marque: hewlett packard enterprise prix: 846.0 quantity: 9876
+part: 01ER103 fournisseur: EET description: Bezel marque: lenovo prix: 77.7 quantity: 4
+part: 632504-B21 fournisseur: macle description: HPE SSD 400GB 6G SAS 2.5'' MLC marque: hewlett packard enterprise prix: 468.0 quantity: 1
+part: 3204884 fournisseur: Copaco description: Reflect MacBook Sleeve 13i marque: case logic prix: 21.81 quantity: 18
+part: PAC-D-10277 fournisseur: Difox description: Arcade 1UP Pac-Man 5 Game Partycade marque: arcade prix: 188.87 quantity: 8
+part: 693714-001 fournisseur: macle description: HPE SMART AC ADAPTER 230W marque: hewlett packard enterprise prix: 99.0 quantity: 4
+part: R87100801 fournisseur: Also description: HP Poly Service Reactivation Fee Studio P21 for product less than 1yr out of support coverage marque: hp inc. prix: 14.52 quantity: 100
+part: 1T02MT0NLV fournisseur: Octant description: KYOCERA Cartouche Toner TK-3110 Noir 15 500 pages marque: kyotk3110 prix: 96.72 quantity: 11
+part: L24678-001 fournisseur: EET description: Back Cover Lcd Jtb Hd marque: hp prix: 38.7 quantity: 1
+part: U2KN9PE fournisseur: techdata description: HPE Foundation Care 24x7 Service Post Warranty - Contrat de maintenance prolongé - pièces et main d'oeuvre - 1 année - sur site - 24x7 - temps de réponse : 4 h marque: hewlett packard enterprise prix: 549.0 quantity: 9876
+part: 819079-001 fournisseur: EET description: 4TB SAS Hard Drive marque: hewlett packard enterprise prix: 248.4 quantity: 27
+part: 1102S13NL0 fournisseur: techdata description: Kyocera ECOSYS M2635dn - Imprimante multifonctions - Noir et blanc - laser - A4 (210 x 297 mm), Legal (216 x 356 mm) (original) - A4/Legal (support) - jusqu'à 35 ppm (impression) - 350 feuilles - 33.6 Kbits/s - USB 2.0, Gigabit LAN, hôte USB marque: kyocera prix: 632.0 quantity: 2
+part: W21 fournisseur: Kosatec description: Foscam W21 Schwarz/Silber marque: foscam prix: 11.99 quantity: 95
+part: 11.04.5619 fournisseur: Secomp description: ROLINE Câble DP, DP-DVI (24+1), M/M,1,5m marque: roline prix: 10.8 quantity: 329
+part: S26361-F4482-E514 fournisseur: macle description: FUJITSU HDD 146GB 15K SAS 6G 2.5'' marque: fujitsu prix: 101.0 quantity: 2
+part: eco715 fournisseur: Difox description: Woodcessories Clear Case MagSafe iPhone 15 Black marque: woodcessories prix: 15.84 quantity: 3
+part: 1115000 fournisseur: Difox description: Nielsen Aura noir 20x20 bois incl. Passepartout 1115000 marque: nielsen design prix: 3.92 quantity: 10
+part: 759208-B21 fournisseur: macle description: HPE HDD 300GB 15K SAS 12G 2.5'' SC marque: hewlett packard enterprise prix: 59.0 quantity: 50
+part: H3AS6E fournisseur: macle description: EPACK 4YR PCA 24X7 CDMR 7010 marque: hewlett packard enterprise prix: 17172.0 quantity: 50
+part: CON-SNT-W296X48F fournisseur: Also description: CISCO SMARTNET 8X5XNBD Catalyst 2960-XR 48 GigE PoE 740W 2 x 1 marque: cisco prix: 634.4 quantity: 100
+part: H1FR3E fournisseur: macle description: EPACK 5YR FC 24X7 MSR954 marque: hewlett packard enterprise prix: 616.0 quantity: 50
+part: 708641-S21 fournisseur: convena description: HPE Memory 16GB Dual Rank x4 PC3-14900R marque: hp enterprise prix: 53.69 quantity: 100
+part: 6593705 fournisseur: psaparts description: 0 marque:  prix: 0.0 quantity: 7
+part: H3EJ1E fournisseur: macle description: EPACK 5YR PCA CTR CDMR 7210 CT marque: hewlett packard enterprise prix: 72883.0 quantity: 50
+part: CFQ7TTC0HM0T-0007-1J1M fournisseur: terra computer description: CSP Dynamics 365 e-Commerce Tier 1 Band 3 [1J1M] New Commerce marque: microsoft prix: 2702.0 quantity: 100
+part: QSFP-40G-LR4-S= fournisseur: techdata description: Cisco S-Class - Mode de transmetteur QSFP+ - 40GbE - 40GBase-LR4 - mode unique LC - jusqu'à 10 km - 1271 nm / 1291 nm / 1311 nm / 1331 nm marque: cisco prix: 11999.88 quantity: 15
+part: XUB2493HSU-B6 fournisseur: Tarox description: Iiyama 24 XUB2493HSU-B6 HDMI DP USB marque: iiyama prix: 0.0 quantity: 16
+part: 90PF02V1-M00W60 fournisseur: MCA description: UC ASUS SFF 15L D700MCES-310105011R i3-10105/8Go/256Go/Win10Pro Intel UHD/WiFi+BT Garantie 2 ans. marque: asus prix: 490.0 quantity: 5
+part: 21391193 fournisseur: Ingram description: NORTON SECUR PREM 25GB SE 1USER marque: symantec prix: 17.2 quantity: 9999
+part: U0405E fournisseur: Also description: HP 3y Active Care NBD ONS ProTrc HW Supp marque: hp inc. prix: 138.3 quantity: 100
+part: CMW16GX4M2K4000C19 fournisseur: ecp description: Multimedia/07- RAM Gamer/DIMM Gamer/DDR4 Gamer marque: corsair prix: 110.14 quantity: 1
+part: TEG-S24g fournisseur: Secomp description: TRENDNET SWITCH GREENET 24xRJ45 GIGABIT marque: trendnet prix: 96.14 quantity: 4
+part: 13934 fournisseur: Difox description: Schleich Vie Ã  la ferme    13934 Porcelet marque: schleich prix: 3.18 quantity: 4
+part: 81700571100 fournisseur: Difox description: Alpen SDS+ F4 Box 3 tlg. 6-7-10x 160 marque: alpen-maykestag prix: 6.41 quantity: 20
+part: CP04OSSWH961 fournisseur: Also description: EPSON 4 years CoverPlus with on-site-service for EH-TW7000 marque: epson prix: 187.94 quantity: 100
+part: 90P1381-RFB fournisseur: EET description: 73GB 15K U320 SCSI HS HDD marque: ibm prix: 85.2 quantity: 1
+part: 96Z10ET#ABH-NOB fournisseur: Travion description: EliteBook 1040 G10 - 14 inch - Intel Core i7-1355U - 16GB RAM - 512GB SSD - Windows 11 Pro [ NEW DAMAGED BOX ] marque: hp inc. prix: 1.0 quantity: 1
+part: DN-19 42U-6/10-1 fournisseur: Siewert & Kau description: Digitus Unique DN-19 42U-6/10-1 - rack - 42U marque: digitus prix: 784.05 quantity: 3
+part: CFQ7TTC0LFNW:0002:COM:P1Y:M:DE fournisseur: Tarox description: Windows 10/11 Enterprise E5 marque: microsoft csp prix: 0.0 quantity: 50
+part: 42f7351 fournisseur: macle description: IBM SCSI HIGH PERF. EXT I/O CONTR. marque: ibm prix: 59.0 quantity: 3
+part: PFI-320m fournisseur: Supplies24 description: ORIGINAL Canon Cartouche d'encre Magenta PFI-320m 2892C001 300ml marque: pfi-320m prix: 99.68 quantity: 1
+part: H3MU8PE fournisseur: macle description: EPACK 1YR REN FC NBD EC AP-205 marque: hewlett packard enterprise prix: 48.0 quantity: 50
+part: 90NX06D1-M00710 fournisseur: Ingram description: EXPERTBOOK FLIP R14 marque: asus prix: 372.4 quantity: 176
+part: 21.15.2604 fournisseur: Secomp description: Cordon ROLINE S/FTP(PiMF) Cat6/CompLv, LSOH, gris, 1,5m marque: roline prix: 2.9 quantity: 419
+part: 16.99.4133 fournisseur: Secomp description: VALUE Boîtier SSD NVME USB C 3.2 Gen2x2 marque: value prix: 38.5 quantity: 198
+part: Q3931-67941 fournisseur: EET description: Fixing Assembly Kit marque: hp prix: 247.8 quantity: 8
+part: VCNT400-PB fournisseur: PICATA description: T400 - T400/2Go/mDP/LowProfile marque: pny prix: 114.72 quantity: 4
+part: G9VN6 fournisseur: EET description: DVD+/-RW,8X,9.5,SATA,TRAY,TSST marque: dell prix: 22.8 quantity: 7
+part: 7B86-016R fournisseur: Siewert & Kau description: MSI Mainboard B450 GAMING PLUS MAX - ATX - Socket AM4 - AMD B450 marque: msi prix: 69.09 quantity: 143
+part: ALTVTABACTPRO fournisseur: Ingram description: PROTECTION EN VERRE TREMPE POUR marque: akashi prix: 12.5 quantity: 1
+part: H5XM9E fournisseur: techdata description: HPE Foundation Care Next Business Day Service - Contrat de maintenance prolongé - pièces et main d'oeuvre - 1 année - sur site - 9x5 - temps de réponse : NBD - pour P/N: JL356A#BB marque: hewlett packard enterprise prix: 197.0 quantity: 9876
+part: UACC-DAC-SFP28-3M fournisseur: MCA description: Ubiquiti - UACC-DAC-SFP28-3M 25 Gbps Direct Attach Cable - 3m. marque: ubiquiti prix: 34.5 quantity: 42
+part: C13T05H24010 fournisseur: Supplies24 description: ORIGINAL Epson Cartouche d'encre Cyan C13T05H24010 405 XL ~1100 Seiten 14,7ml marque: c13t05h24010 prix: 22.17 quantity: 1
+part: R6U83AAE fournisseur: techdata description: HPE Aruba Central On-Premises Foundation - Licence d'abonnement (1 an) - 1 switch - ESD marque: aruba prix: 515.0 quantity: 9876
+part: EZ 7407 fournisseur: Difox description: Severin EZ 7407 SorbetiÃ¨re & machine Ã  yaourt marque: severin prix: 164.96 quantity: 20
+part: 90IG0610-MO0R00 fournisseur: Kosatec description: ASUS PCE-AX58BT - WLAN / Bluetooth - 2402 Mbit/s marque: asus prix: 44.06 quantity: 6
+part: TD110DSMJ fournisseur: Difox description: Makita TD110DSMJ visseuse sans fil Ã  percussion marque: makita prix: 147.55 quantity: 10
+part: JD-718 fournisseur: Difox description: Carson JD-718 miniscout     7x18 marque: carson optical prix: 25.91 quantity: 1
+part: 7313552 fournisseur: Difox description: Intenso Powerbank XS20000 blanc 20000 mAh incl. USB-A to Type-C marque: intenso prix: 20.36 quantity: 10
+part: MRHW3QF/A fournisseur: techdata description: Apple Watch Series 9 (GPS + Cellular) - 41 mm - aluminium argenté - montre intelligente avec bande sport - fluoroélastomère - bleu orage - taille du bracelet : M/L - 64 Go - Wi-Fi, LTE, UWB, Bluetooth - 4G - 32.1 g marque: apple prix: 474.17 quantity: 11
+part: TS-432PXU-2G fournisseur: Acadia description: QNAP TS-432PXU-2G Serveur NAS 4 Baies marque: qnap prix: 546.29 quantity: 2
+part: 2P-HSTNN-DB7W fournisseur: psaparts description: 62 marque:  prix: 2.0 quantity: 32
+part: 884F8EA#ABF fournisseur: MGF description: HP Pro 290 G9R Intel Core i5-13400 16GO 512GO SSD Intel UHD Graphics 730 WIN11PR marque: hp pro prix: 620.98 quantity: 39
+part: 00184159 fournisseur: Tarox description: HAMA Bluetooth-Kopfhörer Passion Voyage marque: hama prix: 0.0 quantity: 12
+part: C13S020693 fournisseur: MGF description: EPSON ENCRE NOIR PJIC7 marque: epson prix: 37.92 quantity: 69
+part: ZD4A042-D0EE00EZ fournisseur: convena description: Zebra ZD421d Label Printer marque: zebra prix: 250.35 quantity: 1
+part: 001361 fournisseur: techdata description: Mobilis - Adaptateur secteur - rapide - 20 Watt - PD/PPS (24 pin USB-C) - noir - Europe marque: mobilis prix: 12.49 quantity: 34
+part: MD155S fournisseur: Difox description: Walther PimpÂ´n Create Cordon ph. 6 aimants bois,150cm,naturMD155S marque: walther prix: 9.03 quantity: 10
+part: 01ET956 fournisseur: macle description: WARRANTY 4YR TECH INSTALL marque: lenovo prix: 3215.0 quantity: 50
+part: 910-005283 fournisseur: PICATA description: G305 LightSpeed marque: logitech prix: 35.06 quantity: 7
+part: 7106-2 fournisseur: Secomp description: GUDE 71062 Sensor Temperatur, Feuchte, Luftdruck, kalibriert marque: gude prix: 183.16 quantity: 1
+part: C13T913100 fournisseur: techdata description: Epson T9131 - 200 ml - photo noire - original - cartouche d'encre - pour SureColor SC-P5000, SC-P5000 STD Spectro, SC-P5000 Violet, SC-P5000 Violet Spectro marque: epson prix: 85.32 quantity: 24
+part: 5M30V06805 fournisseur: EET description: SODIMM,8GB, DDR4, 3200 ,Micron marque: lenovo prix: 106.2 quantity: 59
+part: SM-X610NZAEEUB fournisseur: PCA description: Samsung Galaxy Tab S9FE+ 12.4'' WIFI 256Go Anthracite RAM 12Go Android 13 2560 1 marque: samsung prix: 613.42 quantity: 18
+part: 418951-001 fournisseur: macle description: HPE MEM 1GB PC2-6400 DDR2-SDRAM marque: hewlett packard enterprise prix: 59.0 quantity: 37
+part: FRU01AG877 fournisseur: EET description: SODIMM,16GBDDR43200 ,MICRO marque: lenovo prix: 196.5 quantity: 64
+part: SV.WCMAP.A03 fournisseur: PCA description: EDG 3 ans SUR SITE (J+1 ouvré) pour Chromebox/Veriton EXxxx /2xxx/4xxx/6xxx/8xxx marque: acer prix: 31.0 quantity: 26
+part: B3P23A fournisseur: Octant description: HP Cartouche Encre 727 Noir photo 130ml marque: hpb3p23a prix: 66.1 quantity: 8
+part: BNS15UF fournisseur: techdata description: Urban Factory - Housse d'ordinateur portable - jusqu'à 15,6" - noir marque: urban factory prix: 9.16 quantity: 330
+part: 6402B009 fournisseur: PICATA description: Pack Cartouches PGI-72 MBK/C/M/Y/R - 6402B009 marque: canon prix: 53.23 quantity: 1
+part: 11.44.9010 fournisseur: Secomp description: ROLINE GREEN USB3.2 Gen1 Câble A/C 0,5m M/M LSOH NOIR marque: roline green prix: 4.9 quantity: 763
+part: 1001182 fournisseur: techdata description: EPOS EXPAND Vision 3T Bundle - Bar de vidéoconférence (haut-parleur de téléphone, barre vidéo, tablette) - Certifié pour Microsoft Teams - noir marque: epos prix: 2399.0 quantity: 3
+part: H41S2E fournisseur: techdata description: HPE Foundation Care Software Support 24x7 - Support technique - support téléphonique - 5 années - 24x7 - temps de réponse : 2 h - pour P/N: JL375A, JL375AR, JL376A, JL376AR marque: hewlett packard enterprise prix: 17278.0 quantity: 9876
+part: MCRSTDEXW fournisseur: techdata description: Compulocks Borne Tablette Mobile et bras articulé VESA - Blanc - Chariot - pour Écran LCD - médical - blanc - Taille d'écran : jusqu'à 15 pouces - pour Compulocks Borne Tablette Mobile et bras articulé VESA - Blanc marque: compulocks prix: 643.79 quantity: 4
+part: 6387B001 fournisseur: West Cost description: CANON ENCRE CLI-42 J marque: canon supplies prix: 11.0 quantity: 90
+part: TS64GSDXC10U1 fournisseur: Difox description: Transcend SDXC 64GB Class 10 UHS-I 600x Ultimate marque: transcend prix: 29.53 quantity: 7
+part: HQ0X3E fournisseur: techdata description: HPE Foundation Care 24x7 Service - Contrat de maintenance prolongé - pièces et main d'oeuvre - 3 années - sur site - 24x7 - temps de réponse : 4 h - pour P/N: JL253-61001, JL253A#ABA, JL253A#ABB, JL253A#AC3, JL253A#B2B, JL253AR, JL253AR#ABB marque: hewlett packard enterprise prix: 476.0 quantity: 9876
+part: HL7W6E fournisseur: techdata description: HPE Foundation Care 24x7 Service - Contrat de maintenance prolongé - pièces et main d'oeuvre - 4 années - sur site - 24x7 - temps de réponse : 4 h - pour P/N: JL665A, JL665AR marque: hewlett packard enterprise prix: 869.0 quantity: 9876
+part: 02-SSC-6537 fournisseur: techdata description: SonicWall Advanced Protection Service Suite - Licence d'abonnement (3 ans) + 24x7 Support - pour P/N: 02-SSC-6824, 02-SSC-6826, 02-SSC-6828, 02-SSC-6830, 02-SSC-7289, 02-SSC-8058 marque: sonicwall prix: 2272.9 quantity: 9876
+part: DS70-750BL2 fournisseur: convena description: Neomounts by Newstar monitor desk mount marque: neomounts by newstar prix: 104.18 quantity: 4
+part: EO-IC100BWEGEU fournisseur: techdata description: Samsung EO-IC100 - Écouteurs avec micro - intra-auriculaire - filaire - USB-C marque: samsung prix: 29.9 quantity: 84
+part: PRSBBTZE431 fournisseur: Supplies24 description: ORIGINAL Prindo Ruban Noir sur rouge PRSBBTZE431 marque: prsbbtze431 prix: 6.89 quantity: 1
+part: MC-SSDSATACONV fournisseur: EET description: 2.5" SATA to M.2 mSATA Adapter marque: microconnect prix: 10.5 quantity: 21
+part: U9X62E fournisseur: macle description: EPACK5Y4H CDMR5920AF-24XG ROA marque: hewlett packard enterprise prix: 16611.0 quantity: 50
+part: H4DL9PE fournisseur: macle description: EPACK 1YR REN PC NBD EXCH IAP marque: hewlett packard enterprise prix: 137.0 quantity: 50
+part: 02HM065 fournisseur: convena description: Lenovo Cover D CoverBLKPC+ABSWINtouch marque: lenovo prix: 61.22 quantity: 5
+part: 00HM613 fournisseur: EET description: 45W,20VDC,3P,WW,LTN marque: lenovo prix: 37.2 quantity: 31
+part: JG754AAE fournisseur: macle description: HP IMC EAD SW MOD W/ 50-USER marque: hewlett packard enterprise prix: 2388.0 quantity: 50
+part: 800059-412 fournisseur: Ingram description: CARD PVC 30 MIL UHF M4QT marque: zebra prix: 97.68 quantity: 1
+part: BPGT70MA fournisseur: argor trading description: Sharp BPGT70MA marque: sharp bpgt70ma prix: 110.09 quantity: 20
+part: SG-EC5X-SCRNPT1-01 fournisseur: Ingram description: EC50/EC55 SCREEN PROTECTOR marque: zebra prix: 25.09 quantity: 26
+part: H79H3E fournisseur: Ingram description: HPE 3Y TC ESS DL385 GEN11 SVC marque: hpe prix: 4299.74 quantity: 9999
+part: C9200-24PXG-A fournisseur: Ingram description: CATALYST 9200 24-PORT 8XMGIG marque: cisco prix: 3708.66 quantity: 3
+part: CFQ7TTC0LH16-0001-1J1M fournisseur: terra computer description: CSP Exchange Online (Plan 1) [1J1M] New Commerce marque: microsoft prix: 3.05 quantity: 100
+part: DG7GMGF0F4LF.0003 fournisseur: Kosatec description: CSP Cloud Project Server 2019 D-CAL NP - perpetual marque: microsoft prix: 75.35 quantity: 100
+part: 442603,700 fournisseur: Secomp description: Cordon saCon Cat.6 S/FTP 7m jaune marque: sacon prix: 10.89 quantity: 2
+part: ASSO-B-ESA-L2-AD fournisseur: Also description: ESET Association Secure Authentication New 2 years 50-99p marque: eset prix: 27.6 quantity: 100
+part: ACH226EU fournisseur: Ingram description: TARGUS USB-C 4 PORT HUB AL CASE marque: targus prix: 26.66 quantity: 4
+part: C13T11D240 fournisseur: Kosatec description: TIN Epson Tinte WF-C53xx/WF-C58xx XL C13T11D240 Cyan bis zu 5.000 Seiten marque: epson prix: 66.21 quantity: 22
+part: 801513-001 fournisseur: EET description: DC-IN POWER CONNECTOR marque: hp prix: 56.4 quantity: 1
+part: TN241M fournisseur: Siewert & Kau description: Brother TN241M - magenta - original - toner cartridge marque: brother prix: 51.83 quantity: 25
+part: MBXDE-BA0077 fournisseur: EET description: Laptop Battery for Dell marque: coreparts prix: 36.6 quantity: 21
+part: HB30C3A1GEA2 fournisseur: Siewert & Kau description: StarTech.com 3-Port USB-C Hub with Ethernet, 3x USB-A Ports, Gigabit Ethernet, USB 3.0 5Gbps, Bus-Powered, USB Type-C Hub w/ GbE and 1ft/30cm Long Cable, Portable USB-C to USB-A Laptop Hub - USB Expansion Hub (HB30C3A1GEA2) - hub - 3 ports marque: startech prix: 39.1 quantity: 11
+part: U7897E fournisseur: techdata description: Electronic HP Care Pack Next Business Day Hardware Support - Contrat de maintenance prolongé - pièces et main d'oeuvre (pour ordinateur de bureau sans moniteur) - 4 années - sur site - temps de réponse : NBD - pour HP Mini Conference G9, Elite 805 G8, Eng marque: hp prix: 34.0 quantity: 9876
+part: TEG-MGBS10 fournisseur: Secomp description: TRENDNET SFP MONOMODE LC LX 10KM marque: trendnet prix: 19.27 quantity: 9
+part: MBXDE-DC0001 fournisseur: EET description: Car Adapter for Dell marque: coreparts prix: 25.8 quantity: 50
+part: UM132E fournisseur: Copaco description: HP electronic care pack 2y nbd exch consumer color LJ - E Svc Consumer Color LaserJet2y Exchange SVCConsumer only. ships replacement next bus d 8am-5pmStd bus d marque: hp printing & computing prix: 34.92 quantity: 178
+part: P40504-B21 fournisseur: macle description: HPE SSD 1.92TB SATA 6Gb/s 2.5'' MU BC marque: hewlett packard enterprise prix: 520.0 quantity: 1
+part: HDMI35MM fournisseur: EET description: HDMI 1.3 cable, High speed marque: neomounts by newstar prix: 18.8 quantity: 12
+part: U6-PRO fournisseur: terra computer description: Ubiquiti Access-Point UniFi U6-Pro 802.11ax (ohne PoE-Adapter) Ohne/without PoE Adapter marque: ubiquiti networks prix: 135.2 quantity: 100
+part: 9549B002 fournisseur: Imcopex description: Canon Waste Toner Bottle WT-A3 WTA3 (9549B002) marque: canon prix: 17.0 quantity: 14
+part: 005049496 fournisseur: macle description: EMC HDD 2TB 7.2K SAS1 300MB/s 3.5'' marque: emc prix: 22.0 quantity: 50
+part: JC91-00969A fournisseur: eparts description: FUSER 220V marque: hpinc prix: 127.4 quantity: 3
+part: 106R02306 fournisseur: Topus description: 095205623062 marque: xerox supplies prix: 107.0 quantity: 27
+part: MSPP73363 fournisseur: EET description: Apple iPhone 6S Space Grey SIM marque: coreparts prix: 2.4 quantity: 1
+part: C-ESSP-MUL-L1-AE fournisseur: Also description: ESET Smart Security Premium New 1 year 5p Nominative license marque: eset prix: 42.02 quantity: 100
+part: TE10518UWI-B1AG fournisseur: Copaco description: LFD 105iW LCD IR 40-Points PureTouch 5K marque: iiyama prix: 6717.32 quantity: 1
+part: 5PS0V07097 fournisseur: techdata description: Lenovo Keep Your Drive Add On - Contrat de maintenance prolongé - 3 années - pour ThinkPad P1, P1 (2nd Gen), P1 Gen 4, P16 Gen 1, P17 Gen 1, P43, P51, P52, P53, P72, P73 marque: lenovo prix: 43.0 quantity: 9876
+part: HDMI2.0V-002 fournisseur: convena description: ProXtend HDMI 2.0 Cable 2M marque: proxtend prix: 1.53 quantity: 100
+part: 9967B002 fournisseur: Difox description: Canon LP-E17 marque: canon prix: 35.6 quantity: 20
+part: TE7512MIS-B1AG fournisseur: Ingram description: TE7512MIS-B1AG 74.5IN PTOUCH-IR marque: iiyama prix: 1396.54 quantity: 1
+part: PFI-300pm fournisseur: Supplies24 description: ORIGINAL Canon Cartouche d'encre Magenta PFI-300pm 4198C001 14ml marque: pfi-300pm prix: 13.76 quantity: 1
+part: FRU01YP297 fournisseur: EET description: FLCHYKB-BLBKIT marque: lenovo prix: 83.7 quantity: 11
+part: 910-006180 fournisseur: Also description: LOGITECH G502 X LIGHTSPEED - BLACK/CORE - EER2 marque: logitech prix: 108.33 quantity: 1
+part: 2P-LP116WH8-SPC1 fournisseur: psaparts description: 0 marque:  prix: 2.0 quantity: 55
+part: 4GD73ZD/A-AS fournisseur: flexit description: iPhone 12 Pro Max 128GB 6.7" Graphite No Accessories marque: apple prix: 459.0 quantity: 15
+part: PK-5018M fournisseur: Supplies24 description: ORIGINAL Utax Toner Magenta PK-5018M 1T02TWBUT0 ~11000 Seiten marque: pk-5018m prix: 172.01 quantity: 1
+part: 01HD153 fournisseur: macle description: 4Y TECH INSTALL PT NBD+YDYD marque: lenovo prix: 321.0 quantity: 50
+part: CZTNAU24AANCAA fournisseur: Tarox description: Central Zero Trust Network 1-9U 24M marque: sophos prix: 0.0 quantity: 50
+part: 16702 fournisseur: Difox description: walimex Pro table prise de vue kit Pro Daylight marque: walimex prix: 445.78 quantity: 1
+part: 5N20N88605 fournisseur: EET description: Keyboard (SPANISH) marque: lenovo prix: 142.8 quantity: 1
+part: 27UP85NP-W.AEU fournisseur: Copaco description: 27UP85NP-W.AEU marque: lg electronics prix: 218.32 quantity: 160
+part: U8NJ6E fournisseur: techdata description: HPE Foundation Care Next Business Day Service - Contrat de maintenance prolongé - pièces et main d'oeuvre - 5 années - sur site - 9x5 - temps de réponse : NBD marque: hewlett packard enterprise prix: 5311.0 quantity: 9876
+part: 917463-001 fournisseur: macle description: HPE CABLE Dp-Dp1.2 1.8M marque: hewlett packard enterprise prix: 39.0 quantity: 50
+part: X710DA2BLK-C fournisseur: Siewert & Kau description: Adap OEM PCIe 3.0 OEM X710DA2FHBLK-c bulk marque: oem prix: 116.63 quantity: 3
+part: W73H fournisseur: ecp description: Reseaux/Téléphonie/Téléphone IP - SmartPhone marque: yealink prix: 69.9 quantity: 1
+part: 071-000-537 fournisseur: macle description: EMC 071-000-537 575W AC PSU FOR VNXE3100 / V2-DAE-1 marque: emc prix: 46.0 quantity: 1
+part: VM1A-L0N-1B4A20E fournisseur: Ingram description: VM1A INDOOR CAP ANDR ML GMS BT marque: honeywell prix: 2261.21 quantity: 3
+part: 5411A fournisseur: ecp description: Integration/6- Stockage/5- MEMOIRE FLASH/Lecture de carte marque: generique prix: 1.05 quantity: 1
+part: 02-SSC-7367 fournisseur: Copaco description: SONICWALL NSa 2700 HIGH AVAILABILITY marque: sonicwall prix: 1788.16 quantity: 1
+part: CIXA0S24BDNCAA fournisseur: Tarox description: Central Intercept X Advanced Server 50-99S 24M marque: sophos prix: 0.0 quantity: 50
+part: 5WS7A26086 fournisseur: Also description: LENOVO DCG e-Pac Foundation Service - 4Yr Next Business Day Response marque: lenovo prix: 102.6 quantity: 100
+part: 2P-WTS:6C.CSDAD.003 fournisseur: psaparts description: 30 marque:  prix: 2.0 quantity: 24
+part: 63A9GAT1EU fournisseur: Tarox description: Lenovo 27 ThinkVision T27p-30 LED-Monitor marque: lenovo prix: 0.0 quantity: 37
+part: DELL-WD19DCS fournisseur: Ingram description: DELL PERFORMANCE DOCK marque: dell emc prix: 210.24 quantity: 21
+part: 1T02NR0NL0 fournisseur: Kosatec description: TON Kyocera Toner TK-5140K Schwarz bis zu 7.000 Seiten gem. ISO/IEC 19798 marque: kyocera prix: 76.93 quantity: 5
+part: TD1630-3 fournisseur: Acadia description: Viewsonic TD1630-3 marque: viewsonic prix: 215.8 quantity: 16
+part: CM-CAB-CKIT-N88KW-R fournisseur: PICATA description: Kit câbles tressés (White) CM-CAB-CKIT-N88KW-R marque: cablemod prix: 24.66 quantity: 5
+part: H3AT8E fournisseur: macle description: EPACK 5YR FC NBD WCDMR 7010 CT marque: hewlett packard enterprise prix: 4586.0 quantity: 50
+part: H1LZ5E fournisseur: macle description: EPACK3YR FC CTR CDMRARU2920 48 marque: hewlett packard enterprise prix: 2538.0 quantity: 50
+part: EF-UX910CTEGWW fournisseur: Copaco description: SAM Tab S9 Ultra Anti-Reflect Scr Protector marque: outlet prix: 15.53 quantity: 1
+part: 2P-492-BBX fournisseur: psaparts description: 0 marque:  prix: 2.0 quantity: 22
+part: SAC/LENM10PLUS3G fournisseur: PCA description: Etui WE pour tablette LENOVO Smart Tab M10 FHD Plus (3e Gén.) 10.6 2022 - Noir marque: we prix: 9.9 quantity: 2149
+part: 960-001227 fournisseur: PICATA description: Rally Conference Camera marque: logitech prix: 944.03 quantity: 1
+part: A380 CLI 6GO fournisseur: ecp description: Integration/7- Carte graphique/3- CARTE GRAPHIQUE INTEL marque: asrock prix: 129.9 quantity: 1
+part: 52120 fournisseur: Difox description: Leifheit Clean Twist M Ergo marque: leifheit prix: 31.29 quantity: 30
+part: ALEG-710-1TCS fournisseur: Difox description: ADATA SSD LEGEND 710         1TB M.2 PCIe Gen.3x4 R/W 2400/1800 marque: adata prix: 53.49 quantity: 100
+part: J7934-61012-RFB fournisseur: EET description: HP JetDirect 620N marque: hewlett packard enterprise prix: 51.0 quantity: 9
+part: TK-8705Y fournisseur: Arles description: KYOCERA-MITA Toner (TK8705Y) (PUx6) marque: kyocera mita prix: 89.0 quantity: 5
+part: 5WS1C03233 fournisseur: techdata description: Lenovo Premium Care with Depot Support - Contrat de maintenance prolongé - pièces et main d'oeuvre (pour système avec 2 ans de garantie sur le transport ou le transport par coursier) - 4 années marque: lenovo prix: 204.0 quantity: 9876
+part: U3MQ8E fournisseur: macle description: EPACK 5YR NBD EXCH 51XX SWTC F marque: hewlett packard enterprise prix: 685.0 quantity: 50
+part: 006R04637 fournisseur: Topus description: 095205038118 marque: xerox supplies prix: 433.0 quantity: 1
+part: FIB441001 fournisseur: EET description: LC/UPC-LC/UPC 1m OS2 marque: microconnect prix: 3.9 quantity: 186
+part: CT1000BX500SSD1 fournisseur: Acadia description: CRUCIAL BX500 1T 2.5" SATA 3D NAND marque: crucial prix: 49.5 quantity: 100
+part: DT.VWVEG.002 fournisseur: Siewert & Kau description: Acer Veriton M6 VM6690G - Midi - Intel Core i5-12500 marque: acer prix: 1023.96 quantity: 4
+part: PWR-4430-AC= fournisseur: Ingram description: AC POWER SUPPLY FOR CISCO marque: cisco prix: 688.53 quantity: 7
+part: 9705B003 fournisseur: Kosatec description: Canon imageFORMULA P-215II mobiler Dokumentenscanner 15S./Min./Duplex marque: canon prix: 225.42 quantity: 3
+part: 0302B1 fournisseur: West Cost description: SWP ATTELLE EPAULE CLASSIQUE NR S-M marque: swedish posture prix: 18.0 quantity: 57
+part: PY9-00019 fournisseur: EET description: Keyboard and Mouse Bundle UK marque: microsoft prix: 34.2 quantity: 14
+part: 31730022400 fournisseur: ecp description: Peripheriques/Hauts parleurs/HP Sans Fil marque: genius prix: 73.76 quantity: 1
+part: UAP-AC-PRO fournisseur: Travion description: Unifi AP-AC Pro - Radio Access Point marque: ubiquiti networks prix: 26.0 quantity: 26
+part: H02T5E fournisseur: techdata description: HPE Pointnext Tech Care Essential Service with Comprehensive Defective Material Retention - Contrat de maintenance prolongé - pièces et main d'oeuvre - 3 années - sur site - 24x7 - temps de réponse : 4 h - pour P/N: R0R67A, R0R67AR marque: hewlett packard enterprise prix: 6432.0 quantity: 9876
+part: SM-R177NZKADBT fournisseur: Difox description: Samsung Galaxy Buds2 Graphite marque: samsung prix: 119.88 quantity: 1
+part: PS1USI fournisseur: Ingram description: USI CHROMEBOOK STYLUS PEN WORKS marque: v7 prix: 23.39 quantity: 19
+part: A1736-0000-1055 fournisseur: Also description: ALSO AASTRA  Extension papier Mitel 36 touches pour gamme Mitel 67xxi marque: snom technology prix: 68.42 quantity: 4
+part: CS-CPRO-WMK= fournisseur: techdata description: Cisco - Kit de fixation pour vidéo conférence - montable sur mur - pour P/N: CS-CODEC-PRO+ marque: cisco prix: 219.08 quantity: 1
+part: RJ4230BZ1 fournisseur: West Cost description: BROTHER IMP THERMIQUE 104MM RJ-4230B marque: brother hardware prix: 487.0 quantity: 11
+part: C13T08784010 fournisseur: West Cost description: EPSON ENCRE N MAT marque: epson supplies prix: 9.0 quantity: 96
+part: HP5R4E fournisseur: techdata description: HPE Foundation Care 4-Hour Exchange Service - Contrat de maintenance prolongé - remplacement - 3 années - expédition - 24x7 - temps de réponse : 4 h - universitaire, pour les particuliers - pour P/N: JH692A#ABG, JH692A#ARE, JH692A#ARM, JL579A#ABB, JL579A# marque: hewlett packard enterprise prix: 3445.0 quantity: 9876
+part: IB-200T-C3 fournisseur: Siewert & Kau description: ICY BOX IB-200T-C3 - storage enclosure - Type-A/Type-C combi-cable - SATA 6Gb/s - USB 3.2 (Gen 1) marque: raidsonic prix: 13.34 quantity: 7
+part: 06017B3000 fournisseur: Difox description: Bosch GWX 10-125 Professional Meuleuse d'angle marque: bosch prix: 90.76 quantity: 4
+part: TS128GJF700 fournisseur: Also description: TRANSCEND 128Go JETFLASH 700 USB 3.0 black marque: transcend prix: 11.43 quantity: 10
+part: DGS-1210-24/E fournisseur: terra computer description: D-Link Switch DGS-1210-24/E 24xGBit/4xSFP 19" Managed marque: d-link prix: 107.7 quantity: 22
+part: C245_EU001C fournisseur: Difox description: Bea-Fon C245 champagne marque: beafon prix: 35.3 quantity: 3
+part: DELL-E2423H fournisseur: Siewert & Kau description: Dell LED-Display E2423H - 61 cm (24"") - 1920 x 1080 Full HD marque: dell prix: 78.15 quantity: 14
+part: 800.2969 fournisseur: Secomp description: BACHMANN Module Citel SPD Type 3 Rechange PS Citel pour 3 phases 16/32A marque: bachmann prix: 50.89 quantity: 2
+part: 5WS7A67528 fournisseur: macle description: LENOVO FOUNDATION SERVICE 3Y VOS NBD marque: lenovo prix: 800.0 quantity: 50
+part: 2P-LA90PS0-00 fournisseur: psaparts description: 0 marque:  prix: 2.0 quantity: 22
+part: HV2M4E fournisseur: techdata description: HPE Foundation Care 24x7 Service with Comprehensive Defective Material Retention - Contrat de maintenance prolongé - pièces et main d'oeuvre - 3 années - sur site - 24x7 - temps de réponse : 4 h - pour P/N: JL679A, JL679A#ABA, JL679A#ACC, JL679A#ACD, JL67 marque: hewlett packard enterprise prix: 833.0 quantity: 9876
+part: 4471C006 fournisseur: Kosatec description: T Canon MAXIFY GX7050 Tintenstrahldrucker 4in1/A4/LAN/WLAN/DADF/Duplex marque: canon prix: 536.31 quantity: 6
+part: FCC7BMSHF-0.5M/W fournisseur: Ingram description: CAT 7 S/FTP LSZH PATCH CABLE - marque: mcl samar micro cabl prix: 2.2 quantity: 1
+part: 78-52526 fournisseur: techdata description: OtterBox Cable USB A-Lightning 1M White marque: otterbox prix: 17.99 quantity: 20
+part: C13S050035 fournisseur: ecp description: Consommables/Cartouches, Toner, Encre/Toner et Tambour/Toner Epson marque: epson prix: 85.0 quantity: 1
+part: 2Z624F#B19 fournisseur: Kosatec description: L HP LaserJet Pro MFP 4102FDW S/W-Laserdrucker 4in1 40S./Min. A4 LAN WLAN ADF Duplex marque: hp prix: 396.78 quantity: 12
+part: EDGE-500IRM1U fournisseur: techdata description: Vertiv EDGE - Onduleur (rack-montable) - CA 230 V - 450 Watt - 500 VA - 9 Ah - USB - connecteurs de sortie : 6 - 1U marque: vertiv prix: 601.0 quantity: 4
+part: 7S0L000QWW fournisseur: Also description: LENOVO Veeam Backup & Replication Enterprise Public Sector with 5 years of production support included marque: lenovo prix: 2986.69 quantity: 100
+part: CR6080-SC100F4WW fournisseur: Jarltech description: Zebra charging/communication station marque: zebra prix: 184.8 quantity: 8
+part: 77-86539 fournisseur: PCA description: OtterBox Coque Symmetry Clear Samsung Galaxy S22 - clear marque: otterbox prix: 12.96 quantity: 17
+part: U3LK4E fournisseur: macle description: EPACK 3YR CDMR 1 ADV ZL MOD FC marque: hewlett packard enterprise prix: 2483.0 quantity: 50
+part: R60000027 fournisseur: Difox description: GEDORE red Cliquet rÃ©versible 2K 1/2 marque: gedore prix: 25.53 quantity: 4
+part: 2749600-511 fournisseur: Siewert & Kau description: TimeCard Premium Transponder MIFARE DESFire EV3 RFID tag - 5 pieces marque: reinersct prix: 71.28 quantity: 5
+part: HDWT380UZSVA fournisseur: techdata description: Toshiba S300 Surveillance - Disque dur - 8 To - interne - 3.5" - SATA 6Gb/s - 7200 tours/min - mémoire tampon : 256 Mo marque: toshiba prix: 313.56 quantity: 108
+part: DN-95401 fournisseur: Siewert & Kau description: DIGITUS DN-95401 - power strip marque: digitus prix: 21.29 quantity: 218
+part: CIXMOU36AFNCAA fournisseur: Tarox description: Central Intercept X Mobile 200-499U 36M marque: sophos prix: 0.0 quantity: 50
+part: CMFVYGTX3C-256GB fournisseur: Siewert & Kau description: CORSAIR USB flash drive Flash Voyager GTX - USB 3.1 - 256 GB - black marque: corsair prix: 60.76 quantity: 9
+part: HV9B0PE fournisseur: techdata description: HPE Pointnext Tech Care Critical Service Post Warranty - Contrat de maintenance prolongé - pièces et main d'oeuvre - 1 année - sur site - 24x7 - délai de réparation : 6 heures - pour P/N: 470065-117, 470065-335, 470065-464, 483880R-B21#AKM, 483880R-B21#AR marque: hewlett packard enterprise prix: 3021.0 quantity: 9876
+part: R85990NM802 fournisseur: Also description: HP Poly Service Reactivation fee Medialign 65 GS500 Excludes coverage on monitorfor product more than 1y out of support coverage marque: hp inc. prix: 1507.97 quantity: 100
+part: 833 fournisseur: Difox description: Wiha 320NK6 SoftFinish electric marque: wiha prix: 29.56 quantity: 5
+part: CYMGM fournisseur: psaparts description: 0 marque: 09/01/24 prix: 0.0 quantity: 58
+part: DS420+/2G/32T-WDRED fournisseur: ecp description: Reseaux/Boitier NAS avec Disque/ marque: synology prix: 1317.43 quantity: 1
+part: 71792 fournisseur: Difox description: LEGO Ninjago 71792 Le Robot bolide transformable de Sora marque: lego prix: 33.03 quantity: 2
+part: UA6B2E fournisseur: techdata description: Electronic HP Care Pack Next Business Day Hardware Support with Defective Media Retention - Contrat de maintenance prolongé - pièces et main d'oeuvre - 2 années - sur site - 9x5 - temps de réponse : NBD - pour ProBook 640 G1, 640 G2, 640 G5, 640 G8, 64X G marque: hp prix: 37.0 quantity: 9876
+part: BS-10B-300 fournisseur: ecp description: Integration/2- Boitier/3- MINI TOUR marque: chieftec prix: 84.62 quantity: 1
+part: XN-MICRO-USB-USBA fournisseur: Ingram description: MICRO-USB 2.0 TO USB 2.0 TYPE A marque: extreme networks prix: 7.67 quantity: 3
+part: OS2260-P24-EU fournisseur: Also description: ALCATEL LUCENT ENTERPRISE OS2260 WebSmart 24p PoE Gig - EU cord marque: alcatel-lucent enterprise prix: 383.97 quantity: 29
+part: CFQ7TTC0MJ3X-0001-1J1J fournisseur: terra computer description: CSP Teams Essentials and Teams Phone with international calling [1J1J] marque: microsoft prix: 333.53 quantity: 100
+part: FWCRC fournisseur: convena description: DELL FWCRC power adapter/inverter Indoor 240 W B.. marque: dell prix: 73.16 quantity: 37
+part: MV0RH fournisseur: MCA description: Notebook 14"" Dell Latitude 7450 marque: dell prix: 1338.0 quantity: 27
+part: PLASMA-M2250SILVER fournisseur: Also description: NEOMOUNTS Motorised Mobile Floor Stand - VESA 200x200 up to 800x600 marque: neomounts by newstar prix: 693.66 quantity: 3
+part: 40X8436 fournisseur: EET description: Maintenance Kit 220V marque: lexmark prix: 251.9 quantity: 8
+part: 39607804 fournisseur: EET description: IFBD-HE07 Ethernet Interface marque: star micronics prix: 95.7 quantity: 18
+part: P-U95H7PV fournisseur: Also description: HP Poly 1yr Poly+ Onsite FRURAD Group 700 720p HD Codec Only For Commercial use-Certain Restriction may apply-MSRP marque: hp inc. prix: 2716.99 quantity: 100
+part: 3001699 fournisseur: Jarltech description: Zebra Z-Perform 1000T, rouleau d'étiquettes, papier normal, 148x210mm marque: zebra prix: 23.45 quantity: 128
+part: SU945A fournisseur: EET description: Toner/MLT-D204U marque: hp prix: 182.9 quantity: 5
+part: P-81050 fournisseur: Difox description: Makita P-81050 Jeu de 99 embouts de vissage marque: makita prix: 22.64 quantity: 10
+part: PY927 fournisseur: EET description: 500GB S2, 7.2K, 3.5'', 16M, marque: dell prix: 130.2 quantity: 4
+part: OVA148ZZ fournisseur: techdata description: Belkin Verre Privacy pour Iphone 15 Plus/ 14 Pro max marque: belkin prix: 24.99 quantity: 1
+part: XQDQ54C0B.EUK fournisseur: Difox description: Sony Xperia 1 V noir goji marque: sony prix: 906.09 quantity: 1
+part: 14005-01360800 fournisseur: EET description: LCD Cable marque: asus prix: 9.6 quantity: 8
+part: U3PM5E fournisseur: macle description: EPACK 1YR 24X7 HP MSR920 RTR marque: hewlett packard enterprise prix: 110.0 quantity: 50
+part: C9351AE#UUS fournisseur: Also description: HP 21 original Ink cartridge C9351AE UUS black standard capacity 5ml 190 pages 1-pack marque: hp inc. prix: 19.35 quantity: 47
+part: GH82-31201B fournisseur: convena description: Samsung A346 A34 LCD Silver marque: samsung prix: 57.29 quantity: 85
+part: 11325-03-20G fournisseur: Siewert & Kau description: VGA Sapphire RX7900GRE 16GB Pure Gaming OC White marque: sapphire prix: 512.35 quantity: 10
+part: JL083A fournisseur: Ikonic description: Aruba 3810M/2930M 4SFP+ MACsec marque: jl083a prix: 0.0 quantity: 4
+part: N428-AC-BK-N-PU fournisseur: Imcopex description: Kobo Sleepcover Libra Notebook Black Schwarz (N428-AC-BK-N-PU) (N428ACBKNPU) marque: kobo prix: 22.9 quantity: 100
+part: U04TME fournisseur: techdata description: Electronic HP Care Pack Advance Exchange Service - Contrat de maintenance prolongé - remplacement anticipé des pièces - 2 années - enlèvement et retour - 9x5 - temps de réponse : 4 - 7 jours ouvrés - pour LaserJet Tank MFP 1005, MFP 1602, MFP 1604, MFP 26 marque: hp prix: 16.5 quantity: 9876
+part: DCG180ZXK fournisseur: Difox description: Makita DCG180ZXK cartouche avec batterie marque: makita prix: 200.31 quantity: 10
+part: R0G19AAE fournisseur: macle description: Veeam Cloud Conn Ent VM  ESTOC marque: hewlett packard enterprise prix: 48.0 quantity: 50
+part: B-EPC-R2-AB fournisseur: Also description: ESET Protect Complete Renew 2 years 11-25p marque: eset prix: 64.35 quantity: 100
+part: 98 54 fournisseur: Difox description: KNIPEX Couteau pour CÃ¢ble marque: knipex prix: 9.09 quantity: 5
+part: 2P-LP156WFD-SPH2 fournisseur: psaparts description: 2 marque:  prix: 2.0 quantity: 69
+part: U7EK3E fournisseur: techdata description: HPE Foundation Care Exchange Service - Contrat de maintenance prolongé - remplacement - 1 année - expédition - 24x7 - temps de réponse : 4 h - pour P/N: JH325A#ABB, JH325A#B8X, JH325AR marque: hewlett packard enterprise prix: 530.0 quantity: 9876
+part: CA-9011238-EU fournisseur: Copaco description: HS80 RGB USB Headset White - EU marque: corsair prix: 83.9 quantity: 6
+part: S66KA2 10X15 fournisseur: Difox description: Deknudt S66KA2 Galerie   2x10x15 bois noir avec Passepartout marque: deknudt prix: 8.38 quantity: 3
+part: 01AX415 fournisseur: EET description: Keyboard (SPANISH) marque: lenovo prix: 52.5 quantity: 4
+part: L04635-001 fournisseur: EET description: LCD Back Cover Silver Color marque: hp prix: 60.6 quantity: 12
+part: 5D10K81086 fournisseur: EET description: LCD Panel HDT AG S NB marque: lenovo prix: 154.8 quantity: 8
+part: DS-2CD2745FWD-IZS(2.8-12MM)(B) fournisseur: EET description: DS-2CD2745FWD-IZS(2.8-12MM)(B) marque: hikvision prix: 152.15 quantity: 4
+part: 21.99.1940 fournisseur: Secomp description: Cordon VALUE S/FTP(PiMF) Cat6A/Cl.EA vert, 0,5m marque: value prix: 0.99 quantity: 161
+part: HA9J5E fournisseur: Ingram description: EPACK 1YR FC NBD EXCH AP-318 SV marque: hpe prix: 61.61 quantity: 9999
+part: 3813460 fournisseur: Siewert & Kau description: Intenso High - solid state drive - 960 GB - SATA 6Gb/s marque: intenso prix: 48.99 quantity: 38
+part: 7523720009 fournisseur: Difox description: Beko RCSA366K40XBN marque: beko prix: 345.87 quantity: 1
+part: 76959 fournisseur: Imcopex description: LEGO Jurassic World Triceratops-Forschung TriceratopsForschung (76959 ) marque: lego prix: 38.95 quantity: 49
+part: V-UTP605S-SLIM fournisseur: EET description: U/UTP CAT6 5M Black Slim marque: microconnect prix: 3.0 quantity: 105
+part: WL-KK-001 fournisseur: convena description: ProXtend Mini Cable Lock with Key marque: proxtend prix: 11.28 quantity: 100
+part: 21.08.2255 fournisseur: Secomp description: LEONI Câble FO 50µm OM4, LC/SC 5m Connecteurs Suhner marque: leoni prix: 24.5 quantity: 4
+part: P86830312 fournisseur: Also description: HP Poly 3yr Poly+ Rove B4 Multi Cell DECT Base Station marque: hp inc. prix: 27.52 quantity: 100
+part: JL259A fournisseur: terra computer description: HP Switch 2930F-24G 24xGBit/4xSFP JL259A marque: hewlett packard prix: 1249.0 quantity: 1
+part: TAPO L920-5 fournisseur: Also description: TP-LINK Smart Wi-Fi Light Strip marque: tp-link prix: 31.73 quantity: 9
+part: 10006998K fournisseur: Jarltech description: Z-Band Direct, Infant, white marque: zebra prix: 308.08 quantity: 11
+part: 106R02744 fournisseur: Siewert & Kau description: Xerox WorkCentre 6655 - High Capacity - cyan - original - toner cartridge marque: xerox prix: 45.9 quantity: 3
+part: HP-EB840-G2-I5-8 fournisseur: Ikonic description: HP EB840 G2 i5 8GB No HDD marque: hp-eb840-g2-i5-8 prix: 0.0 quantity: 1
+part: Q2M74AAE fournisseur: techdata description: Micro Focus Data Protector Starter Pack - Licence + Assistance 24 heures sur 24 pendant 1 an - ESD - Win marque: novell prix: 1475.0 quantity: 9876
+part: AS5304T/4G/40T-IW fournisseur: ecp description: Reseaux/Boitier NAS avec Disque/ marque: asustor prix: 1592.58 quantity: 1
+part: CFQ7TTC0HM0T-006Q-1J1M fournisseur: terra computer description: CSP Dynamics 365 e-Commerce Tier 1 Band 3 Overage (Education Student Pricing) [1J1M] marque: microsoft prix: 135.09 quantity: 100
+part: 2P-655410-150 fournisseur: psaparts description: 23 marque: 03/01/24 prix: 2.0 quantity: 7
+part: P-E19358112 fournisseur: Also description: HP Poly 1yr Elite RMX 4000 MPMRx System Resource License Pack - 60x1080p30/120x720p/240xSD resource licenses marque: hp inc. prix: 88128.16 quantity: 100
+part: U4DA2PE fournisseur: macle description: EPACK 12 PLUS 4H EXCH 10508 SW marque: hewlett packard enterprise prix: 11104.0 quantity: 50
+part: 5T10S73250 fournisseur: EET description: FRU TAPE PANEL ADHESIVE marque: lenovo prix: 19.8 quantity: 32
+part: 01YP680 fournisseur: EET description: Keyboard (US) marque: lenovo prix: 84.6 quantity: 4
+part: DELL-P2425HWO fournisseur: techdata description: Dell P2425H - Sans socle - écran LED - 24" (23.81" visualisable) - 1920 x 1080 Full HD (1080p) @ 100 Hz - IPS - 250 cd/m² - 1500:1 - 5 ms - HDMI, VGA, DisplayPort - BTO - avec 3 ans de service matériel de base avec Advanced Exchange après diagnostic à dis marque: dell prix: 139.0 quantity: 33
+part: TL-WA1201 fournisseur: Ingram description: WI-FI ACCESS POINT AC1200 POE marque: tp-link prix: 40.0 quantity: 33
+part: UC2Y7PE fournisseur: techdata description: Electronic HP Care Pack Next Business Day Parts Exchange Post Warranty - Contrat de maintenance prolongé - remplacement anticipé des pièces (pour composant géré seulement) - 1 année - expédition - 9x5 - temps de réponse : NBD - pour Color LaserJet Enterpr marque: hp prix: 534.0 quantity: 9876
+part: 207576-03 fournisseur: macle description: POLY BLACKWIRE 5220 ON-EAR HEADSET marque: poly prix: 74.0 quantity: 50
+part: P-E19357114 fournisseur: Also description: HP Poly 1yr Elite Onsite RMX 4000 MPMRx System Resource License Pack-45x1080p30/90x720p/180xSD resource licenses marque: hp inc. prix: 92330.73 quantity: 100
+part: DN-91419 fournisseur: Siewert & Kau description: DIGITUS Professional DN-91419 - patch panel - 1U - 10 marque: digitus prix: 7.79 quantity: 10
+part: R7WP7 fournisseur: macle description: DELL R7WP7 Dell LightPulse 8GB Dual Ports Fibre PCI-E marque: dell prix: 49.0 quantity: 50
+part: HSE661E fournisseur: West Cost description: BROTHER RUBAN 31MM THERMO RETRAC N/J marque: brother supplies prix: 25.0 quantity: 28
+part: C9200-48T-E fournisseur: Ingram description: CATALYST 9200 48-PORT DATA marque: cisco prix: 3301.8 quantity: 37
+part: FSP:GD3SG3Z00DESV1 fournisseur: macle description: SP 3Y OS 24X7 8H REC marque: fujitsu prix: 463.0 quantity: 20
+part: ICUSBROLLOVR fournisseur: Siewert & Kau description: StarTech.com Rollover Cable ICUSBROLLOVR - USB - 1.8 m marque: startech prix: 26.5 quantity: 22
+part: 331-4443 fournisseur: macle description: DELL QLOGIC HBA 4GB SINGLE PORT PCI-E marque: dell prix: 49.0 quantity: 50
+part: 006R04235 fournisseur: techdata description: Everyday - Noir - compatible - cartouche de toner (alternative pour : HP CF244A) - pour HP LaserJet Pro M15a, M15w, M28a, MFP M28a, MFP M28w marque: xerox prix: 28.23 quantity: 1
+part: EJS-00004 fournisseur: EET description: Surface Ethernet Adapter marque: microsoft prix: 36.6 quantity: 18
+part: PR350_3OS5P4H fournisseur: Ingram description: 3Y NEXT BUS. DAY TO 5Y PROSPT marque: dell emc prix: 621.32 quantity: 9999
+part: PRTHPCF402AG fournisseur: Supplies24 description: ORIGINAL Prindo Toner Jaune PRTHPCF402AG Green ~1400 Seiten marque: prthpcf402ag prix: 27.57 quantity: 1
+part: 24.Q59N2.001 fournisseur: EET description: THERMAL MODULE DIS W/FAN*2 marque: acer prix: 46.2 quantity: 4
+part: 2P-AT913AA#AKD fournisseur: psaparts description: 15 marque: 03/01/24 prix: 2.0 quantity: 7
+part: CON-3SNT-CBS110U8 fournisseur: Also description: CISCO SmartNet 3SNT 8x5xNBD 3Y for CBS110-8T-D-EU marque: cisco prix: 13.53 quantity: 100
+part: MPG X670E CARBON W fournisseur: Copaco description: MB MPG X670E CARBON WIFI marque: msi prix: 391.98 quantity: 8
+part: 5074C026 fournisseur: Difox description: Canon PIXMA TR 4751i marque: canon prix: 55.52 quantity: 3
+part: PROUSBAB15 fournisseur: EET description: USB 2.0 ACTIVE CABLE A MALE - marque: vivolink prix: 34.9 quantity: 200
+part: P-PFRURAD128 fournisseur: Also description: HP Poly Custom 1yr+ with FRU replace and destroy service for Studio XService price represents 40 percent marque: hp inc. prix: 1005.27 quantity: 100
+part: JC96-05802A fournisseur: eparts description: TRANSFER BELT marque: hpinc prix: 97.9 quantity: 3
+part: U1RS3PE fournisseur: macle description: EPACK 12 PLUS RNWL NBD EXCH 87 marque: hewlett packard enterprise prix: 3347.0 quantity: 50
+part: FSP:GD3S60Z00DEST6 fournisseur: macle description: SP 3Y OS 9X5 4H RT marque: fujitsu prix: 2033.0 quantity: 50
+part: H39N9E fournisseur: Ingram description: 4Y TC BAS ML110 GEN10 SVC marque: hpe prix: 475.75 quantity: 9999
+part: 45-647-216 fournisseur: Travion description: HX Series Desk Monitor Arm - Pivot - Max 19Kg - up to 49inch -  white marque: ergotron prix: 26.0 quantity: 26
+part: FSP:G-SWTO963PRV0I fournisseur: macle description: SP VERL.12M TS SUBundUPGR 24X7 marque: fujitsu prix: 1534.0 quantity: 50
+part: ALTHEA13W fournisseur: Difox description: Conceptronic ALTHEA13W Chargeur USB 30W 3-port marque: conceptronic prix: 8.44 quantity: 10
+part: FCC7BMSHF-2M/R fournisseur: Also description: MCL CAT 7 S/FTP LSZH Patch cable - 2m Red marque: mcl-samar prix: 3.68 quantity: 14
+part: SSC33-RSC0-CD11 fournisseur: macle description: RNWL SCALAR I3 -25 SLOT NO TD marque: quantum prix: 639.0 quantity: 50
+part: 2P-451-11600 fournisseur: psaparts description: 3 marque:  prix: 2.0 quantity: 39
+part: MUXMS-00406 fournisseur: EET description: 2.5" SFF SATA/SAS HotSwap Tray marque: coreparts prix: 13.8 quantity: 49
+part: AVR-S670H fournisseur: Difox description: Denon AVR-S670H noir marque: denon prix: 383.16 quantity: 10
+part: CFQ7TTC0LH1X-000G-1J1M fournisseur: terra computer description: CSP Azure Active Directory Basic (Non-Profit Pricing) [1J1M] marque: microsoft prix: 0.22 quantity: 100
+part: CC528-69002 fournisseur: eparts description: FORMATTER, P2055DN/X REV J marque: hpinc prix: 90.0 quantity: 4
+part: H53S5E fournisseur: techdata description: HPE Foundation Care 24x7 Service - Contrat de maintenance prolongé - pièces et main d'oeuvre - 5 années - sur site - 24x7 - temps de réponse : 4 h - pour P/N: R8N86A marque: hewlett packard enterprise prix: 1027.0 quantity: 9876
+part: XMG1915-10EP-EU0101F fournisseur: MCA description: Zyxel XMG1915-10EP marque: zyxel prix: 257.15 quantity: 7
+part: D9Y32AA#ABA fournisseur: convena description: HPI UltraSlim Docking Station 2013 - 65W EU Type.. marque: hp inc. prix: 89.94 quantity: 2
+part: 0344B0 fournisseur: West Cost description: SWP BALLON GYM + BANDE RESISTANCE NR marque: swedish posture prix: 34.0 quantity: 17
+part: DN-19 12U-6/6-EC-SW fournisseur: Siewert & Kau description: DIGITUS Dynamic Basic DN-19 12U-6/6-EC-SW - rack - 12U marque: digitus prix: 149.81 quantity: 75
+part: H7SE6E fournisseur: techdata description: HPE Foundation Care Call-To-Repair Service - Contrat de maintenance prolongé - pièces et main d'oeuvre - 5 années - sur site - 24x7 - délai de réparation : 6 heures - universitaire, pour les particuliers - pour P/N: JW633A, JW633AR, JW634A, JW634AR, JW637 marque: hewlett packard enterprise prix: 1875.0 quantity: 9876
+part: SS642A fournisseur: West Cost description: HP TONER C 20K CLT-M808S marque: office printing solutions prix: 119.0 quantity: 44
+part: 90 22 02 SB fournisseur: Difox description: KNIPEX TwistCut Coupe-tubes marque: knipex prix: 21.48 quantity: 10
+part: 5WS0V07793 fournisseur: techdata description: Lenovo Premier Support with Onsite NBD - Contrat de maintenance prolongé - pièces et main d'oeuvre (pour système avec 1 an de garantie sur site) - 3 années (à partir de la date d'achat originale de l'appareil) - sur site - temps de réponse : NBD - pour Th marque: lenovo prix: 141.0 quantity: 9876
+part: U3SK9E fournisseur: macle description: EPACK 4YR NBD EXCH 7506 SWTC F marque: hewlett packard enterprise prix: 6934.0 quantity: 50
+part: LIC-MX600-SEC-7YR fournisseur: Also description: CISCO Meraki MX600 Advanced Security marque: cisco prix: 94921.66 quantity: 100
+part: 5M11C53346 fournisseur: EET description: Panther-1 FRU GRP KBD Bezel marque: lenovo prix: 234.0 quantity: 7
+part: 47760 fournisseur: Also description: LINDY Cat.6 S/FTP Cable Yellow 0.3m Patch Cable marque: lindy prix: 1.37 quantity: 13
+part: nan fournisseur: Difox description: 100x1 Varta Watch V 397 PU  Master box marque: varta prix: 59.8 quantity: 1
+part: MU883ZM/A fournisseur: Ingram description: THUNDERBOLT 4 (USB-C) PRO CABLE marque: apple prix: 55.6 quantity: 26
+part: 038243 fournisseur: ecp description: Peripheriques/AFFICHAGE DYNAMIQUE/6- Support pour écran marque: erard prix: 225.0 quantity: 1
+part: NM-W60BLACK fournisseur: Kosatec description: Select Wandhalterung fr Bildschirme bis 30'' 25KG NM-W60BLACK Neomounts marque: newstar prix: 12.75 quantity: 3
+part: CL-F135-PL12SW-A fournisseur: Kosatec description: 12cm Thermaltake Toughfan 12 Radiator Fan 500-2000rpm - 3Pack marque: thermaltake prix: 88.74 quantity: 2
+part: HV7A6PE fournisseur: Ingram description: HPE 1Y PW TC ESS WCDMR DL160 marque: hpe prix: 1033.65 quantity: 9999
+part: HL1T4E fournisseur: Ingram description: EPACK 5Y FC 24X7 6200F 24G POE marque: hpe prix: 1448.65 quantity: 9999
+part: TXIET0712 fournisseur: Supplies24 description: ORIGINAL Tonex Cartouche d'encre Cyan TXIET0712 T0712 ~345 Seiten marque: txiet0712 prix: 2.02 quantity: 1
+part: DS223J fournisseur: Also description: SYNOLOGY DS223J 2-Bay NAS RTD1619 1Go RAM marque: synology prix: 162.49 quantity: 5
+part: 0FFD6 fournisseur: EET description: 460 Watts, Mini Tower, Delta marque: dell prix: 76.8 quantity: 5
+part: 2PDPC3036UBBC12G fournisseur: psaparts description: 4 marque: 03/01/24 prix: 2.0 quantity: 5
+part: 01EN712 fournisseur: EET description: Keyboard (US INTERNATIONAL) marque: lenovo prix: 98.1 quantity: 2
+part: V13H010L80 fournisseur: West Cost description: EPSON LAMPE ELPLP80 marque: epson hardware prix: 69.0 quantity: 35
+part: 5WS1J38560 fournisseur: techdata description: Lenovo Premium Care Plus - Contrat de maintenance prolongé - pièces et main d'oeuvre (pour système avec 2 ans de garantie sur le transport ou le transport par coursier) - 2 années - sur site - temps de réponse : NBD - pour IdeaCentre AIO 3 22, 3 22IMB05, marque: lenovo prix: 167.0 quantity: 9876
+part: 38046688 fournisseur: macle description: SSD SATA 6G 480GB MIXED-USE 3. marque: fujitsu prix: 377.0 quantity: 1
+part: U3TZ1E fournisseur: macle description: EPACK 1YR NBD EX CH 501 WR CL marque: hewlett packard enterprise prix: 48.0 quantity: 50
+part: H1HN9E fournisseur: macle description: EPACK3YR FC24X7 ARU2530 24G PO marque: hewlett packard enterprise prix: 477.0 quantity: 50
+part: 2P-PA-1450-55LZ fournisseur: psaparts description: AC Adapter 19V 2.37A 45W includes power cable marque: 2-power prix: 46.51 quantity: 6
+part: HQ0W2E fournisseur: techdata description: HPE Foundation Care 24x7 Service - Contrat de maintenance prolongé - pièces et main d'oeuvre - 4 années - sur site - 24x7 - temps de réponse : 4 h - Printing Tier 2 - pour P/N: JL259A#ABB, JL259A#AC3, JL259A#AC4, JL259A#ARE, JL259A#B2B, JL259A#B2C, JL259A marque: hewlett packard enterprise prix: 271.0 quantity: 9876
+part: JZ094AAE fournisseur: macle description: ARUBAMERIDIANWHITELAB1YR-ESTOC marque: hewlett packard enterprise prix: 18598.0 quantity: 50
+part: C540H1YG fournisseur: West Cost description: LEXMARK TONER J 2K RET marque: lexmark supplies prix: 91.0 quantity: 78
+part: A8711887 fournisseur: EET description: 16 GB Certified Repl. marque: dell prix: 229.2 quantity: 1
+part: ASSO-B-EPE-R3-AE fournisseur: Also description: ESET Association Protect Entry Renew 3 years 100-249p marque: eset prix: 32.28 quantity: 100
+part: 36644 fournisseur: Siewert & Kau description: Lindy CROMO - USB cable - USB to USB Type B - 5 m marque: lindy prix: 12.48 quantity: 40
+part: B-UTP5015R fournisseur: EET description: U/UTP CAT5e 1.5M Red PVC marque: microconnect prix: 0.6 quantity: 379
+part: URC1915 fournisseur: Difox description: One pour All Grundig TÃ©lÃ©commande            URC 1915 marque: oneforall prix: 13.12 quantity: 1
+part: WE009MI9TPRO fournisseur: MGF description: ***WE Verre trempé XIAOMI MI 9T PRO marque: we prix: 1.95 quantity: 155
+part: PWR-C5-1KWAC= fournisseur: Travion description: 1KW AC Config 5 Power Supply marque: cisco systems prix: 1.0 quantity: 1
+part: 2024C001 fournisseur: Also description: CANON 1LB INK PGI-580XL PGBK marque: canon prix: 13.19 quantity: 100
+part: 910-005448 fournisseur: Ingram description: MX VERTICAL ADV ERGONOMIC MOUSE marque: logitech prix: 90.76 quantity: 139
+part: 49992 fournisseur: Difox description: Verbatim Pochette papier CS/DVD Lot de 50 marque: verbatim prix: 1.93 quantity: 10
+part: H3DM5E fournisseur: macle description: EPACK 5YR FC NBD 7205 CTR TAA marque: hewlett packard enterprise prix: 15253.0 quantity: 50
+part: TN135Y fournisseur: PICATA description: Toner TN135Y Haute capacité 4000p Jaune marque: brother prix: 110.97 quantity: 1
+part: 9TXK7 fournisseur: EET description: AC Adapter, 130W, 19.5V, 3 marque: dell prix: 29.1 quantity: 275
+part: 01YP669 fournisseur: EET description: Keyboard English US INT. marque: lenovo prix: 55.5 quantity: 4
+part: 848311-B71 fournisseur: EET description: KYBD TP BL SE/FI marque: hp prix: 114.6 quantity: 2
+part: 105999-302 fournisseur: Jarltech description: Zebra cleaning kit marque: zebra prix: 23.49 quantity: 69
+part: VEL-OW64505 fournisseur: Secomp description: VELCRO One Wrap 20x200mm 25p. rouge VEL-OW64505 marque: velcro prix: 5.22 quantity: 70
+part: 10015357K fournisseur: Ingram description: Z-BAND ULTRASOFT 25X178MM marque: zebra prix: 265.88 quantity: 7
+part: EG0450FCVBH fournisseur: EET description: 450GB 6G SAS 10K rpm SFF marque: hewlett packard enterprise prix: 199.2 quantity: 1
+part: GRU006WUK-SWITCH fournisseur: EET description: 6-way UK Socket 2M White marque: microconnect prix: 17.7 quantity: 22
+part: HY3R1E fournisseur: techdata description: HPE Pointnext Tech Care Essential Service - Support technique - pour HPE B-series SAN Extension Switch Fabric Vision - support téléphonique - 3 années - 24x7 - temps de réponse : 15 min marque: hewlett packard enterprise prix: 5534.0 quantity: 9876
+part: HDWR21CEZSTA fournisseur: macle description: X300 HIGH PERF 12TB 256MB marque: toshiba prix: 232.0 quantity: 11
+part: 7S05002EWW fournisseur: macle description: LENOVO MICROSOFT WINDOWS REMOTE marque: lenovo prix: 698.0 quantity: 2
+part: 51B2000 fournisseur: Also description: Toner noir (2,5K)return program MS/MX317 417 517 617 marque: lexmark prix: 63.7 quantity: 5
+part: 40AJ0135EU fournisseur: Kosatec description: Lenovo ThinkPad Ultra Dock 135W L/T480/490/14/580/590/15, X280/290, P52s marque: lenovo prix: 35.7 quantity: 36
+part: C1300-48FP-4X fournisseur: techdata description: Cisco Catalyst 1300-48FP-4X - Commutateur - C3 - Géré - 48 x 10/100/1000 (PoE+) + 4 x 10 Gigabit SFP+ - Montable sur rack - PoE+ (740 W) marque: cisco prix: 2154.11 quantity: 12
+part: MC-SFTP8010S fournisseur: EET description: CAT8.1 S/FTP 10m Black LSZH marque: microconnect prix: 17.1 quantity: 96
+part: CO-9051009-WW fournisseur: Copaco description: CORSAIR RX Series iCUE LINK RX120 120mmFan Single Fan marque: corsair prix: 21.39 quantity: 5
+part: ISO01L fournisseur: Octant description: AF Isoclene - Bidon d'alcool isopropylique 1 Litre marque: afiso01l prix: 14.31 quantity: 6
+part: 0-CABUSBAGAL fournisseur: MGF description: Cable Adaptateur Heden USB Pour tablette GALAXY TAB 2 / Note marque: heden prix: 1.62 quantity: 309
+part: DN-96321/9 fournisseur: Siewert & Kau description: DIGITUS Professional DN-96321/9 - fiber-optic splice box - 1U - 19 marque: digitus prix: 78.48 quantity: 19
+part: HV6N0E fournisseur: Ingram description: HPE 4Y TC BAS DL325 GEN10 PLUS marque: hpe prix: 1437.53 quantity: 9999
+part: U7CZ3E fournisseur: techdata description: HPE Foundation Care Call-To-Repair Service - Contrat de maintenance prolongé - pièces et main d'oeuvre - 3 années - sur site - 24x7 - délai de réparation : 6 heures - pour P/N: JL073A#ABB, JL073AR marque: hewlett packard enterprise prix: 3208.0 quantity: 9876
+part: 44X2451 fournisseur: macle description: IBM HDD 450GB FC 15K E-DDM 4GBPS marque: ibm prix: 59.0 quantity: 6
+part: H3AP6E fournisseur: macle description: EPACK 3YR PCA NBD 7010 CTR marque: hewlett packard enterprise prix: 11507.0 quantity: 50
+part: 90-MXBH40-A0UAYZ fournisseur: Kosatec description: 1700 ASRock B660M-HDV DDR4 marque: asrock prix: 74.47 quantity: 1
+part: 00P6130 fournisseur: macle description: IBM INTEL ADAPTER 10/100/1000 BASE-TXT marque: ibm prix: 59.0 quantity: 3
+part: 977ED040000004 fournisseur: Ingram description: K-RANGER CRADLE SINGLE SLOT marque: custom prix: 60.41 quantity: 1
+part: 43285 fournisseur: Difox description: 1x5 Verbatim DVD-RW 4,7GB 4x Speed, Jewel box marque: verbatim prix: 4.77 quantity: 10
+part: CF363A fournisseur: EET description: Toner Magenta Pages 5.000 508A marque: hp prix: 228.1 quantity: 1
+part: 875545-001 fournisseur: macle description: HPE RISER PCA x16 x8 GRAPHICS marque: hewlett packard enterprise prix: 59.0 quantity: 25
+part: U85W4E fournisseur: techdata description: Electronic HP Care Pack Premium+ Onsite Support with Telemetry and Defective Media retention - Contrat de maintenance prolongé - pièces et main d'oeuvre - 3 années - sur site - 9x5 - temps de réponse : NBD - pour Elite x360 1040 G11 Notebook, EliteBook 10 marque: hp prix: 171.0 quantity: 9876
+part: 106R01480 fournisseur: Topus description: 095205753509 marque: xerox supplies prix: 90.0 quantity: 6
+part: 5CB0Z69106 fournisseur: EET description: Ironhide-2.0 INTEL FRU COVER marque: lenovo prix: 62.4 quantity: 40
+part: JC96-03800C fournisseur: eparts description: FUSER SCX-5530FN 220V marque: hpinc prix: 64.9 quantity: 1
+part: VX89A031RAMBALL fournisseur: EET description: BALL D-SIZE 2.25 marque: honeywell prix: 47.8 quantity: 5
+part: 3521452 fournisseur: Difox description: Intenso Alu Line argent 4GB USB Stick 2.0 marque: intenso prix: 2.31 quantity: 100
+part: HP1G5E fournisseur: techdata description: HPE Foundation Care Next Business Day Exchange Service - Contrat de maintenance prolongé - remplacement - 3 années - expédition - 9x5 - temps de réponse : NBD - universitaire, pour les particuliers - pour P/N: JL072-61001, JL072A, JL072AR marque: hewlett packard enterprise prix: 894.0 quantity: 9876
+part: H50H5E fournisseur: techdata description: HPE Aruba Software+Technical Support - Support technique - 5 années - 24x7 - temps de réponse : 2 h - universitaire, pour les particuliers - pour P/N: JL817A, JL817AR marque: hewlett packard enterprise prix: 761.0 quantity: 9876
+part: C13T09K14010 fournisseur: Supplies24 description: ORIGINAL Epson Cartouche d'encre Noir(e) C13T09K14010 408L ~2200 Seiten 36,9ml marque: c13t09k14010 prix: 39.33 quantity: 1
+part: 841197 fournisseur: Supplies24 description: ORIGINAL Ricoh Toner Cyan 841197 842472 / 842060 / MP C2550EC ~5500 Seiten marque: 841197 prix: 72.18 quantity: 1
+part: 1009975C24 fournisseur: terra computer description: TERRA CLOUD PC-MINI 6000V6.1 i12400/16/COM/500/W11P inkl. VOS [24M] marque: wortmann ag prix: 25.94 quantity: 100
+part: 9967B002 fournisseur: ecp description: Peripheriques/Appareil photo numérique/Accessoire/Chargeur APN marque: canon prix: 40.7 quantity: 1
+part: 900402148 fournisseur: Difox description: AEG AP 71UB14GG Ultimate 7000 Serie marque: aeg prix: 255.0 quantity: 4
+part: EF-NX712PBEGWW fournisseur: Ingram description: GALAXY TAB S9 SPY PROTECTION marque: samsung prix: 30.0 quantity: 15
+part: MSP2040 fournisseur: EET description: Cyan Toner , EU marked marque: coreparts prix: 28.82 quantity: 1
+part: EAP215-BRIDGE KIT fournisseur: terra computer description: TP-LINK WLAN AC867 Access Point Dualband EAP215-Bridge KIT Long-range Indoor/Outdoor w/o PoE NT marque: tp-link prix: 149.0 quantity: 11
+part: FTS:ETEN4HD fournisseur: macle description: FUJITSU NEARLINE - FESTPLATTE - 4 TB marque: fujitsu prix: 114.0 quantity: 10
+part: U7QQ2E fournisseur: techdata description: HPE Foundation Care Call-To-Repair Service with Comprehensive Defective Material Retention - Contrat de maintenance prolongé - pièces et main d'oeuvre - 3 années - sur site - 24x7 - délai de réparation : 6 heures - pour P/N: JG939A#AKJ, JG939A#AKL, JG939A marque: hewlett packard enterprise prix: 1967.0 quantity: 9876
+part: 2936B001 fournisseur: Kosatec description: TIN Canon Tinte CLI-521Y 2936B001 Gelb marque: canon prix: 8.04 quantity: 10
+part: APTHP343AE fournisseur: EET description: Toner Magenta, CE343A,651A marque: agfaphoto prix: 95.6 quantity: 1
+part: 16D010371B fournisseur: Jarltech description: Colormetrics module, Bluetooth + WLAN marque: colormetrics prix: 45.07 quantity: 41
+part: LC221M fournisseur: MGF description: BROTHER cart JE magent J4120DW marque: brother prix: 6.8 quantity: 3
+part: D30132 fournisseur: MGF description: DICOTA Filtre de confidentialité Pour écran 24'' (16:9) Noir 2 vues D30132 marque: dicota prix: 84.55 quantity: 30
+part: 00265969 fournisseur: Difox description: 1x12 Panasonic Pro Power LR 03 Micro AAA marque: panasonic prix: 3.48 quantity: 40
+part: 19791-016-55 fournisseur: Difox description: K&M 19791 Support universel de tablette, noir marque: könig & meyer prix: 35.75 quantity: 30
+part: 5PS0L20568 fournisseur: macle description: LENOVO ePAC 5JAHRE ON-SITE NBD marque: lenovo prix: 48.0 quantity: 50
+part: MC-DAC-04 fournisseur: EET description: Digital to Analog Audio marque: microconnect prix: 20.1 quantity: 13
+part: GSM4212UX-100EUS fournisseur: Also description: NETGEAR 12-Port AV Line M4250-10G2XF-PoE++ 8x1G Utra90 PoE++ 802.3bt 720W 2x1G 2xSFP+ Managed Switch marque: netgear prix: 1183.92 quantity: 4
+part: FSP:G-SW3LF63PRV0H fournisseur: macle description: SP 3Y TS SUBundUPGR 24X7 4H RT marque: fujitsu prix: 8907.0 quantity: 50
+part: HV6R8E fournisseur: techdata description: HPE Pointnext Tech Care Critical Service with Defective Media Retention - Contrat de maintenance prolongé - pièces et main d'oeuvre - 3 années - sur site - 24x7 - délai de réparation : 6 heures - pour P/N: 878972R-B21, P19559-291, P19560-291, P19560R-B21, marque: hewlett packard enterprise prix: 3357.0 quantity: 9876
+part: BX80684I58500 fournisseur: macle description: INTEL CORE i5 8500 3GHz 6C 9MB marque: intel prix: 329.0 quantity: 50
+part: PAX080-MH-02 fournisseur: Ingram description: PAX Q80 MULTIGRIP (WITH HANDLE) marque: ergonomic solutions prix: 16.86 quantity: 3
+part: SU781A fournisseur: West Cost description: HP TONER N 1.5K MLT-D1082S marque: office printing solutions prix: 56.0 quantity: 74
+part: 45396302 fournisseur: Supplies24 description: ORIGINAL OKI Toner Magenta 45396302 45396302 ~6000 Seiten marque: 45396302 prix: 132.25 quantity: 1
+part: RZ09-0421EFD3-R3F1 fournisseur: ecp description: Systemes/Notebook - Gamer - Station/Gamer - Station 15-16p marque: razer prix: 2259.9 quantity: 1
+part: 1241C002 fournisseur: Kosatec description: TON Canon Toner 045 1241C002 Cyan bis zu 1.300 Seiten marque: canon prix: 41.01 quantity: 8
+part: H8UF3E fournisseur: techdata description: HPE Foundation Care Software Support 24x7 - Support technique - pour Aruba Mobility Master Virtual Appliance - 5 000 périphériques - académique - ESD - pour les particuliers - support téléphonique - 3 années - 24x7 - temps de réponse : 2 h marque: hewlett packard enterprise prix: 6633.0 quantity: 9876
+part: 5PXEBM72RT2UG2 fournisseur: Ingram description: 5PX EBM 72V RT2U marque: eaton prix: 771.58 quantity: 9
+part: CL25-550BL1 fournisseur: Siewert & Kau description: Neomounts CL25-550BL1 mounting kit - for projector - black marque: nan prix: 0.0 quantity: 1
+part: 113R00720 fournisseur: West Cost description: XEROX TONER M 2K marque: xerox supplies prix: 130.0 quantity: 7
+part: CFQ7TTC0GZ16:0001:COM:P1Y:A:DE fournisseur: Tarox description: Teams Rooms Premium without Audio Conferencing marque: microsoft csp prix: 0.0 quantity: 50
+part: H1FF3E fournisseur: macle description: EPACK 5YR FC NBD CDMR MSR954 marque: hewlett packard enterprise prix: 625.0 quantity: 50
+part: U1PS2E fournisseur: macle description: EPACK 2YR PICKUP RETURN NB SVC marque: hp inc. prix: 48.0 quantity: 50
+part: 21KH001XFR fournisseur: techdata description: Lenovo ThinkBook 16 G6 IRL 21KH - Conception de charnière à 180 degrés - Intel Core i5 - 1335U / jusqu'à 4.6 GHz - Win 11 Pro - Carte graphique Intel Iris Xe - 16 Go RAM - 512 Go SSD NVMe - 16" IPS 1920 x 1200 - Ethernet, Fast Ethernet, Gigabit Ethernet, marque: lenovo prix: 1018.0 quantity: 355
+part: 24572702 fournisseur: Secomp description: RatiopacPRO , Equerre avec poignée, 4U 24572702 marque: schroff prix: 22.66 quantity: 3
+part: M3J-00104 fournisseur: terra computer description: MS SPLA System Center Endpoint Protection [M] marque: microsoft prix: 0.77 quantity: 100
+part: 39M6803 fournisseur: macle description: IBM Fan 60mm marque: ibm prix: 49.0 quantity: 4
+part: 222-00020 fournisseur: PICATA description: Bluetooth Ergonomic Mouse Glacier marque: microsoft prix: 36.42 quantity: 2
+part: VR858 fournisseur: EET description: ASSY,CARR,HD,2.5,SC marque: dell prix: 34.8 quantity: 18
+part: 1746-C4A fournisseur: macle description: IBM SYSTEM STORAGE DS3524 EXPRESS marque: ibm prix: 150.0 quantity: 4
+part: DA-70853 fournisseur: Siewert & Kau description: DIGITUS - external video adapter - black marque: digitus prix: 6.35 quantity: 500
+part: CBI3343A fournisseur: psaparts description: 5 marque:  prix: 2.0 quantity: 35
+part: EDA52-CB-3 fournisseur: Jarltech description: Honeywell charging station, 4 slots marque: honeywell prix: 222.64 quantity: 6
+part: CO230012ZZNCAA fournisseur: Tarox description: XGS 2300 Central Orchestration 12M marque: sophos prix: 0.0 quantity: 50
+part: 62148 fournisseur: Tarox description: LANCOM 1800VA(EU) SD-WAN Gateway VDSL2/ADSL2+ marque: lancom prix: 0.0 quantity: 6
+part: H3AU2E fournisseur: macle description: EPACK 5YR PCA NBD 7010 CTR marque: hewlett packard enterprise prix: 18718.0 quantity: 50
+part: H8RZ6E fournisseur: techdata description: HPE Foundation Care 24x7 Service - Contrat de maintenance prolongé - pièces et main d'oeuvre - 1 année - sur site - 24x7 - temps de réponse : 4 h - universitaire, volume, Tier 2, pour les particuliers marque: hewlett packard enterprise prix: 17.0 quantity: 9876
+part: 4780933 fournisseur: MGF description: HERCULES Audio Controller STREAM 100 - Pilotage simple et intuitif du son des je marque: hercules prix: 103.25 quantity: 138
+part: DGS-1008P fournisseur: techdata description: D-Link DGS 1008P - Commutateur - non géré - 4 x 10/100/1000 (PoE) + 4 x 10/100/1000 - de bureau - PoE marque: d-link prix: 83.93 quantity: 151
+part: ASX8200PNP-512GT-C fournisseur: ecp description: Multimedia/08- Disque SSD Gamer/M.2/M.2 - PCIe marque: adata prix: 34.9 quantity: 1
+part: CH-9226765-FR fournisseur: Acadia description: K55 RGB PRO RUBBERDOME marque: corsair prix: 50.4 quantity: 69
+part: K2Q36A fournisseur: macle description: 3PAR STRSRV 8200 2N FLD INT BS marque: hewlett packard enterprise prix: 5676.0 quantity: 2
+part: 910-006760 fournisseur: Secomp description: LOGITECH SOURIS M110 SILENT USB-A GRIS INTERMEDIAIRE marque: logitech prix: 11.94 quantity: 18
+part: H6Y84AA#ABB fournisseur: EET description: 90W Slim Combo w/USB Adapter marque: hp prix: 77.7 quantity: 20
+part: 2P-L81871-001 fournisseur: psaparts description: 45 marque:  prix: 2.0 quantity: 44
+part: 774169-001 fournisseur: macle description: HPE 4GB DDR4-2133 SINGLE RANK marque: hewlett packard enterprise prix: 49.0 quantity: 20
+part: HP3Z5E fournisseur: techdata description: HPE Foundation Care Next Business Day Exchange Service - Contrat de maintenance prolongé - remplacement - 5 années - expédition - 9x5 - temps de réponse : NBD - volume, Tier 1 - pour P/N: JL356-61001, JL356A#AC4, JL356A#ACD, JL356A#AKM, JL356A#B2C, JL356A marque: hewlett packard enterprise prix: 509.0 quantity: 9876
+part: USW-48 fournisseur: convena description: Ubiquiti UniFi Switch 48 port marque: ubiquiti prix: 348.63 quantity: 4
+part: U3TF8E fournisseur: macle description: EPACK 1YR NBD MSM313 ACCS POIN marque: hewlett packard enterprise prix: 48.0 quantity: 50
+part: 5WS1L39561 fournisseur: techdata description: Lenovo Premier Support Plus Upgrade - Contrat de maintenance prolongé - pièces et main d'oeuvre (pour système avec 1 an de garantie sur site) - 3 années (à partir de la date d'achat originale de l'appareil) - sur site - temps de réponse : NBD - pour Think marque: lenovo prix: 180.0 quantity: 9876
+part: LIC-MS250-48LP-7YR fournisseur: Also description: CISCO Meraki MS250-48LP Enterprise License and Support 7 Year marque: cisco prix: 2157.12 quantity: 100
+part: 110C0Y3NL0 fournisseur: Copaco description: ECOSYS PA4500x laserprinter marque: kyocera prix: 404.32 quantity: 1
+part: B660M DS3H DDR4 fournisseur: ecp description: Integration/3- Cartes mères/INTEL LGA 1700/Intel LGA 1700 - MATX marque: gigabyte prix: 84.9 quantity: 1
+part: LC421XLVAL fournisseur: Siewert & Kau description: Brother LC421XL - 4-pack - XL - black, yellow, cyan, magenta - original - ink cartridge marque: brother prix: 48.53 quantity: 40
+part: 442607,100 fournisseur: Secomp description: Cordon saCon Cat.6 S/FTP 1m turquoise marque: sacon prix: 4.7 quantity: 6
+part: HS8M1E fournisseur: techdata description: HPE Pointnext Tech Care Basic Service with Comprehensive Defective Material Retention - Contrat de maintenance prolongé - pièces et main d'oeuvre - 3 années - sur site - 9x5 - temps de réponse : NBD - pour P/N: P21271R-B21, P40455-AA1, P40455-B21, P40456- marque: hewlett packard enterprise prix: 2850.0 quantity: 9876
+part: P2V68A fournisseur: Octant description: HP Cartouche Encre 730 Cyan 300ml marque: hpp2v68a prix: 123.67 quantity: 4
+part: LC225XLM fournisseur: MGF description: BROTHER cart JE magent J5620DW marque: brother prix: 13.58 quantity: 14
+part: 5PS7A01573 fournisseur: Also description: LENOVO Essential Service - 2Yr Post Wty 24x7 24Hr Committed Svc Repair + YourDrive YourData marque: lenovo prix: 2753.78 quantity: 100
+part: 78-81238 fournisseur: Ingram description: OB REACT + GLASS APPLE IPHONE marque: otterbox prix: 15.58 quantity: 3
+part: 06014A3100 fournisseur: Difox description: Bosch GPB 18V-2 SC Professional Radio de chantier sans fil marque: bosch prix: 130.5 quantity: 1
+part: MB882HX-1SB fournisseur: ecp description: Integration/2- Boitier/7- MOBIL RACK marque: icydock prix: 9.52 quantity: 1
+part: KF436C18BB2AK2/32 fournisseur: Siewert & Kau description: Kingston RAM FURY Beast RGB - 32 GB (2 x 16 GB Kit) - DDR4 3600 DIMM CL18 marque: kingston prix: 82.96 quantity: 6
+part: MDP2VGDVHD fournisseur: techdata description: StarTech.com Adaptateur Mini DisplayPort 3 en 1 - 1080p - Répartiteur Mini DP / Thunderbolt vers HDMI / VGA / DVI pour Votre Moniteur (MDP2VGDVHD) - Adaptateur vidéo - Mini DisplayPort mâle pour HD-15 (VGA), DVI-D, HDMI femelle - 27 cm - noir - actif, sup marque: startech prix: 38.99 quantity: 8
+part: P-PFRURAD350 fournisseur: Also description: HP Poly 1yr+ Enterprise Government with FRU replace and destroy service for NEW Poly Video devices Catgeory A: Poly Studio R30/Studi marque: hp inc. prix: 58.3 quantity: 100
+part: EF-NX712PBEGWW fournisseur: Also description: SAMSUNG Galaxy Tab S9 Film de protection anti-espion Noir marque: samsung prix: 28.82 quantity: 100
+part: N6PAT150CMGRS fournisseur: techdata description: Ce câble CAT6 fin répond à toutes les spécifications de câble patch de catégorie 6 et fournit une connexion réseau Gigabit fiable dans les centres de données haute densité.Passage facile des câblesLa conception de ce câble de connexion CAT6 fin est 36 % p marque: startech prix: 4.99 quantity: 40
+part: 406402-001 fournisseur: macle description: HPE POWER SUPPLY 200W HOTPLUG marque: hewlett packard enterprise prix: 99.0 quantity: 43
+part: P08437-B21 fournisseur: Travion description: Ethernet 10Gb 2-port BASE-T QL41132HLRJ Internal 10000 Mbit/s marque: hewlett packard enterprise prix: 1.0 quantity: 1
+part: UMA-D fournisseur: convena description: Ubiquiti High Efficiency Dual-Band Directional Mes marque: ubiquiti prix: 78.31 quantity: 8
+part: MBXUN-90W-DC0001 fournisseur: EET description: Universal Car Adapter marque: coreparts prix: 27.0 quantity: 75
+part: KCP432SS8/16 fournisseur: Siewert & Kau description: Kingston RAM - 16 GB - DDR4 3200 SO-DIMM CL22 marque: kingston prix: 35.14 quantity: 16
+part: 90NX05H1-M006H0 fournisseur: Acadia description: ASUS ExpertBook B5602CBA-MB0160X marque: asus prix: 1118.0 quantity: 6
+part: HU4W4E fournisseur: techdata description: HPE Foundation Care Next Business Day Exchange Service - Contrat de maintenance prolongé - remplacement - 4 années - expédition - 9x5 - temps de réponse : NBD - universitaire, volume, Tier 2, pour les particuliers - pour P/N: R4W40A, R4W41A, R4W42A, R4W43 marque: hewlett packard enterprise prix: 129.0 quantity: 9876
+part: MC923-1C/AM/A-5M fournisseur: Ingram description: CABLE ACTIF USB-C M marque: mcl samar micro cabl prix: 16.33 quantity: 6
+part: SRT72BP fournisseur: Ingram description: BATTERY PACK FOR SRT 72V 2.2KVA marque: apc prix: 816.21 quantity: 2
+part: U3LP9E fournisseur: macle description: EPACK 3YR NBD EXCH MSR2003 ROU marque: hewlett packard enterprise prix: 222.0 quantity: 50
+part: H1KC9E fournisseur: techdata description: HPE Foundation Care Next Business Day Service - Contrat de maintenance prolongé - pièces et main d'oeuvre - 4 années - sur site - 9x5 - temps de réponse : NBD marque: hewlett packard enterprise prix: 716.0 quantity: 9876
+part: NS136Z48ZZNCAA fournisseur: Tarox description: XGS 136 Network Protection 48M marque: sophos prix: 0.0 quantity: 50
+part: QP420/50 fournisseur: Difox description: Philips QP 420/50 marque: philips prix: 19.1 quantity: 10
+part: U3XV9E fournisseur: macle description: EPACK 5YR NBD 14XX SWITCH FC marque: hewlett packard enterprise prix: 62.0 quantity: 50
+part: DG7GMGF0G49X:0001:COM:DE fournisseur: Tarox description: Microsoft CSP BizTalk Server 2020 Enterprise marque: microsoft csp prix: 0.0 quantity: 50
+part: 05004283001 fournisseur: Difox description: Wera 8009 Zyklop Pocket Imperial kit 2 marque: wera prix: 63.81 quantity: 40
+part: SR0LA fournisseur: macle description: INTEL CPU XEON E5-2609 2.40GHz 4C 10MB marque: intel prix: 19.0 quantity: 8
+part: P2V84A fournisseur: techdata description: HP 747 - 300 ml - vert chromatique - original - DesignJet - cartouche d'encre - pour DesignJet Z9+ PostScript, Z9+dr PostScript marque: hp prix: 185.72 quantity: 9
+part: 06016B0002 fournisseur: Difox description: Bosch GKF 12V-8 Affleureuse sans fil marque: bosch prix: 134.8 quantity: 10
+part: 90PF03K1-M00FD0 fournisseur: techdata description: ASUS ExpertCenter D7 D700SD_CZ 712700084X - SFF - Core i7 12700 / jusqu'à 4.9 GHz - RAM 16 Go - SSD 512 Go - NVMe - UHD Graphics 770 - Gigabit Ethernet, Bluetooth 5.3, IEEE 802.11ax (Wi-Fi 6) - 802.11a/b/g/n/ac/ax, Bluetooth 5.3 - Win 11 Pro - moniteur : marque: asus prix: 940.83 quantity: 97
+part: ALTGELI7BLK fournisseur: MCA description: coque noire iphone 7 8 SE marque: oem prix: 2.0 quantity: 268
+part: ST1000SPEX43 fournisseur: Siewert & Kau description: StarTech.com Network Adapter ST1000SPEX43 - PCIe marque: startech prix: 140.14 quantity: 29
+part: ST4000NE001 fournisseur: ecp description: Integration/6- Stockage/2- DISQUE DUR/Disque 3.5p marque: seagate prix: 99.99 quantity: 1
+part: 7090043790115 fournisseur: techdata description: Huddly IQ - Travel Kit - caméra pour conférence - couleur - 12 MP - audio - USB 3.0 - MJPEG - avec câble USB 3.0 vers USB-C 0.6 m marque: huddly prix: 625.18 quantity: 12
+part: 5WS7B06212 fournisseur: Also description: LENOVO Foundation Service - 4Yr NBD Resp ST50 V2 marque: lenovo prix: 114.91 quantity: 100
+part: 21.15.3950 fournisseur: Secomp description: Cordon ROLINE Data Center SLIM, UTP Cat6A/Cl.EA, LSOH, noir, 0,15m marque: roline prix: 0.85 quantity: 3206
+part: EX-46014 fournisseur: Secomp description: EX-46014 4S série RS-232 marque: exsys prix: 31.25 quantity: 2
+part: FAN12025PWM fournisseur: techdata description: StarTech.com Ventilateur d'Ordinateur 120 mm avec PMW - Connecteur à Modulation d'Impulsion en Durée - 1x Molex Fan Femelle - Ventilateur châssis - 120 mm - noir marque: startech prix: 10.99 quantity: 11
+part: 126K18319 fournisseur: EET description: Fuser Assy 220V marque: xerox prix: 563.1 quantity: 3
+part: 5P1150IRG2 fournisseur: Tarox description: EATON USV LIN  1150VA 5P 5P1150iRG2 marque: eaton power quality prix: 0.0 quantity: 10
+part: MO-PAN-SFP-SX fournisseur: EET description: SFP 850nm, MMF, 550m, LC marque: microoptics prix: 17.4 quantity: 7
+part: C-EIS-A2-L1 fournisseur: Also description: ESET Internet Security New 1 year 2p Registration key marque: eset prix: 27.01 quantity: 100
+part: K9JTG fournisseur: Ingram description: LATITUDE 7000 7440 I5-1345U marque: dell emc prix: 1039.69 quantity: 3
+part: MW5L5_3OS5PSP fournisseur: Siewert & Kau description: Dell Upgrade from 3Y Basic Onsite to 5Y ProSupport Plus - extended service agreement - 5 years - on-site marque: dell prix: 551.25 quantity: 49
+part: 3E5F8AA fournisseur: techdata description: HP Renew Business - Sac à bandoulière pour ordinateur portable - 15.6" - pour Elite Mobile Thin Client mt645 G7, Pro x360, ZBook Fury 16 G10 marque: hp prix: 37.0 quantity: 995
+part: 78C20K0 fournisseur: Topus description: 734646650229 marque: lexmark supplies prix: 71.0 quantity: 47
+part: 02DM013 fournisseur: EET description: Intel Thermal Module FL590 marque: lenovo prix: 48.3 quantity: 5
+part: 919.1000 fournisseur: Secomp description: BACHMANN Pont de sortie noir RAL9005 Passe-câbles noir marque: bachmann prix: 17.02 quantity: 4
+part: 00WE756 fournisseur: macle description: LENOVO SAS-CABLE EXTERN marque: lenovo prix: 95.0 quantity: 3
+part: NLWH-15M-CAT8-PATCH fournisseur: techdata description: StarTech.com 15m White CAT8 Ethernet Cable, Snagless, S/FTP, 25G/40G - Cordon de raccordement - RJ-45 (M) pour RJ-45 (M) - 15 m - 5.6 mm - S/FTP - CAT 5/5e/6/6a/8 - IEEE 802.3bt/IEEE 802.3ba - sans halogène, sans crochet - blanc marque: startech prix: 94.99 quantity: 18
+part: TIPRBGMSTAPP/EU/1 fournisseur: Also description: Bundle LOGITECH Rally Bar - GRAPHITE - USB - PLUGC - EMEA - EU/SEA/INDO/KO + TAP Cat5e Kit - excluding PC + JumpStart - N/A - WW marque: logitech prix: 3512.9 quantity: 2
+part: I90054-0 fournisseur: Ingram description: TMX 1310/GP02 BOX OF 10ROLLS marque: honeywell prix: 30.86 quantity: 24
+part: WD30EFZX fournisseur: ecp description: Integration/6- Stockage/2- DISQUE DUR/Disque 3.5p marque: western digital prix: 79.49 quantity: 1
+part: UK709PE fournisseur: techdata description: Electronic HP Care Pack Pick-Up and Return Service Post Warranty - Contrat de maintenance prolongé - pièces et main d'oeuvre (pour garantie 1/1/0) (pour CPU) - 1 année - enlèvement et retour - 9x5 - pour HP 470 G10, Pro Mobile Thin Client mt440 G3, Pro x3 marque: hp prix: 27.0 quantity: 9876
+part: LC421XLVAL fournisseur: ecp description: Consommables/Cartouches, Toner, Encre/Jet d encre/Brother marque: brother prix: 49.5 quantity: 1
+part: 738367-001 fournisseur: macle description: HPE RAID CONTROLLER SAS FOR MSA 2040 marque: hewlett packard enterprise prix: 375.0 quantity: 2
+part: VN7M7_2CR4PS fournisseur: Ingram description: 2Y COLL RTN TO 4Y PROSPT marque: dell emc prix: 98.42 quantity: 9999
+part: 21.15.1327 fournisseur: Secomp description: Cordon ROLINE S/FTP(PiMF) Cat6/Cl. E, orange, 0,5m marque: roline prix: 2.1 quantity: 588
+part: DN-97601-2 fournisseur: Siewert & Kau description: DIGITUS Professional DN-97601-2 - rack cable management panel - 1U - 19 marque: digitus prix: 5.85 quantity: 266
+part: HZ0J6E fournisseur: techdata description: HPE Pointnext Tech Care Essential Service with Comprehensive Defective Material Retention - Contrat de maintenance prolongé - pièces et main d'oeuvre - 3 années - sur site - 24x7 - temps de réponse : 4 h - pour P/N: R6W30A, R6W30AR marque: hewlett packard enterprise prix: 14072.0 quantity: 9876
+part: MCB-E300L-KN5N-B02 fournisseur: PICATA description: MasterBox E300L MCB-E300L-KN5N-B02 - mT/mATX marque: cooler master prix: 41.36 quantity: 5
+part: MB482SP-3B fournisseur: ecp description: Integration/2- Boitier/7- MOBIL RACK marque: icydock prix: 13.83 quantity: 1
+part: H8SD5E fournisseur: techdata description: HPE Foundation Care Exchange Service - Contrat de maintenance prolongé - remplacement - 3 années - expédition - 24x7 - temps de réponse : 4 h - universitaire, volume, Tier 2, pour les particuliers marque: hewlett packard enterprise prix: 117.0 quantity: 9876
+part: V-450 fournisseur: ecp description: Integration/1- ALIMENTATION/1- ATX/250W A 550W marque: hkc prix: 26.9 quantity: 1
+part: CFQ7TTC0HD32-0011-1J1J fournisseur: terra computer description: CSP Visio Plan 2 (Non-Profit Pricing) [1J1J] New Commerce marque: microsoft prix: 62.35 quantity: 100
+part: MS3320W-BLK fournisseur: MCA description: Dell MS3320W - Souris sans fil mobile - noir - Optique - Bluetooth 2.4 GHz - 3 Boutons 1600 dpi - Pile AA marque: dell prix: 18.19 quantity: 11
+part: 2P-F9M23AV fournisseur: psaparts description: 31 marque:  prix: 2.0 quantity: 29
+part: U6TV8PE fournisseur: macle description: EPACK 1YR REN FC CTR 3810M 40G marque: hewlett packard enterprise prix: 2699.0 quantity: 10
+part: H38M9PE fournisseur: techdata description: HPE Pointnext Tech Care Essential Service with Comprehensive Defective Material Retention Post Warranty - Contrat de maintenance prolongé - pièces et main d'oeuvre - 1 année - sur site - 24x7 - temps de réponse : 4 h - pour P/N: 470065-085, 470065-104, 47 marque: hewlett packard enterprise prix: 2054.0 quantity: 9876
+part: 1T02KVCNL0 fournisseur: Kosatec description: TON Kyocera Toner TK-590C Cyan bis zu 5.000 Seiten gem. ISO/IEC 19798 marque: kyocera prix: 60.88 quantity: 14
+part: BRS36BAT00001 fournisseur: Jarltech description: CipherLab Spare Battery marque: cipherlab co., ltd. prix: 82.48 quantity: 45
+part: B-02-60700 fournisseur: convena description: Garbot CAT6 S/FTP CU LSZH Ethernet Cable Grey 7m marque: garbot prix: 2.59 quantity: 100
+part: ACVH250 fournisseur: argor trading description: Konica Minolta TN-227 Y marque: konica minolta tn-227 y prix: 65.65 quantity: 30
+part: 6FUTP-07W fournisseur: convena description: ProXtend CAT6 F/UTP CU LSZH Ethernet Cable White.. marque: proxtend prix: 3.66 quantity: 100
+part: 01HA008 fournisseur: macle description: 3Y TECH INST 24X7X4 marque: lenovo prix: 534.0 quantity: 50
+part: 78-80445 fournisseur: Travion description: MagSafe Vent Mount Black marque: otterbox prix: 8.0 quantity: 8
+part: ASSO-B-EPC-R2-AB fournisseur: Also description: ESET Association Protect Complete Renew 2 years 11-25p marque: eset prix: 45.05 quantity: 100
+part: RPI4 PSU UK BLACK fournisseur: EET description: Raspberry Pi 5.1V dc marque: raspberry pi prix: 8.6 quantity: 166
+part: CP03RTBSH335 fournisseur: macle description: COVERPLUS 3YRS F/EB-W8D marque: epson prix: 56.0 quantity: 50
+part: P04220-B21 fournisseur: macle description: HPE MICROCHIP SMARTRAID SR932i-p marque: hewlett packard enterprise prix: 2100.0 quantity: 6
+part: ACCESSORY-ZZ0102F fournisseur: MCA description: Boîtier extérieur pour Point Accès Zyxel. marque: zyxel prix: 46.9 quantity: 3
+part: H3AT1E fournisseur: macle description: EPACK 4YR PCA CTR 7010 CTR marque: hewlett packard enterprise prix: 18174.0 quantity: 50
+part: CDP2VGAMM2MB fournisseur: ecp description: Connectiques/Câble USB/Adaptateur USB marque: startech prix: 30.0 quantity: 1
+part: XS508M-100EUS fournisseur: Also description: NETGEAR 10GB Switch XS508M-100EUS 8 Port 10GB/s, unmanaged 1x SFP+ marque: netgear prix: 357.05 quantity: 3
+part: 191H00-0 fournisseur: Difox description: Makita 191H00-0 ChaÃ®ne de sciage 25cm 1,1mm 3/8  HM marque: makita prix: 11.38 quantity: 1
+part: 3311041 fournisseur: Travion description: Accessory FloorStand for MeetingBoard 65 with Tray marque: yealink prix: 1.0 quantity: 1
+part: DG.E3UEF.00C fournisseur: techdata description: Acer Nitro 50 N50-656 - Tour - Core i7 i7-14700F / jusqu'à 5.4 GHz - RAM 32 Go - SSD 1.024 To - NVMe - GeForce RTX 4060 - Gigabit Ethernet, IEEE 802.11ax (Wi-Fi 6E) - Bluetooth, 802.11a/b/g/n/ac/ax (Wi-Fi 6E) - Win 11 Home - moniteur : aucun marque: acer prix: 1166.0 quantity: 24
+part: P21649-B21 fournisseur: macle description: HPE PLATINUM POWER SUPPLY 290W marque: hewlett packard enterprise prix: 195.0 quantity: 2
+part: 15059 fournisseur: Difox description: 1 Braun Paximat magazine 36 blanc marque: braun phototechnik prix: 8.26 quantity: 10
+part: R9D16A fournisseur: techdata description: HPE Networking Instant On - Module transmetteur SFP (mini-GBIC) - 1GbE - 1000Base-SX - LC multi-mode - jusqu'à 500 m - pour Instant On 1430 16, 1430 24, 1430 26, 1430 5G, 1430 8G, 1830 24, 1830 48, 1830 8G, 1930 48 marque: aruba prix: 47.0 quantity: 122
+part: C6657A fournisseur: Octant description: HP Cartouche Encre 57 Cyan, Jaune, Magenta 400 pages marque: hpc6657a prix: 52.59 quantity: 1
+part: 35.8000.01 fournisseur: Difox description: TFA 35.8000.01 VIEW METEO Station mÃ©tÃ©o radio-pilotÃ©e WiFi marque: tfa-dostmann prix: 58.58 quantity: 10
+part: PRTBTN243YG fournisseur: Supplies24 description: ORIGINAL Prindo Toner Jaune PRTBTN243YG Green ~1000 Seiten marque: prtbtn243yg prix: 34.47 quantity: 1
+part: 24BK450H-B fournisseur: Kosatec description: 61cm/24"" (1920x1080) LG 24BK450H Full HD IPS 5ms HDMI VGA 16:9 black marque: lg prix: 81.09 quantity: 43
+part: PRIBLC3219XLYG fournisseur: Supplies24 description: ORIGINAL Prindo Cartouche d'encre Jaune PRIBLC3219XLYG Green ~1500 Seiten marque: priblc3219xlyg prix: 11.03 quantity: 1
+part: GSM4248UX-100EUS fournisseur: Also description: NETGEAR M4250-40G8XF-POE++ Managed Switch marque: netgear prix: 4620.37 quantity: 2
+part: AC774047 fournisseur: Siewert & Kau description: Dell 1RX16 - DDR5 - module - 8 GB - SO-DIMM 262-pin - 5600 MHz - unbuffered marque: dell prix: 57.62 quantity: 1
+part: RP000121525 fournisseur: EET description: HDD 300-GB, SAS, SFF, 10K Rpm, marque: hewlett packard enterprise prix: 17.4 quantity: 16
+part: F2CU012BT3M-BLK fournisseur: Difox description: Belkin  MIXIT USB-A / Micro-USB 3m noir F2CU012bt3M-BLK marque: belkin prix: 11.08 quantity: 7
+part: UJ335E fournisseur: macle description: EPACK 5YR OS NBD+DMR (NB ONLY) marque: hp inc. prix: 359.0 quantity: 50
+part: HC4Q6E fournisseur: techdata description: HPE Foundation Care 4-Hour Exchange Service - Contrat de maintenance prolongé - remplacement - 5 années - expédition - 24x7 - temps de réponse : 4 h - volume, Tier 2 - pour P/N: Q9H59A, Q9H60A, Q9H61A, Q9H61AR, Q9H62A, Q9H62AR, Q9H63A, Q9H63AR, R2J82A marque: hewlett packard enterprise prix: 262.0 quantity: 9876
+part: 4,25154E+12 fournisseur: Kosatec description: RAMNDDR4 SO 2666 8GB Innovation IT CL19-19-19 1.2V marque: innovation it prix: 13.16 quantity: 100
+part: NSLS300BLACK fournisseur: Tarox description: Neomounts Laptop-Ständer NSLS300 - Schwarz marque: neomounts prix: 0.0 quantity: 16
+part: H2AM0E fournisseur: macle description: EPACK 3YR FC 4H 2930F48G4SFP marque: hewlett packard enterprise prix: 2295.0 quantity: 50
+part: STSHX-M101TCBM fournisseur: ecp description: Integration/6- Stockage/3- DISQUE EXTERNE/Disque HDD 2.5p marque: seagate prix: 38.49 quantity: 1
+part: WE009OPPOA57S fournisseur: MGF description: ***WE Verre trempé OPPO A57 4G / A57 5G / A57S marque: we prix: 4.0 quantity: 168
+part: 051039 fournisseur: Ingram description: ACTIV PACK CASE FOR HP ELITE X2 marque: mobilis prix: 66.36 quantity: 1
+part: CMH32GX5M2B6000C40W fournisseur: ecp description: Integration/5- Mémoire/DIMM DDR4/2- Gamer marque: corsair prix: 122.59 quantity: 1
+part: PKCG9 fournisseur: EET description: Memory Module 8GB PC3L-12800R marque: dell prix: 13.5 quantity: 20
+part: AB371021 fournisseur: techdata description: Dell - DDR4 - module - 8 Go - DIMM 288 broches - 3200 MHz / PC4-25600 - 1.2 V - mémoire sans tampon - non ECC - Mise à niveau - pour G5, OptiPlex 7090, XE3, Precision 3430, 3431, 3630, 3930, Vostro 3671, 3710, XPS 8940 marque: dell prix: 61.0 quantity: 28
+part: HL546E fournisseur: techdata description: Electronic HP Care Pack Premium Care Service - Contrat de maintenance prolongé - pièces et main d'oeuvre - 3 années - sur site - 9x5 - temps de réponse : jour suivant - pour Elite x360, EliteBook 83X G10, 845 G10, 865 G10, EliteBook x360, ProBook 44X G10, marque: hp prix: 139.0 quantity: 9876
+part: H04A2E fournisseur: techdata description: HPE Pointnext Tech Care Essential Service - Contrat de maintenance prolongé - pièces et main d'oeuvre - 3 années - sur site - 24x7 - temps de réponse : 4 h - pour P/N: P9S29A, QU625A, QU625AR, QU625SB marque: hewlett packard enterprise prix: 11608.0 quantity: 9876
+part: 2P-916366-541 fournisseur: psaparts description: 0 marque:  prix: 2.0 quantity: 28
+part: UVC-G4-DOME fournisseur: terra computer description: Ubiquiti Camera G4 Dome 4MP UVC-G4-DOME Compact 4MP vandal-resist. (IK08)/weatherpr. IPx4 marque: ubiquiti networks prix: 155.9 quantity: 50
+part: 4WHD2ZD/A-AS fournisseur: flexit description: iPhone 11 Pro Max 64GB 6.46" Space Gray No Accessories marque: apple prix: 329.0 quantity: 1
+part: 2P-L02854-H72 fournisseur: psaparts description: 4 marque: 03/01/24 prix: 2.0 quantity: 9
+part: VEL-OW64868 fournisseur: Secomp description: VELCRO One Wrap 25x300mm 750p. bleu VEL-OW64868 marque: velcro prix: 215.21 quantity: 1
+part: FSP:GA5220200DEST4 fournisseur: macle description: SP5Y OS/9X5/NBD RT/1XSHC/TAM R marque: fujitsu prix: 5916.0 quantity: 50
+part: W1A77A fournisseur: terra computer description: HP Color LaserJet Pro MFP M479 dw (3in1)  27ppm. marque: hewlett packard prix: 514.0 quantity: 13
+part: 75G2878 fournisseur: macle description: IBM MEDIA CAGE AND BACKPLANE ASSM marque: ibm prix: 45.0 quantity: 1
+part: CF531A fournisseur: Ingram description: HP 205A ORIGINAL CYAN LASERJET marque: hp inc. prix: 48.14 quantity: 17
+part: 980-000814 fournisseur: Kosatec description: Logitech Z150 black marque: logitech prix: 24.38 quantity: 74
+part: U7925E fournisseur: Also description: HP E-CAREPACK 5ANS MAINTENANCE SITE LE LENDEMAIN POUR PC SEUL marque: hp inc. prix: 71.68 quantity: 100
+part: MZ-V9E2T0BW fournisseur: PCA description: SSD SAMSUNG SERIE 990 EVO M.2 2To 2280 PCIe 4.0 x4 / 5.0 x2 NVMe 2.0 MZ-V9E2T0BW marque: samsung prix: 175.02 quantity: 95
+part: DG7GMGF0D5RK-0002-1J1M fournisseur: terra computer description: CSP Windows Server 2022 Standard 8 Core Lic 1J1M [PS] marque: microsoft prix: 19.64 quantity: 100
+part: HK4U0E fournisseur: techdata description: HPE Foundation Care 4-Hour Exchange Service - Contrat de maintenance prolongé - remplacement - 3 années - expédition - 24x7 - temps de réponse : 4 h - universitaire, volume, Tier 2, pour les particuliers - pour P/N: JL357A#AC3, JL357A#AC4, JL357A#ACC, JL3 marque: hewlett packard enterprise prix: 541.0 quantity: 9876
+part: 90YV0CT7-M0NA00 fournisseur: Acadia description: ASUS TUF GTX1660TI O6G EVO GAMING marque: asus prix: 330.0 quantity: 100
+part: 1T02RMBNL1 fournisseur: convena description: Kyocera Magenta Toner Cartr. TK-8525M marque: kyocera prix: 127.73 quantity: 10
+part: 26K5288 fournisseur: macle description: IBM 36,4GB 10K U3 SCSI DDA marque: ibm prix: 73.0 quantity: 2
+part: U2HB4E fournisseur: techdata description: HPE Foundation Care 24x7 Service - Contrat de maintenance prolongé - pièces et main d'oeuvre - 5 années - sur site - 24x7 - temps de réponse : 4 h - pour P/N: 681844-B21#B19, BV976AR, BX402AR marque: hewlett packard enterprise prix: 2827.0 quantity: 9876
+part: 21CF004PGE fournisseur: macle description: LENOVO THINKPAD T14 GEN3 R7PRP-6850U marque: lenovo prix: 1875.0 quantity: 50
+part: 106R04080 fournisseur: West Cost description: XEROX TONER J marque: xerox supplies prix: 291.0 quantity: 31
+part: THINCLIENT-20 fournisseur: Also description: NEOMOUNTS Thin Client Holder assembly on VESA75/100 marque: neomounts by newstar prix: 26.59 quantity: 29
+part: H53Y7E fournisseur: techdata description: HPE Foundation Care Next Business Day Exchange Service - Contrat de maintenance prolongé - remplacement anticipé des pièces - 5 années - expédition - 24x7 - temps de réponse : NBD - volume, Tier 2 - pour P/N: R8N86A marque: hewlett packard enterprise prix: 318.0 quantity: 9876
+part: TAPRALMSTINT/2 fournisseur: techdata description: Logitech Room Solutions with Intel NUC for Microsoft Teams include everything you need to build out conference rooms with one or two displays. The 'Medium' bundle comes pre-configured with a Microsoft-approved i5 11th Gen mini PC, Windows 10 IOT Enterpris marque: logitech prix: 4499.0 quantity: 6
+part: H9TT7E fournisseur: techdata description: HPE Foundation Care 24x7 Service - Contrat de maintenance prolongé - pièces et main d'oeuvre - 1 année - sur site - 24x7 - temps de réponse : 4 h - pour P/N: JZ508A marque: hewlett packard enterprise prix: 2550.0 quantity: 9876
+part: CP05OSSWH979 fournisseur: Also description: EPSON 5 years service CoverPlus on site for EH-TW7xx marque: epson prix: 206.73 quantity: 100
+part: T6FVY fournisseur: EET description: KYBD,100,UK,M20IXU-B marque: dell prix: 33.0 quantity: 4
+part: NX.VLLEF.003 fournisseur: Octant description: ACER Portable TMP215-52-778D i7 marque: acenxvllef003 prix: 688.89 quantity: 12
+part: 26599-899-999 fournisseur: Copaco description: Jabra Evolve2 65 MS Mono Black marque: jabra prix: 126.88 quantity: 3
+part: CW-9060069-WW fournisseur: Copaco description: iCUE H115i ELITE CAPELLIX XT 280mm Radiator Liquid CPU Cooler marque: corsair prix: 136.95 quantity: 6
+part: 47212 fournisseur: convena description: Lindy CROMO S/FTP PatchCord Cat6. CU. Anthracite.. marque: lindy prix: 3.22 quantity: 45
+part: HMP50.000WH fournisseur: Difox description: Kenwood HMP50.000WH Quick Mix+ marque: kenwood prix: 39.17 quantity: 1
+part: 90-MXBF00-A0UAYZ fournisseur: PICATA description: Z590 Phantom Gaming 4 - Z590/LGA1200/ATX marque: asrock prix: 133.65 quantity: 1
+part: APTHP532AE fournisseur: EET description: Toner Yellow marque: agfaphoto prix: 31.0 quantity: 1
+part: 2P-HRDGJ fournisseur: psaparts description: 0 marque:  prix: 2.0 quantity: 39
+part: VFY:G612EPC30MIN fournisseur: macle description: FUJITSU ESPRIMO G6012 TOWER INTEL CORE marque: fujitsu prix: 636.0 quantity: 50
+part: H4DU1E fournisseur: macle description: EPACK 5YR PC NBD EXCH IAP 325 marque: hewlett packard enterprise prix: 440.0 quantity: 50
+part: N9K78AA fournisseur: MCA description: HP - Adaptateur vidéo externe - USB-C - DisplayPort marque: hewlett packard prix: 15.0 quantity: 1
+part: HP2A1E fournisseur: techdata description: HPE Foundation Care 24x7 Service - Contrat de maintenance prolongé - pièces et main d'oeuvre - 4 années - sur site - 24x7 - temps de réponse : 4 h - universitaire, pour les particuliers - pour P/N: J9775A#ABH, J9775A#B2B, J9775AR#B8X, J9781A#ABH, J9781A#B marque: hewlett packard enterprise prix: 522.0 quantity: 9876
+part: HB3P3E fournisseur: techdata description: HPE Proactive Care Call-To-Repair Service with Comprehensive Defective Material Retention - Contrat de maintenance prolongé - pièces et main d'oeuvre - 3 années - sur site - 24x7 - délai de réparation : 6 heures - pour P/N: JL587A, JL587AR marque: hewlett packard enterprise prix: 4845.0 quantity: 9876
+part: 652K0025 fournisseur: macle description: GRAFENTHAL MEM 64GB 2Rx4 DDR4-2933MHz marque: grafenthal prix: 575.0 quantity: 10
+part: 00A4730 fournisseur: macle description: EPAC 2Y MSU ONSITE 5X9 4H marque: lenovo prix: 2427.0 quantity: 50
+part: CM8068403377319 fournisseur: Kosatec description: Intel S1151 CORE i3 9100 TRAY 4x3,6 65W GEN9 marque: intel prix: 98.84 quantity: 87
+part: 910-005870 fournisseur: convena description: Logitech ERGO M575 Wireless Trackball Mouse - Wh.. marque: logitech prix: 32.89 quantity: 15
+part: CFQ7TTC0QW7C:0006:COM:P1Y:M:DE fournisseur: Tarox description: Microsoft Teams Rooms Pro without Audio Conferenci marque: microsoft csp prix: 0.0 quantity: 50
+part: UA6H1E fournisseur: macle description: EPACK 5YR NextBusDay Onsite NB marque: hp inc. prix: 223.0 quantity: 50
+part: DCPJ1200WRE1 fournisseur: Octant description: BROTHER DCP-J1200W Multifonction Jet d'encre Couleur A4 3-en-1 Wi-Fi marque: brodcpj1200w prix: 84.44 quantity: 15
+part: P-P86810112 fournisseur: Also description: HP Poly 1yr+ Rove 40 Anti Microbial DECT IP Phone Handset marque: hp inc. prix: 11.67 quantity: 100
+part: 43851 fournisseur: Difox description: Wiha SB 369RH9 ErgoStar marque: wiha prix: 24.53 quantity: 3
+part: MUF-512BE3/APC fournisseur: Also description: SAMSUNG BAR PLUS 512Go Champagne Silver marque: samsung prix: 72.55 quantity: 5
+part: U46Q6E fournisseur: Also description: HP 3 years Onsite Thin Client Notebook Bundled Hardware Support marque: hp inc. prix: 53.97 quantity: 100
+part: 1702T68NL0 fournisseur: techdata description: Kyocera MK 3170 - Kit d'entretien - pour ECOSYS P3050DN, P3055DN, P3060DN marque: kyocera prix: 278.8 quantity: 2
+part: K60603WW fournisseur: techdata description: Kensington Slim NanoSaver Combination Laptop Lock - Câble de sécurité - 1.8 m marque: kensington prix: 44.92 quantity: 17
+part: 835A31-4 fournisseur: Difox description: Makita 835A31-4 Embouti profond pour MAKPAC marque: makita prix: 7.09 quantity: 1
+part: 2P-718756-001 fournisseur: psaparts description: 55 marque:  prix: 2.0 quantity: 27
+part: MB3000GBKAC fournisseur: EET description: HDD 3TB 6GB/s SATA 7.2k 3.5 marque: hewlett packard enterprise prix: 277.5 quantity: 27
+part: 94Y6626 fournisseur: macle description: IBM CABLE ARM KIT GENERATION III marque: ibm prix: 31.0 quantity: 1
+part: P-P736000404 fournisseur: Also description: HP Poly 3yr+ software Service Clariti Manager Appliance and Virtual Edition - Audio or Content Base Software License marque: hp inc. prix: 1128.6 quantity: 100
+part: GLBW13305213 fournisseur: EET description: Adhesive Privacy Filter 13.5" marque: gearlab prix: 36.6 quantity: 67
+part: 2P-M393A2K40BB2-CTD fournisseur: psaparts description: 20 marque:  prix: 2.0 quantity: 23
+part: 7410-109 fournisseur: convena description: Jabra SPEAK 410 MS marque: jabra prix: 72.49 quantity: 100
+part: 0601446400 fournisseur: Difox description: Bosch GLI 18V-1900 Projecteur de chantier marque: bosch prix: 91.56 quantity: 10
+part: 527F9A fournisseur: techdata description: HP - LaserJet - collecteur de toner usagé - pour P/N: 6QQ03A#ABX marque: hp prix: 58.84 quantity: 95
+part: 937.415 fournisseur: Secomp description: BACHMANN DESK2 ALU WHITE 2x UTE 1x CM 1x USB A/C 22W 0,2m GST18 marque: bachmann prix: 168.64 quantity: 5
+part: 4X20E53340 fournisseur: macle description: LENOVO AC-ADAPTER 65W SLIM TIP EU1 marque: lenovo prix: 44.0 quantity: 3
+part: HP4B0E fournisseur: techdata description: HPE Foundation Care 4-Hour Exchange Service - Contrat de maintenance prolongé - remplacement - 1 année - expédition - 24x7 - temps de réponse : 4 h - universitaire, pour les particuliers - pour P/N: JL357A#AC3, JL357A#AC4, JL357A#ACC, JL357A#AKM, JL357A#B marque: hewlett packard enterprise prix: 248.0 quantity: 9876
+part: 204260 fournisseur: Ingram description: BLUEPARROTT B350-XT HDST marque: gn audio prix: 86.06 quantity: 73
+part: 1747,4005 fournisseur: Difox description: KMP H166VX Multipack BK/C/M/Y compatible avec HP 953 XL marque: kmp prix: 63.61 quantity: 2
+part: LC1240VALBP fournisseur: MGF description: BROTHER cart ValuePack LC1240 marque: brother prix: 50.53 quantity: 5
+part: WESOURSFILR fournisseur: MGF description: Souris sans fil optique WE - Nano Dongle USB - connexion 2.4 GHz - 800/1200/1600 marque: we prix: 5.22 quantity: 246
+part: D0E36097 fournisseur: Arles description: FLAT BELT-TRANSFER:INTERMEDIATE TRA (OLD D2416097) marque: ricoh prix: 0.0 quantity: 34
+part: 6VC-01518 fournisseur: terra computer description: MS OVS Win Svr RDS U-CAL Lic/SA EE 1Y EDU [E] marque: microsoft prix: 7.5 quantity: 100
+part: 60118437 fournisseur: Secomp description: SCHROFF PASSE-CABLE JOINT BALAI 1U PAR 2 60118-437 marque: schroff prix: 20.84 quantity: 4
+part: L7E75AAE fournisseur: macle description: 3PAR 8440 TRANSITION AI-ESTOCK marque: hewlett packard enterprise prix: 240.0 quantity: 50
+part: PTH0130A fournisseur: psaparts description: 18 marque:  prix: 2.0 quantity: 29
+part: SL-7065-BN fournisseur: Also description: SPEEDLINK CORTEX Twistable Protection iPad mini marron marque: speedlink prix: 8.84 quantity: 41
+part: LUMLLS030BXWLNW fournisseur: Difox description: New Garden Lola Slim 30 Lampe de jardin dÃ©co, blanc marque: newgarden prix: 19.82 quantity: 20
+part: UA-RESCUE fournisseur: Siewert & Kau description: Ubiquiti manual emergency KeySwitch UniFi Access Rescue KeySwitch marque: ubiquiti prix: 67.13 quantity: 20
+part: BV500I-GR fournisseur: terra computer description: APC EASY-UPS BV  500 VA  BV500I-GR marque: apc by schneider electric prix: 71.0 quantity: 9
+part: 106R03923 fournisseur: Kosatec description: TON Xerox Toner 106R03923 Schwarz bis zu 16.900 Seiten marque: xerox prix: 164.5 quantity: 3
+part: 77979 fournisseur: Difox description: Discovery Pico Polar microscope numÃ©rique marque: discovery prix: 131.72 quantity: 4
+part: U0TA2E fournisseur: macle description: EPACK 4YRPIMCNTA SW MOD marque: hewlett packard enterprise prix: 1629.0 quantity: 50
+part: 1000431 fournisseur: Also description: EPOS Micro-casque monaural PC USB Microphone à réduction de bruit marque: epos prix: 17.07 quantity: 15
+part: DS-D5C86RB/B fournisseur: MGF description: ECRAN HIKVISION 86'' LFD 4K Interactive 3840x2160 45pts 400cd/m  6ms 60Hz VGA HD marque: hikvision prix: 1889.14 quantity: 3
+part: RS1221RP+ fournisseur: techdata description: RS1221RP+8 bay NAS 2.4Ghz Quadcore CPU marque: synology prix: 1716.0 quantity: 3
+part: U7935E fournisseur: techdata description: HP Care Pack Next Business Day Hardware Support - Contrat de maintenance prolongé - pièces et main d'oeuvre - 5 années - sur site - temps de réponse : NBD - pour HP 72X, E14 G4, E22 G5, P22 G5, P22h G5, P22v G5, EliteDisplay S14, Engage 14, 16 marque: hp prix: 33.0 quantity: 9876
+part: 406067 fournisseur: convena description: Ricoh Image Transfer Belt Unit marque: ricoh prix: 84.57 quantity: 1
+part: 47718 fournisseur: Siewert & Kau description: Lindy Patch Cable 47718 - RJ45 - 1.5 m marque: lindy prix: 2.27 quantity: 50
+part: D31967 fournisseur: techdata description: Base XX B2 - Sac à dos pour ordinateur portable - 13" - 15.6" - gris clair marque: dicota prix: 27.9 quantity: 3
+part: C2P42AE MCVP 01 fournisseur: Supplies24 description: ORIGINAL HP Multipack Noir(e) / Cyan / Magenta / Jaune C2P42AE MCVP 01 932 XL + 933 XL marque: c2p42ae mcvp 01 prix: 100.0 quantity: 1
+part: CCK4602/00 fournisseur: techdata description: Philips CCK4602 - Kit de calibrage des couleurs marque: philips prix: 676.14 quantity: 1
+part: 407718 fournisseur: Supplies24 description: ORIGINAL Ricoh Toner Magenta 407718 SP C252HEM ~6000 Seiten marque: 407718 prix: 111.03 quantity: 1
+part: 01-SSC-1445 fournisseur: techdata description: SonicWall Capture Advanced Threat Protection Service - Licence d'abonnement (1 an) - 1 appareil - pour P/N: 01-SSC-0213, 01-SSC-0514, 01-SSC-1358, 01-SSC-1705, 02-SSC-0574 marque: sonicwall prix: 356.63 quantity: 9876
+part: H1061002 fournisseur: Difox description: Govee Glide Hexa Light Panels Expansion Pack (2 Panels) marque: govee prix: 27.65 quantity: 10
+part: APTHP280AE fournisseur: EET description: Toner BK, rpl CF280A marque: agfaphoto prix: 31.9 quantity: 4
+part: 22524 fournisseur: Copaco description: GXT 715 Chair mat marque: trust prix: 35.12 quantity: 55
+part: C9300L-STACK-KIT= fournisseur: techdata description: Cisco - Module d'empilage réseau (pack de 2) - pour Catalyst 9300L marque: cisco prix: 1436.7 quantity: 11
+part: 90NX0421-M02AF0 fournisseur: Acadia description: ASUS ExpertBook B1400CENT-EK4938R marque: asus prix: 708.0 quantity: 89
+part: 6ASPAT7MBL fournisseur: techdata description: StarTech.com Cable reseau Ethernet RJ45 Cat6 de 7 m - Cordon de brassage blinde Cat 6 STP sans crochet - Fil Gigabit bleu (6ASPAT7MBL) - Cordon de raccordement - RJ-45 (M) pour RJ-45 (M) - 7 m - STP - CAT 6a - moulé, sans crochet - bleu marque: startech prix: 26.99 quantity: 1
+part: W2174EU1N fournisseur: Difox description: Amazfit GTR Mini noir marque: amazfit prix: 88.4 quantity: 5
+part: H5GG0E fournisseur: macle description: EPACK 5YR PCA CDMR 7030-K12 marque: hewlett packard enterprise prix: 50206.0 quantity: 50
+part: KBBTPC1 fournisseur: Also description: TNB K-BLUE Bluetooth 3.0 Keyboard Compact And Slim Bluetooth Keyboard 78 Keys Designed To Connect To Computers And Tablets marque: t'nb prix: 14.41 quantity: 27
+part: MSPPXMI-DFA0009 fournisseur: EET description: SURFACE PRO 5 / PRO 6 LCD marque: coreparts prix: 111.0 quantity: 3
+part: RM2-5452-000CN fournisseur: EET description: Tray 2 Paper Pick-Up Roller marque: hp prix: 15.3 quantity: 206
+part: SM-X510NLGEEUB fournisseur: PCA description: Samsung Galaxy Tab S9FE 10.9'' WIFI 256Go Vert d'eau RAM 8Go Android 13  2304x14 marque: samsung prix: 461.42 quantity: 46
+part: 76N-03085 fournisseur: terra computer description: MS OVS Sharepoint EE D-CAL Lic/SA ADD 1Y GOV [D] marque: microsoft prix: 34.0 quantity: 100
+part: 1102TF3NL0 fournisseur: Kosatec description: L Kyocera ECOSYS M3145dn S/W-Laserdrucker 3in1 A4 LAN Duplex ADF marque: kyocera prix: 847.39 quantity: 9
+part: 5PS7A07808 fournisseur: macle description: 3Y NBD PRE FDN + YDYD marque: lenovo prix: 1036.0 quantity: 50
+part: U1ZK2E fournisseur: macle description: EPACK 3YR 8206 ZL SWT PRM SW F marque: hewlett packard enterprise prix: 4607.0 quantity: 50
+part: CFQ7TTC0P4WT-0009-1M1M fournisseur: terra computer description: CSP Microsoft Cloud PKI (Education Student Pricing) [1M1M] marque: microsoft prix: 0.28 quantity: 100
+part: 687242-001 fournisseur: macle description: HPE HEATSINK ASSEMBLY FOR DL320E G8 marque: hewlett packard enterprise prix: 29.0 quantity: 9
+part: CON-ECMU-LICCUCHM fournisseur: Also description: CISCO SWSS UPGRADES UC Manager-12.x Enhanced Single User Lic - Duration: 12 Months marque: cisco prix: 39.84 quantity: 100
+part: 60.1004 fournisseur: Difox description: TFA 60.1004 RÃ©veil Best friends marque: tfa-dostmann prix: 5.25 quantity: 7
+part: 4260709019956 fournisseur: Difox description: Rivacase 7523 Sac Ã  dos laptop 13.3-14  ECO gris marque: rivacase prix: 21.06 quantity: 4
+part: CBS110-5T-D-EU fournisseur: techdata description: Cisco Business 110 Series 110-5T-D - Commutateur - non géré - 5 x 10/100/1000 - de bureau, Montable sur rack, fixation murale - Tension CC marque: cisco prix: 49.14 quantity: 326
+part: 3-06397-10 fournisseur: macle description: LABEL LTO6 BAR CODE marque: diverse hersteller prix: 50.0 quantity: 3
+part: 2P-IN3T16GRAHKX2 fournisseur: psaparts description: 0 marque:  prix: 2.0 quantity: 20
+part: 702213-B21 fournisseur: macle description: HP IB FDR 2P 545M ADPTR marque: hewlett packard enterprise prix: 39.0 quantity: 36
+part: 2608619266 fournisseur: Difox description: Bosch X-LOCK Disque Ã  tronÃ§onner 10x115x1mm standard INOX marque: bosch prix: 4.9 quantity: 10
+part: 01GC014 fournisseur: macle description: 3YR TECH INSTALL NBD marque: lenovo prix: 285.0 quantity: 50
+part: PRICPFI120BK fournisseur: Supplies24 description: ORIGINAL Prindo Cartouche d'encre Noir(e) PRICPFI120BK PFI-120 130ml marque: pricpfi120bk prix: 30.33 quantity: 1
+part: 11.02.8310 fournisseur: Secomp description: ROLINE Câble USB, A-MicroB,M/M, 0,15m marque: roline prix: 1.5 quantity: 1090
+part: CN80-CB-CNV-0 fournisseur: Ingram description: CN80 4 BAY CHARGE BASE marque: honeywell prix: 417.94 quantity: 4
+part: 01KN507 fournisseur: macle description: LENOVO CTR RAID 930-8i 2GB FLASH 12G marque: lenovo prix: 275.0 quantity: 1
+part: M321RYGA0BB0-CQK fournisseur: terra computer description: RAM DDR5 REG  96GB/PC4800/ECC/Samsung (2Rx4) marque: samsung prix: 475.0 quantity: 50
+part: P-U86TRPP fournisseur: Also description: HP Poly 1yr Poly PrivateConnect powered by Pexip-ERM option license-1 per endpoint Subscription TermRequires U71V1PXand Install SKU marque: hp inc. prix: 35.86 quantity: 100
+part: 1950-79 fournisseur: EET description: Link 950 USB-A, USB-A & USB-C marque: jabra prix: 97.8 quantity: 1
+part: U5X49E fournisseur: techdata description: Electronic HP Care Pack Next Day Exchange Hardware Support - Contrat de maintenance prolongé - remplacement - 4 années - expédition - temps de réponse : NBD - pour ScanJet Enterprise 7000 s2, Enterprise Flow 7000 s3 marque: hp prix: 328.0 quantity: 9876
+part: 10006995-5K fournisseur: Ingram description: Z-BAND DIRECT ADULT 25X279MM marque: zebra prix: 241.24 quantity: 4
+part: 42T4432 fournisseur: EET description: Adapter 90 Watt (EU1) marque: lenovo prix: 45.6 quantity: 25
+part: HS7T7E fournisseur: Ingram description: HPE 3Y TC CRIT WCDMR DL360 marque: hpe prix: 5181.94 quantity: 9999
+part: KVR26N19S8/8 fournisseur: ecp description: Integration/5- Mémoire/DIMM DDR4/1- Standard marque: kingston prix: 16.9 quantity: 1
+part: 0611910007 fournisseur: Difox description: Bosch GBH 18V-26 F Batterie du Marteau Perforateur marque: bosch prix: 397.1 quantity: 20
+part: C13T664240 fournisseur: Kosatec description: TIN Epson Tinte 664 EcoTank C13T664240 Cyan bis zu 7.500 Seiten marque: epson prix: 7.31 quantity: 2
+part: U4VD6E fournisseur: techdata description: HPE Foundation Care Next Business Day Exchange Service - Contrat de maintenance prolongé - remplacement - 1 année - expédition - 9x5 - temps de réponse : NBD marque: hewlett packard enterprise prix: 205.0 quantity: 9876
+part: CFQ7TTC0MJ3G-0001-1J1J fournisseur: terra computer description: CSP Teams Essentials and Teams Phone with domestic calling [1J1J] marque: microsoft prix: 185.07 quantity: 100
+part: D9Y32AA#ABD fournisseur: psaparts description: Ultraslim Docking Station includes power cable. For EU. marque: hp prix: 78.43 quantity: 3
+part: D7RNC fournisseur: macle description: DELL PSU 1755W FOR POWERVAULT MD3060 marque: dell prix: 82.0 quantity: 15
+part: GLB251407 fournisseur: EET description: PLA 2,85mm 1KG  Dark Green marque: gearlab prix: 15.9 quantity: 1
+part: TXTHPCF360X MCVP fournisseur: Supplies24 description: ORIGINAL Tonex Multipack Noir(e) / Cyan / Magenta / Jaune TXTHPCF360X MCVP 508X ~41000 Seiten marque: txthpcf360x mcvp prix: 111.1 quantity: 1
+part: U86Q7X fournisseur: Also description: HP 3 year Societe Generale Prof MIS Service marque: hp inc. prix: 2.04 quantity: 100
+part: 008R13326 fournisseur: Topus description: 095205068979 marque: xerox supplies prix: 11.0 quantity: 25
+part: HH9W2E fournisseur: techdata description: HPE Foundation Care 24x7 Service - Contrat de maintenance prolongé - pièces et main d'oeuvre (pour contrôleur) - 1 année - sur site - 24x7 - temps de réponse : 4 h - pour P/N: JX925A, JX926A, JX927A, JX927AR, JX928A, JX928AR marque: hewlett packard enterprise prix: 567.0 quantity: 9876
+part: 01LV488 fournisseur: EET description: Screw Tape Kit marque: lenovo prix: 19.2 quantity: 1
+part: 5SS0V15985 fournisseur: EET description: Liteon CL1-4D128 128GB M.2PCIe marque: lenovo prix: 84.3 quantity: 14
+part: 6ZA17AE fournisseur: Supplies24 description: ORIGINAL HP Tte d'impression Noir(e) 6ZA17AE Tte d?impression noire 6ZA17AE marque: 6za17ae prix: 10.92 quantity: 1
+part: U8ZF0E fournisseur: macle description: EPACK 4YR NBDCHNLRMTPRT LJ M52 marque: hp inc. prix: 455.0 quantity: 50
+part: MFCJ4340DWERE1 fournisseur: Also description: BROTHER MFCJ4340DWE ECOPRO Inkjet Multifunction Printer 4in1 20/19ppm 1200x2400dpi marque: brother prix: 144.7 quantity: 25
+part: SP3022-DEMEA fournisseur: Copaco description: Dell Speakerphone SP3022 marque: dell prix: 62.4 quantity: 4
+part: ACC-MBO-KT-AX fournisseur: Ingram description: ADAPTOR BRACKET FOR OUTDOOR marque: extreme networks prix: 70.15 quantity: 2
+part: 82 01 200 fournisseur: Difox description: KNIPEX Pince Ã  prÃ©hension frontale marque: knipex prix: 14.59 quantity: 50
+part: WT220CL fournisseur: PCA description: BROTHER récup. toner HL3140CW marque: brother prix: 14.45 quantity: 13
+part: FSP:GBTS20Z00DEDT2 fournisseur: macle description: SP EXT 12M OS/9X5/NBD RT marque: fujitsu prix: 54.0 quantity: 50
+part: Spoiler fournisseur: ecp description: Integration/2- Boitier/5- VENTILATION marque: maxcube prix: 5.0 quantity: 1
+part: HP5Y8E fournisseur: techdata description: HPE Foundation Care Next Business Day Service - Contrat de maintenance prolongé - pièces et main d'oeuvre - 1 année - sur site - 9x5 - temps de réponse : NBD - universitaire, pour les particuliers - pour P/N: JD239B, JD239BC, JD239BR, JD239C, JD239CR, JG5 marque: hewlett packard enterprise prix: 1294.0 quantity: 9876
+part: C5F98-60111 fournisseur: EET description: Adf/Scanner Assy Duplex marque: hp prix: 176.1 quantity: 14
+part: AK-300137-018-S fournisseur: Difox description: DIGITUS CÃ¢ble USB Type-C Type-C- mikro B Ver. USB 2.0 marque: digitus prix: 4.29 quantity: 7
+part: VO-W1-100/140 fournisseur: Secomp description: Etrier métallique 140x100 mm côté par 10 marque: conteg prix: 54.88 quantity: 3
+part: GLBG21477268 fournisseur: EET description: Gold Privacy Filter 21.5" marque: gearlab prix: 36.9 quantity: 7
+part: 5P850IR fournisseur: Ingram description: 5P 850I RACK1U- LINE IN marque: eaton prix: 400.0 quantity: 7
+part: 501126 fournisseur: Difox description: Proficook PC-SV 1126 PC Sous-vide marque: proficook prix: 61.21 quantity: 2
+part: TSS984GL fournisseur: Also description: TARGUS Education Work-in 13.3p C/Shell Bag marque: targus prix: 15.22 quantity: 7
+part: 106R03480 fournisseur: Supplies24 description: ORIGINAL Xerox Toner Noir(e) 106R03480 ~5500 Seiten marque: 106r03480 prix: 128.93 quantity: 1
+part: SU963A fournisseur: Ingram description: SA MLT-D205L H-YIELD BLK TONER marque: hp inc. prix: 94.6 quantity: 4
+part: 2965B001 fournisseur: Topus description: 4960999579993 marque: canon supplies prix: 209.0 quantity: 1
+part: 74C20M0 fournisseur: Supplies24 description: ORIGINAL Lexmark Toner Magenta 74C20M0 ~3000 Seiten marque: 74c20m0 prix: 116.85 quantity: 1
+part: TS-963X-8G fournisseur: macle description: TS-963X-8G 5+4 BAY 2.0GHZ QC 8 marque: qnap prix: 970.0 quantity: 9
+part: 7B0N9EA#ABF fournisseur: techdata description: HP Elite 800 G9 - SFF - Core i9 13900 / jusqu'à 5.6 GHz - vPro - RAM 16 Go - SSD 1 To - NVMe - graveur de DVD - T400 - Gigabit Ethernet - Win 11 Pro - moniteur : aucun - clavier : Français marque: hp prix: 2204.0 quantity: 9
+part: U3FW8E fournisseur: macle description: EPACK 3YR 24X7 HP MSR931 RTR marque: hewlett packard enterprise prix: 275.0 quantity: 50
+part: 21.99.0861 fournisseur: convena description: VALUE S/FTP (PiMF) PatchCord Cat.6A/Class EA Gre.. marque: value prix: 1.43 quantity: 10
+part: R8W31A fournisseur: Also description: HPE Aruba Instant On 802.3af POE Midspan marque: aruba prix: 32.4 quantity: 5
+part: 40X1883 fournisseur: eparts description: PICK ROLL ASSY:PICK ROLL marque: lexmark prix: 3.2 quantity: 9
+part: Z17HXA14VGT283BE fournisseur: Copaco description: 17i QHD+ 165 Hz 100% DCI-P3 Finger/Pen Touch / Intel Core i9-14900HX / 4070 8GBGDDR6 / 32GB*2 DDR5-5600 / 2TB NVMe PCIe GEN4x4 SSD / W11 Pro AZERTY BE marque: msi prix: 4899.9 quantity: 9
+part: H1ZW7E fournisseur: techdata description: HPE Foundation Care Call-To-Repair Service with Comprehensive Defective Material Retention - Contrat de maintenance prolongé - pièces et main d'oeuvre - 4 années - sur site - 24x7 - délai de réparation : 6 heures - pour P/N: JL254A#ABB, JL254A#ACC, JL254A marque: hewlett packard enterprise prix: 4147.0 quantity: 9876
+part: 906.0217 fournisseur: Secomp description: BACHMANN STEP ALU 2xUTE 2xCM GST18 marque: bachmann prix: 40.72 quantity: 1
+part: JVASWI00027 fournisseur: Also description: STEELPLAY Mini Dock Adapteur USB-C/HDMI SWITCH marque: steelplay prix: 13.98 quantity: 100
+part: CE820-ATA-G fournisseur: Tarox description: ATEN CE820 USB HDMI HDBaseT 2.0 KVM Extender marque: aten prix: 0.0 quantity: 4
+part: RP000635080 fournisseur: EET description: 4GB PC3-12800 DDR3 1600 SODIMM marque: hewlett packard enterprise prix: 32.7 quantity: 1
+part: 5PS0N74187 fournisseur: techdata description: Lenovo Onsite + Keep Your Drive + Premier Support - Contrat de maintenance prolongé - pièces et main d'oeuvre - 3 années - sur site - temps de réponse : NBD - pour ThinkPad P1 Gen 4 20Y4, T14 Gen 2 20W0, T14s Gen 1 20UJ, T14s Gen 3 21BS marque: lenovo prix: 221.0 quantity: 9876
+part: 7030 fournisseur: Difox description: Pica Fine-Dry Kit de mines HB marque: pica-marker prix: 2.77 quantity: 20
+part: 4386 fournisseur: Difox description: Herma Etiq. rondes amov.    20mm 25f. DIN A4 2400 piÃ¨ces     4386 marque: herma prix: 6.27 quantity: 10
+part: CT40-CB-UVN-0 fournisseur: Jarltech description: Honeywell charging station, 4 slot marque: honeywell prix: 323.63 quantity: 3
+part: BE-USB2-CDSL-06 fournisseur: MCA description: Connectland - Boîtier externe USB 2.0 pour graveurs slim SATA CDSL-06. marque: connectland prix: 7.9 quantity: 5
+part: C13T01D300 fournisseur: Siewert & Kau description: Epson - XXL size - magenta - original - ink pack marque: epson prix: 80.48 quantity: 8
+part: HM0M0E fournisseur: techdata description: HPE Foundation Care Next Business Day Exchange Service - Contrat de maintenance prolongé - remplacement - 1 année - expédition - 9x5 - temps de réponse : NBD - universitaire, pour les particuliers - pour P/N: R4G99A, R4H00A, R4H01A, R4H02A, R4H03A, R4H03A marque: hewlett packard enterprise prix: 55.0 quantity: 9876
+part: ALT0775A fournisseur: psaparts description: 11 marque:  prix: 2.0 quantity: 29
+part: FSP:GD3S60Z00DESTC fournisseur: macle description: SP 3Y OS 9X5 4H RT marque: fujitsu prix: 4926.0 quantity: 50
+part: HA1S1E fournisseur: techdata description: HPE Foundation Care 4-Hour Exchange Service - Contrat de maintenance prolongé - remplacement - 4 années - expédition - 24x7 - temps de réponse : 4 h - volume, Tier 1 - pour HPE Aruba AP-334 marque: hewlett packard enterprise prix: 309.0 quantity: 9876
+part: 81Y9323 fournisseur: macle description: IBM CPU XE QC 1.60GHz E5603 1066MHz 4MB marque: ibm prix: 89.0 quantity: 39
+part: 2P-LTN156AT24-401 fournisseur: psaparts description: 26 marque:  prix: 2.0 quantity: 41
+part: 013R00659 fournisseur: Imcopex description: Xerox Drum Trommel 7120 Magenta (013R00659) marque: xerox prix: 93.48 quantity: 51
+part: VFY:R1335SC033IN fournisseur: Copaco description: PY RX1330M5/SFF/HP PSU / marque: fujitsu technology solut. prix: 1291.16 quantity: 3
+part: B-EPEN-L2-AF fournisseur: Also description: ESET Protect Enterprise New 2 years 250-499p marque: eset prix: 56.78 quantity: 100
+part: MMI1009/4GB fournisseur: EET description: 4GB Memory Module for IBM marque: coreparts prix: 77.4 quantity: 7
+part: CPE210 fournisseur: Copaco description: CPE210 Outdoor 2.4GHz 300Mbps High power Wireless Access Point upto 27dBm 2.4Ghz 802.11b/g/n High Sensitivity 9dBi directional antenna Weather proof Passive PoE marque: tp-link prix: 30.54 quantity: 4
+part: U7EG6E fournisseur: macle description: EPACK 5YR FC 24X7 5130 48G marque: hewlett packard enterprise prix: 3822.0 quantity: 50
+part: 2607002836 fournisseur: Difox description: Bosch Coffret de 42 embouts de vissage de prÃ©cision marque: bosch prix: 20.57 quantity: 50
+part: B-EPMP-L1-AC fournisseur: Also description: ESET Protect Mail Plus New 1 year 26-49p marque: eset prix: 13.84 quantity: 100
+part: P-U95FSPV fournisseur: Also description: HP Poly 1yr Poly+ FRURAD Group 310 720p with EagleEye Acoustic Camera-Government Agency Use only-Certain Restriction marque: hp inc. prix: 344.64 quantity: 100
+part: 77-95404 fournisseur: MGF description: OtterBox React Samsung Galaxy A35 5G - black - ProPack marque: otterbox prix: 9.26 quantity: 11
+part: HD2692/90 fournisseur: Difox description: Philips HD 2692/90 marque: philips prix: 39.18 quantity: 10
+part: 11553 fournisseur: Difox description: Rapoo XC105 noir Chargeur QI sans fil marque: rapoo prix: 8.07 quantity: 4
+part: 55318 fournisseur: Difox description: Verbatim 3D Printer Filament PLA 1,75mm 1kg noir marque: verbatim prix: 17.94 quantity: 10
+part: 320148 fournisseur: Difox description: Smoby Valise cosmÃ©tique My Beauty marque: smoby prix: 19.37 quantity: 10
+part: FRU04Y0911 fournisseur: EET description: Keyboard (FRENCH) marque: lenovo prix: 78.9 quantity: 21
+part: 2218424 fournisseur: Ingram description: EPSON PUSB Y CABLE: PWR-USB TO marque: epson prix: 40.02 quantity: 63
+part: HDM1919C3 fournisseur: EET description: HDMI High Speed mini cable, 3m marque: microconnect prix: 6.6 quantity: 37
+part: CEF27UK fournisseur: psaparts description: 0 marque:  prix: 0.0 quantity: 19
+part: LS27BG650EUXEN fournisseur: Imcopex description: Samsung ODYSSEY G6 27 Flachbildschirm (TFT LCD) 27"" (LS27BG650EUXEN) marque: samsung prix: 261.33 quantity: 5
+part: P-P736150404 fournisseur: Also description: HP Poly 3yr+ software Service Clariti Manager Appliance and Virtual Edition - 500 Audio or Content Device Licenses marque: hp inc. prix: 1944.36 quantity: 100
+part: 823951-001 fournisseur: convena description: HPI Raw Display Panel 14.0" FHD LED SVA A marque: hp inc. prix: 74.57 quantity: 35
+part: 00WX239 fournisseur: macle description: 4Y ESS SVC OS 24X7X4 marque: lenovo prix: 3007.0 quantity: 50
+part: ASK3-120GB fournisseur: Siewert & Kau description: Apricorn Aegis Secure Key 3.0 - USB flash drive - 120 GB marque: apricorn prix: 177.82 quantity: 15
+part: 305001 fournisseur: Ingram description: HDMI CONNECTION M - HDMI M 1.5M marque: dcu tecnologic prix: 1.77 quantity: 46
+part: 1P8D1 fournisseur: macle description: DELL NIC PRO/1000 PT 2-PORT marque: dell prix: 27.0 quantity: 4
+part: 5449C026 fournisseur: Also description: CANON PIXMA TS7451i Inkjet Multifunction Printer 13ppm marque: canon prix: 67.9 quantity: 94
+part: JL086A fournisseur: Ikonic description: Aruba X372 54VDC 680W PS marque: jl086a prix: 0.0 quantity: 1
+part: MYSAFEU312 fournisseur: Also description: I-TEC MySafe Advance AluBasic 2.5p USB 3.0 Case 6.4cm 2.5p SATA HDD HDD external Enclosure SuperSpeed Black Aluminium marque: i-tec prix: 6.2 quantity: 49
+part: CFQ7TTC0MBMD-001P-1J1M fournisseur: terra computer description: CSP Microsoft 365 F1 EEA (no Teams) [1J1M] marque: microsoft prix: 1.32 quantity: 100
+part: DS-2CD2183G2-I(2.8MM) fournisseur: EET description: DS-2CD2183G2-I(2.8mm) marque: hikvision prix: 129.88 quantity: 87
+part: 6VC-00761 fournisseur: terra computer description: MS OVL Win RDS U-CAL SA ADD 1Y2Y [NL] marque: microsoft prix: 34.5 quantity: 100
+part: 0481C002* fournisseur: Arles description: Canon Toner C-EXV 51 Black  - CHIPLESS marque: canon prix: 0.0 quantity: 10
+part: TBA3-600C150M-EM fournisseur: techdata description: Routeur Mobile LTE/4G - WAN Connectivity:4G Cat 4, GbE - LAN Connectivity:Wi-Fi 4, GbE - Firewall Throughput:75 Mbps - Management:NetCloud marque: cradlepoint prix: 732.49 quantity: 9876
+part: S-6AUTP-05R fournisseur: convena description: ProXtend Ultra Slim CAT6A U/UTP CU LSZH Ethernet.. marque: proxtend prix: 3.62 quantity: 80
+part: 45N0306 fournisseur: EET description: Adapter 90 Watt (EU1) marque: lenovo prix: 43.3 quantity: 25
+part: AP9879 fournisseur: Ingram description: POWER CORD marque: apc prix: 49.23 quantity: 28
+part: FW3L3_3PS5PS fournisseur: Ingram description: 3Y PROSPT TO 5Y PROSPT marque: dell emc prix: 78.42 quantity: 9999
+part: KT-70147-01R fournisseur: EET description: Belt Clip marque: zebra prix: 11.7 quantity: 3
+part: C11CG19401 fournisseur: ecp description: Peripheriques/Imprimantes/Multifonction/Jet d encre marque: epson prix: 328.0 quantity: 1
+part: EX6130-100FRS fournisseur: Ingram description: AC1200 WLAN RANGE EXTENDER DB marque: netgear prix: 54.76 quantity: 11
+part: MSNX1021 fournisseur: EET description: NGFF M.2 to MacBook Pro marque: coreparts prix: 14.1 quantity: 5
+part: 9SXEBM72R fournisseur: Tarox description: EATON Batteriepaket für 9SX 2000/3000VA Rack marque: eaton power quality prix: 0.0 quantity: 2
+part: N7-Pro-W4-S4 fournisseur: Jarltech description: Newland N7 Cachalot Pro II, 2D, 10.5 cm (4''), GPS, USB-C, BT, WiFi, 4G, NFC, Android, en kit (USB), GMS marque: newland prix: 837.85 quantity: 5
+part: 2P-ADP-45DW.DA fournisseur: psaparts description: AC Adapter 19V 2.37A 45W includes power cable marque: 2-power prix: 46.51 quantity: 6
+part: 40623 fournisseur: convena description: Lindy Port Blocker Key USB Type A Orange marque: lindy prix: 14.86 quantity: 3
+part: WCB002VFWH fournisseur: techdata description: Belkin chargeur secteur double USB-A 12W x2, blanc marque: belkin prix: 19.99 quantity: 49
+part: CL25-540BL1 fournisseur: convena description: Neomounts by Newstar projector ceiling mount marque: neomounts by newstar prix: 63.35 quantity: 3
+part: MU-PC1T0T/WW fournisseur: macle description: SSD PORTABLE T7 1TB marque: samsung prix: 80.0 quantity: 35
+part: KL4542XAEDR fournisseur: ecp description: Integration/8- Logiciel/2- LOGICIEL ANTIVIRUS/2- Licence marque: kaspersky prix: 28.64 quantity: 1
+part: 2P-FUJ:CP298058-01 fournisseur: psaparts description: 30 marque:  prix: 2.0 quantity: 24
+part: 2969B001 fournisseur: Octant description: CANON Cartouche Encre PG512 Photo Noir 400 pages marque: can2969b001 prix: 15.98 quantity: 15
+part: LC1220C fournisseur: Siewert & Kau description: Brother LC1220C - cyan - original - ink cartridge marque: brother prix: 7.6 quantity: 85
+part: CK65-L0N-BLN210E fournisseur: Jarltech description: Honeywell CK65, 2D, LR, 10.5 cm (4''), alpha, BT, WiFi, NFC, Android, GMS marque: honeywell prix: 1624.59 quantity: 4
+part: B-EPAOP-R3-AD fournisseur: Also description: ESET Protect Advanced On-Prem Renew 3 years 50-99pp marque: eset prix: 45.58 quantity: 100
+part: DELL-U3223QE fournisseur: macle description: DELL MONITOR ULTRASHARP U3223QE marque: dell prix: 655.0 quantity: 24
+part: PROTEAMS31 fournisseur: Also description: HP Poly PBX migration to Microsoft Teams or Zoom based on per extension above 20k marque: hp inc. prix: 20.64 quantity: 100
+part: C9408A fournisseur: Siewert & Kau description: HP 70 - blue, green - printhead marque: x-artikel prix: 65.96 quantity: 1
+part: D9L20A fournisseur: Ikonic description: HP OfficeJet Pro 8730 All-in-O marque: d9l20a prix: 0.0 quantity: 12
+part: PB634-3-WW fournisseur: Copaco description: PocketBook Verse Pro - Passion Red marque: pocketbook prix: 130.58 quantity: 112
+part: S-6AUTP-02B fournisseur: convena description: ProXtend Ultra Slim CAT6A U/UTP CU LSZH Ethernet.. marque: proxtend prix: 1.63 quantity: 100
+part: 4GD73AA/A-R4 fournisseur: flexit description: iPhone 12 Pro Max 128GB 6.7" Graphite No Accessories marque: apple prix: 429.0 quantity: 4
+part: 360027 fournisseur: Difox description: Doro Primo 418 graphite marque: doro prix: 65.54 quantity: 6
+part: 3JA30AE fournisseur: terra computer description: Tinte HP OfficeJet Pro 90xx Black 3JA30AE HP 963XL Black/2,000 Seiten marque: hewlett packard prix: 34.9 quantity: 100
+part: GOUV-B-EPA-R1-AB fournisseur: Also description: ESET GOUV Protect Advanced Renew 1 year 11-25p marque: eset prix: 20.33 quantity: 100
+part: 873036-001 fournisseur: EET description: 1.2TB SAS 12G 10K SFF DS ST marque: hewlett packard enterprise prix: 227.1 quantity: 23
+part: U8TH2PE fournisseur: Copaco description: HP 1y PW Nbd Exch SJ Pro 2500 Service Scanjet Pro 2500 1 yr post wrrnty Exchange SVC. HP ships replacement next bus d 8am-5pm Std bus d excl HP hol. HP pre-pays marque: hp printing & computing prix: 71.11 quantity: 178
+part: HP4C9E fournisseur: techdata description: HPE Foundation Care 4-Hour Exchange Service - Contrat de maintenance prolongé - remplacement - 4 années - expédition - 24x7 - temps de réponse : 4 h - universitaire, volume, Tier 2, pour les particuliers - pour P/N: JL354-61001, JL354A#ABA, JL354A#ABB, JL marque: hewlett packard enterprise prix: 337.0 quantity: 9876
+part: H3AA0E fournisseur: macle description: EPACK 5YR PCA 24X7 7005 CTR marque: hewlett packard enterprise prix: 14666.0 quantity: 50
+part: 141H7AA fournisseur: EET description: 32GB 1x32GB 3200 DDR4 ECC marque: hp prix: 105.6 quantity: 3
+part: 24G2ZU/BK fournisseur: Ingram description: 24G2ZU/BK 23.8IN IPS FHD 240HZ marque: aoc prix: 201.06 quantity: 30
+part: H6RN3E fournisseur: techdata description: HPE Foundation Care Software Support 24x7 - Support technique - pour HPE Intelligent Management Center Standard Software Platform - 50 n?uds - ESD - support téléphonique - 4 années - 24x7 - temps de réponse : 2 h marque: hewlett packard enterprise prix: 2505.0 quantity: 9876
+part: SDSQXAV-256G-GN6MA fournisseur: techdata description: SanDisk Extreme - Carte mémoire flash (adaptateur microSDXC vers SD inclus(e)) - 256 Go - A2 / Video Class V30 / UHS-I U3 / Class10 - microSDXC UHS-I marque: sandisk prix: 49.31 quantity: 51
+part: UTP5E-3M fournisseur: Ingram description: ECO PATCH CABLE CAT 5E U/UTP marque: mcl samar micro cabl prix: 0.66 quantity: 17
+part: ML12754 fournisseur: EET description: Projector Lamp for Vivitek marque: coreparts prix: 91.35 quantity: 9
+part: 815102-H21 fournisseur: macle description: 128GB 8Rx4 PC4-2666V-L Sm STOC marque: hewlett packard enterprise prix: 1970.0 quantity: 4
+part: L44538-001 fournisseur: EET description: Touch Pad marque: hp prix: 67.2 quantity: 2
+part: 2P-EADP-60KB B fournisseur: psaparts description: 22 marque:  prix: 2.0 quantity: 16
+part: ST1800MM0129 fournisseur: terra computer description: Seagate HD2.5" SAS3 1.8TB ST1800MM0129/10k/512e~~~ Warranty / Garantie via Wortmann marque: seagate prix: 165.0 quantity: 100
+part: 404024-001 fournisseur: macle description: HEWLETT-PACKARD HP 80GB SATA 7.200RPM 3.5 marque: hewlett packard enterprise prix: 69.0 quantity: 4
+part: 21.99.1024 fournisseur: Secomp description: Cordon VALUE UTP Cat6/Cl. E, LSOH, bleu, 0,5m marque: value prix: 0.56 quantity: 417
+part: CFQ7TTC0HVZW-000J-1J1J fournisseur: terra computer description: CSP Priva Subject Rights Requests (10) [1J1J] marque: microsoft prix: 1543.92 quantity: 100
+part: RZ01-03850200-R3M1 fournisseur: MGF description: RAZER  Souris gaming filaire DeathAdder Essential - forme ergonomique, 5 boutons marque: razer prix: 28.35 quantity: 717
+part: APTBTN2120E fournisseur: Supplies24 description: ORIGINAL Agfa Photo Toner Noir(e) APTBTN2120E ~2600 Seiten Agfa Photo TN-2120 marque: aptbtn2120e prix: 15.66 quantity: 1
+part: 2P-FUJ:CP615308-XX fournisseur: psaparts description: 15 marque:  prix: 2.0 quantity: 40
+part: HJ7M1E fournisseur: Ingram description: ARUBA 3Y FC NBD EXCH HW 9004 marque: hpe prix: 142.9 quantity: 9999
+part: 43X3316 fournisseur: macle description: IBM PSU 900 WATT HIGH EFFICIENCY marque: ibm prix: 29.0 quantity: 4
+part: AHWF4112C0N fournisseur: MGF description: ELEVATE Toner pour CF411X marque: elevate prix: 109.2 quantity: 2
+part: 438628-001 fournisseur: macle description: 438628-001 HP 72GB 10K SP SFF SAS HDD marque: hewlett packard enterprise prix: 69.0 quantity: 15
+part: LC-NB-GAN-90-C fournisseur: Siewert & Kau description: NB ACC LC-Power LC-NB-GAN-90-C 90W marque: lc-power prix: 14.67 quantity: 15
+part: P-P21120114 fournisseur: Also description: HP Poly 1yr+ Onsite RMX 2000/MPMRx IP only 30x1080p60/60x1080p30/120x720p/240xSD resource config and lic sys marque: hp inc. prix: 94563.06 quantity: 100
+part: H3FP3PE fournisseur: macle description: EPACK 12 PLUS FC 24X7 7220 CTR marque: hewlett packard enterprise prix: 14155.0 quantity: 50
+part: C13T79114010 fournisseur: Also description: EPSON 79 cartouche dencre noir capacité standard 14.4ml 900 pages pack de 1 marque: epson prix: 19.37 quantity: 2
+part: CFQ7TTC0LFDZ-001J-1J1J fournisseur: terra computer description: CSP Dynamics 365 Customer Service Enterprise (Education Faculty Pricing) [1J1J] New Commerce marque: microsoft prix: 453.71 quantity: 100
+part: UL9066001 fournisseur: eparts description: PAPER PICK UP ROLLER ASSY marque: brother prix: 12.4 quantity: 1
+part: CF400X fournisseur: EET description: Toner Black 201X marque: hp prix: 103.3 quantity: 3
+part: MODERN14C13M423BE fournisseur: Copaco description: 14i FHD 60Hz thin bezel/i5-1335U / 8GB / 512GB SSD (NVMe PCIe Gen3x4 ) / x x x / W11 marque: msi prix: 1003.65 quantity: 2
+part: 8750002078 fournisseur: Difox description: Bosch Smart Home Interrupteur Ã©clairage/volets roulants II marque: bosch prix: 56.74 quantity: 10
+part: 912-V390-255 fournisseur: Acadia description: MSI RTX 3060 GAMING Z TRIO 12G marque: msi prix: 355.3 quantity: 20
+part: RA0631B fournisseur: psaparts description: 31 marque:  prix: 0.0 quantity: 28
+part: 2P-L32407-AC1 fournisseur: psaparts description: 0 marque:  prix: 2.0 quantity: 30
+part: 7000 fournisseur: Secomp description: GUDE capteur de température p. EMC Prof NET 19 marque: gude prix: 58.36 quantity: 3
+part: FSP:G-SW3GX60PRE0B fournisseur: macle description: SP 3Y TS SUBundUPGR 9X5 4H RT marque: fujitsu prix: 6550.0 quantity: 50
+part: RL1-1206-000CN fournisseur: convena description: HPI ROLLER. PICK-UP marque: hp inc. prix: 3.49 quantity: 1
+part: U4AF1E fournisseur: techdata description: HPE Foundation Care Software Support 24x7 - Support technique - pour HPE Intelligent Management Center User Authentication Manager Software - support téléphonique - 1 année - 24x7 - temps de réponse : 2 h marque: hewlett packard enterprise prix: 104.0 quantity: 9876
+part: 5307302 fournisseur: Also description: FELLOWES IL LAMINATING POUCH A5 125MIC 100PK marque: fellowes prix: 11.09 quantity: 5
+part: C13T33314012 fournisseur: Also description: EPSON Cartouche Oranges Encre Claria Premium Noir marque: epson prix: 13.44 quantity: 8
+part: 943-000805 fournisseur: Also description: LOGITECH G740 - N/A - EER2 marque: logitech prix: 29.16 quantity: 3
+part: C13T26214012 fournisseur: Octant description: EPSON Cartouche Ours Polaire 26XL Encre Claria Premium Noir 12,2ml marque: epst262140 prix: 16.58 quantity: 1
+part: UTP603Y fournisseur: EET description: U/UTP CAT6 3M Yellow LSZH marque: microconnect prix: 2.4 quantity: 356
+part: U05GNE fournisseur: Also description: HP 4 years Wolf Protect and Trace Hardware Support marque: hp inc. prix: 13.91 quantity: 100
+part: WECOQTPUI582019 fournisseur: PCA description: WE Coque de protection TPU APPLE IPHONE 11 PRO Transparent marque: we prix: 3.3 quantity: 327
+part: DS423+/2G/16T-WDRED+/ASSEMBLE fournisseur: ecp description: Reseaux/Boitier NAS avec Disque/ marque: synology prix: 902.43 quantity: 1
+part: EC55BK-21B243-A6 fournisseur: Jarltech description: Zebra EC55, 8-Pin, 2D, SE4100, BT, WiFi, 4G, NFC, GPS, GMS, batt. étendue, Android marque: zebra prix: 917.17 quantity: 13
+part: 793671-B21 fournisseur: macle description: HPE HDD 6TB SAS 7.2K LFF 3.5'' marque: hewlett packard enterprise prix: 294.0 quantity: 1
+part: 9M3W4AT#UUG fournisseur: Copaco description: HP EliteBook 650 G9 UMA i5-1235U vProE 15.6 FHD 400 HD LowPower 16GB (1x16GB) DDR4 3200 512GB PCIe W11p64 1yr Wty P&R|3yr NB Service Ext On-site AZERTY BE marque: hp printing & computing prix: 780.3 quantity: 451
+part: Q1518A fournisseur: macle description: HPE LAUFWERK LTO2 ULTRIUM 460 200/400GB marque: hewlett packard enterprise prix: 99.0 quantity: 1
+part: L01028-DH1 fournisseur: EET description: Keyboard (Nordic) marque: hp prix: 70.8 quantity: 3
+part: F9K05A fournisseur: techdata description: HP 745 - 300 ml - haute capacité - noir mat - original - DesignJet - cartouche d'encre - pour DesignJet Z2600 PostScript, Z5600 PostScript marque: hp prix: 210.41 quantity: 3
+part: 21453842 fournisseur: Ingram description: NORTON SMALL BUSINESS 2.0 250GB marque: symantec prix: 44.8 quantity: 9999
+part: 2145-AH14 fournisseur: macle description: IBM 16GB FC 4-PORT CARD FOR SVC marque: ibm prix: 80.0 quantity: 28
+part: CMT32GX5M2X5600C36 fournisseur: ecp description: Integration/5- Mémoire/DIMM DDR5/2- Gamer marque: corsair prix: 348.9 quantity: 1
+part: 40AS0090DE fournisseur: EET description: ThinkPad USB-C Dock Gen2 marque: lenovo prix: 336.2 quantity: 308
+part: PB700K3-1-WW fournisseur: Copaco description: PocketBook Era Color - Stormy Sea marque: pocketbook prix: 202.35 quantity: 146
+part: nan fournisseur: terra computer description: Kabel LAN S/FTP (Patchkabel) CAT6 1m orange marque: diverse hersteller prix: 1.99 quantity: 100
+part: H3DR5E fournisseur: macle description: EPACK 1YR FC 24X7 7210 CTR marque: hewlett packard enterprise prix: 6703.0 quantity: 50
+part: 2P-B125XTN02.0 fournisseur: psaparts description: 4 marque:  prix: 2.0 quantity: 48
+part: PR18020A6 MCVP fournisseur: Supplies24 description: ORIGINAL Prindo Papier Blanc PR18020A6 MCVP Fotopapier - Glossy Paper InkJet marque: pr18020a6 mcvp prix: 7.48 quantity: 1
+part: PRIHPCN626AE fournisseur: Supplies24 description: ORIGINAL Prindo Cartouche d'encre Cyan PRIHPCN626AE 971XL ~6600 Seiten 110ml Alternatif pour HP CN626AE (971XL) marque: prihpcn626ae prix: 23.44 quantity: 1
+part: 462992 fournisseur: Secomp description: IRIScan Desk 6 Pro Dyslexic A3 marque: i.r.i.s. prix: 305.0 quantity: 4
+part: FCC7BMSHF-2M/N fournisseur: techdata description: MCL - Cordon de raccordement - RJ-45 (M) pour RJ-45 (M) - 2 m - 6.2 mm - S/FTP - CAT 7 - sans halogène, moulé, sans crochet - noir marque: mcl samar prix: 11.56 quantity: 3
+part: H7LE8E fournisseur: techdata description: HPE Foundation Care Software Support 24x7 - Support technique - pour Aruba Mobility Master Virtual Appliance - 500 clients, 50 dispositifs, 5 contrôleurs - ESD - support téléphonique - 1 année - 24x7 - temps de réponse : 2 h marque: hewlett packard enterprise prix: 296.0 quantity: 9876
+part: CFQ7TTC0HD4G-001D-1J1J fournisseur: terra computer description: CSP Dynamics 365 Human Resources Sandbox (Education Student Pricing) [1J1J] marque: microsoft prix: 4539.46 quantity: 100
+part: BRP1D300060 fournisseur: Supplies24 description: ORIGINAL Brother Rouleau de transfert thermique Noir(e) BRP1D300060 BRP-1D300-060 marque: brp1d300060 prix: 8.82 quantity: 1
+part: 820570-002 fournisseur: macle description: HPE MEM 8GB PC4-17000 DDR4-2133MHz marque: hewlett packard enterprise prix: 139.0 quantity: 3
+part: nan fournisseur: Secomp description: Cordon Cat.6A FTP blanc, 0,30m marque: secomp prix: 0.85 quantity: 917
+part: 461494-001-RFB fournisseur: EET description: 4 Gb Fiber Channelboard marque: hewlett packard enterprise prix: 211.8 quantity: 1
+part: U3PJ0E fournisseur: macle description: EPACK 5YR 4H EXCH 12900 SWTC F marque: hewlett packard enterprise prix: 61493.0 quantity: 50
+part: DY-CS3310 fournisseur: techdata description: DLH - Câble de sécurité - noir - 1.8 m marque: dlh prix: 13.87 quantity: 2
+part: FCC6ABMSHF-2M fournisseur: techdata description: MCL - Cordon de raccordement - RJ-45 (M) pour RJ-45 (M) - 2 m - SFTP - CAT 6a - sans crochet - gris marque: mcl samar prix: 9.93 quantity: 51
+part: 503296-B21 fournisseur: Ikonic description: HPE 460W CS Gold Ht Plg Power marque: 503296-b21 prix: 0.0 quantity: 20
+part: H1LL4PE fournisseur: techdata description: HPE Foundation Care Next Business Day Exchange Service Post Warranty - Extended service agreement (renewal) - remplacement - 1 année - expédition - 9x5 - temps de réponse : NBD marque: hewlett packard enterprise prix: 141.0 quantity: 9876
+part: 981-000350 fournisseur: Kosatec description: Logitech Stereo Headset H150 On Ear Klinke marque: logitech prix: 8.11 quantity: 87
+part: DS220+/2G/2Y/20T-TOSHIBAN300 fournisseur: ecp description: Reseaux/Boitier NAS avec Disque/ marque: synology prix: 783.91 quantity: 1
+part: 612557 fournisseur: Difox description: Wenger NEXT23 Crango 16 Sac Ã  dos laptop noir marque: wenger prix: 25.87 quantity: 3
+part: USB3.1CCOM16 fournisseur: EET description: USB-C Mini Dock, USB-C to marque: microconnect prix: 49.5 quantity: 106
+part: 3813430 fournisseur: Siewert & Kau description: Intenso - solid state drive - SATA 6Gb/s marque: intenso prix: 9.67 quantity: 69
+part: 22910295 fournisseur: Ingram description: CB-UK01-20A-E AC CABLE UK marque: seiko prix: 4.98 quantity: 1
+part: 2P-TPN-AA03 fournisseur: psaparts description: 9V marque: 28.73 prix: 71.0 quantity: 15
+part: C13T08034011 fournisseur: West Cost description: EPSON ENCRE M T0803 COLIBRI marque: epson supplies prix: 9.0 quantity: 69
+part: 2P-446430-001 fournisseur: psaparts description: 5 marque:  prix: 2.0 quantity: 8
+part: U9YX7E fournisseur: macle description: EPACK 4yr Nbd+DMR DesignJetZ6- marque: hp inc. prix: 948.0 quantity: 50
+part: U442-DOCK7D-B fournisseur: Ingram description: TRIPLE-MONITOR USB-C DOCK STN marque: eaton prix: 56.84 quantity: 30
+part: 0B36404 fournisseur: ecp description: Integration/6- Stockage/2- DISQUE DUR/Disque 3.5p marque: hgst prix: 195.9 quantity: 1
+part: HY4U3E fournisseur: techdata description: HPE Pointnext Tech Care Basic Service with Comprehensive Defective Material Retention - Contrat de maintenance prolongé - pièces et main d'oeuvre - 3 années - sur site - 9x5 - temps de réponse : NBD - pour P/N: P55239-B21, P55240-B21, P55241-B21, P55242-B marque: hewlett packard enterprise prix: 1953.0 quantity: 9876
+part: H4VN2PE fournisseur: macle description: EPACK 12PLUS FC NBD EXCH 7240X marque: hewlett packard enterprise prix: 9401.0 quantity: 50
+part: Z16L_1_FR_CTO fournisseur: techdata description: CTO/Mac mini/Puce M2 CPU8 GPU8 NE16/Memory 16 Go /SSD 512 Go/Gigabit Ethernet /No_Software marque: apple prix: 965.84 quantity: 8
+part: U3LH8E fournisseur: techdata description: HPE Foundation Care Call-To-Repair Service with Comprehensive Defective Material Retention - Contrat de maintenance prolongé - pièces et main d'oeuvre - 5 années - sur site - 24x7 - délai de réparation : 6 heures marque: hewlett packard enterprise prix: 190216.0 quantity: 9876
+part: U3LL3E fournisseur: macle description: EPACK 3YR CTR 1 ADV ZL MODULE marque: hewlett packard enterprise prix: 3412.0 quantity: 50
+part: 46D1351 fournisseur: macle description: IBM CPU QC XEON E5504 2.00GHz  800MHz marque: ibm prix: 89.0 quantity: 21
+part: RP000313348 fournisseur: EET description: 8100/8150 Maint Kit marque: hp prix: 173.7 quantity: 1
+part: ABSEXTWRTICO165C fournisseur: techdata description: Absen - Contrat de maintenance prolongé marque: absen prix: 1099.91 quantity: 9876
+part: D00HE2002 fournisseur: EET description: MAIN PCB:B57T177 UNIT MI2710NW marque: brother prix: 45.3 quantity: 1
+part: WESOURFILMTLBC fournisseur: PCA description: Souris filaire WE 1200DPI , USB, longeur c ble 1.5m finition métallique blanche marque: we prix: 3.52 quantity: 1253
+part: LC3235XLBK fournisseur: West Cost description: BROTHER ENCRE N 6K LC3235XLBK marque: brother supplies prix: 26.0 quantity: 74
+part: 826691-B21 fournisseur: Ikonic description: HPE DL380 Gen10 Box1/2 Cage marque: 826691-b21 prix: 0.0 quantity: 11
+part: 2P-0C17679 fournisseur: psaparts description: 8 marque:  prix: 2.0 quantity: 50
+part: CMW8GX4M1Z3200C16 fournisseur: Siewert & Kau description: CORSAIR RAM Vengeance RGB PRO - 8 GB - DDR4 3200 DIMM CL16 marque: corsair prix: 24.61 quantity: 11
+part: 4VP7C fournisseur: EET description: Cable DC-IN marque: dell prix: 18.0 quantity: 48
+part: HY4A1E fournisseur: techdata description: HPE Pointnext Tech Care Critical Service with Comprehensive Defective Material Retention - Contrat de maintenance prolongé - pièces et main d'oeuvre - 4 années - sur site - 24x7 - délai de réparation : 6 heures - pour P/N: Q9D33A marque: hewlett packard enterprise prix: 19786.0 quantity: 9876
+part: D1583820 fournisseur: Arles description: TRANSFER ROLLER:ASS'Y marque: ricoh nd prix: 16.68 quantity: 16
+part: P0420SUD0-DE fournisseur: Siewert & Kau description: CyberPower Professional Series P0420SUD0-DE - surge protector marque: cyberpower prix: 12.07 quantity: 13
+part: 90NB0B31-R7B010 fournisseur: EET description: LCD Bezel Assy marque: asus prix: 6.0 quantity: 19
+part: MW5L5_1PS3PS fournisseur: Ingram description: PRECISION 1Y PROSPT TO 3Y marque: dell emc prix: 174.21 quantity: 9999
+part: 0453C004 fournisseur: Imcopex description: Canon Cartridge CONTRACT CRG 041H Black Schwarz (0453C004) marque: canon prix: 139.58 quantity: 30
+part: 0F38459 fournisseur: ecp description: Integration/6- Stockage/2- DISQUE DUR/Disque 3.5p marque: hgst prix: 313.21 quantity: 1
+part: 100-100000061WOF fournisseur: Kosatec description: AMD AM4 Ryzen 9 12 Box WOF 5900X 3,7GHz MAX Boost 4,8GHz 12xCore 70MB 105W marque: amd prix: 287.03 quantity: 85
+part: R9861611EUB1 fournisseur: techdata description: Barco ClickShare C-10 - Commutateur marque: barco prix: 1325.0 quantity: 498

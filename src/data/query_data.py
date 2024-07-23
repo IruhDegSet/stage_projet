@@ -1,9 +1,10 @@
 import argparse
+import time  # Importer le module pour mesurer le temps
 from langchain.vectorstores.chroma import Chroma
 from langchain.prompts import ChatPromptTemplate
-from groq import Groq  # Import the Groq client
-from langchain_huggingface import HuggingFaceEmbeddings  # Import Hugging Face embeddings
-from langchain.prompts import ChatPromptTemplate  # Updated import
+from groq import Groq  # Importer le client Groq
+from langchain_huggingface import HuggingFaceEmbeddings  # Importer les embeddings Hugging Face
+from langchain.prompts import ChatPromptTemplate  # Mise à jour de l'import
 
 CHROMA_PATH = "chroma"
 
@@ -19,7 +20,7 @@ Answer the question based on the above context: {question}
 
 def get_groq_response(prompt_text: str) -> str:
     """Generate a response using Groq API."""
-    client = Groq(api_key='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')  # Replace 'YOUR_API_KEY' with your actual API key
+    client = Groq(api_key='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')  # Remplacez par votre clé API réelle
 
     completion = client.chat.completions.create(
         model="llama3-8b-8192",
@@ -37,11 +38,12 @@ def get_groq_response(prompt_text: str) -> str:
     )
 
     return completion.choices[0].message
+
 def normalize_scores(results):
     """Normalize relevance scores to be between 0 and 1."""
     normalized_results = []
     for doc, score in results:
-        normalized_score = max(0, min(1, score))  # Ensure score is between 0 and 1
+        normalized_score = max(0, min(1, score))  # Assurer que le score est entre 0 et 1
         normalized_results.append((doc, normalized_score))
     return normalized_results
 
@@ -51,7 +53,9 @@ def get_embedding_function():
 
 def query_rag(query_text: str) -> str:
     try:
-        # Préparer la fonction d'embeddingc
+        start_time = time.time()  # Début du chronométrage
+        
+        # Préparer la fonction d'embedding
         embedding_function = get_embedding_function()
         print(f"Embedding function initialized: {embedding_function}")
 
@@ -97,21 +101,25 @@ def query_rag(query_text: str) -> str:
         formatted_response = f"Response: {response_text}\nSources: {sources}"
         print(f"Formatted Response: {formatted_response}")
 
+        end_time = time.time()  # Fin du chronométrage
+        elapsed_time = end_time - start_time
+        print(f"Time taken for query: {elapsed_time:.2f} seconds")  # Afficher le temps écoulé
+
         return formatted_response
 
     except Exception as e:
         import traceback
         print(f"An error occurred in query_rag: {e}")
         print(traceback.format_exc())
+
 def main():
-    # Create CLI.
+    # Créer le CLI
     parser = argparse.ArgumentParser()
     parser.add_argument("query_text", type=str, help="The query text.")
     args = parser.parse_args()
     query_text = args.query_text
     response_text = query_rag(query_text)
     print(response_text)
-
 
 if __name__ == "__main__":
     main()

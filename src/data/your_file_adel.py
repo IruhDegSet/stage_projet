@@ -22,7 +22,7 @@ CHROMA_PATH = 'chroma_test'
 # Chargement des données CSV
 file = 'data_base.csv'
 df = pd.read_csv(file, encoding='utf-8')
-data = df.sample(10, random_state=42)
+data = df.sample(1000, random_state=42)
 data.to_csv('sample_db.csv', index=False)
 
 # Conversion des données en texte
