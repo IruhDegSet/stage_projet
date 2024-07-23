@@ -55,7 +55,7 @@ except Exception as e:
     print("Error loading documents:", e)
 
 # Définition du splitter de texte
-r_splitter = RecursiveCharacterTextSplitter(chunk_size=100, chunk_overlap=20)
+r_splitter = RecursiveCharacterTextSplitter(chunk_size=500, chunk_overlap=20)
 
 # Diviser les documents en morceaux
 try:
