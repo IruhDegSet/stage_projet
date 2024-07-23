@@ -3,6 +3,7 @@ from langchain.vectorstores.chroma import Chroma
 from langchain.prompts import ChatPromptTemplate
 from groq import Groq  # Import the Groq client
 from langchain_huggingface import HuggingFaceEmbeddings  # Import Hugging Face embeddings
+from langchain.prompts import ChatPromptTemplate  # Updated import
 
 CHROMA_PATH = "chroma"
 
@@ -36,31 +37,72 @@ def get_groq_response(prompt_text: str) -> str:
     )
 
     return completion.choices[0].message
+def normalize_scores(results):
+    """Normalize relevance scores to be between 0 and 1."""
+    normalized_results = []
+    for doc, score in results:
+        normalized_score = max(0, min(1, score))  # Ensure score is between 0 and 1
+        normalized_results.append((doc, normalized_score))
+    return normalized_results
 
 def get_embedding_function():
     """Get Hugging Face embeddings function."""
-    return HuggingFaceEmbeddings(model_name="sentence-transformers/all-MiniLM-L6-v2")
+    return HuggingFaceEmbeddings(model_name="intfloat/multilingual-e5-large")
 
 def query_rag(query_text: str) -> str:
-    # Prepare the DB.
-    embedding_function = get_embedding_function()
-    db = Chroma(persist_directory=CHROMA_PATH, embedding_function=embedding_function)
+    try:
+        # Préparer la fonction d'embeddingc
+        embedding_function = get_embedding_function()
+        print(f"Embedding function initialized: {embedding_function}")
 
-    # Search the DB.
-    results = db.similarity_search_with_score(query_text, k=10)
+        # Charger la base de données vectorielle
+        db = Chroma(persist_directory=CHROMA_PATH, embedding_function=embedding_function)
+        print("Chroma vector store loaded.")
 
-    context_text = "\n\n---\n\n".join([doc.page_content for doc, _score in results])
-    prompt_template = ChatPromptTemplate.from_template(PROMPT_TEMPLATE)
-    prompt = prompt_template.format(context=context_text, question=query_text)
+        # Utiliser Chroma pour la recherche de similarité
+        results = db.similarity_search(query_text, k=10)  # Note: `similarity_search` method
+        print(f"Search completed. Number of results: {len(results)}")
 
-    # Generate response using Groq
-    response_text = get_groq_response(prompt)
+        if not results:
+            print("No documents found.")
+            return "No documents found."
 
-    sources = [doc.metadata.get("id", None) for doc, _score in results]
-    formatted_response = f"Response: {response_text}\nSources: {sources}"
-    print(formatted_response)
-    return formatted_response
+        # Les résultats contiennent des documents et des scores de similarité
+        documents_with_scores = [(doc, doc.metadata.get("score", 0)) for doc in results]
+        print(f"Extracted documents with similarity scores.")
 
+        # Trier les documents par score de similarité (du plus élevé au plus bas)
+        documents_with_scores.sort(key=lambda x: x[1], reverse=True)
+        print(f"Documents sorted by similarity score.")
+
+        # Préparer le texte du contexte à partir des documents top-k
+        top_k_results = documents_with_scores[:10]
+        context_text = "\n\n---\n\n".join([doc.page_content for doc, _ in top_k_results])
+        print(f"Context Text: {context_text[:500]}...")  # Afficher les premiers 500 caractères pour la brièveté
+
+        # Préparer le prompt
+        prompt_template = ChatPromptTemplate.from_template(PROMPT_TEMPLATE)
+        prompt = prompt_template.format(context=context_text, question=query_text)
+        print(f"Prompt: {prompt}")
+
+        # Générer la réponse en utilisant Groq
+        response_text = get_groq_response(prompt)
+        print(f"Response Text: {response_text}")
+
+        # Obtenir les sources des documents
+        sources = [doc.metadata.get("id", None) for doc, _ in top_k_results]
+        print(f"Sources: {sources}")
+
+        # Formater la réponse
+        formatted_response = f"Response: {response_text}\nSources: {sources}"
+        print(f"Formatted Response: {formatted_response}")
+
+        return formatted_response
+
+    except Exception as e:
+        import traceback
+        print(f"An error occurred in query_rag: {e}")
+        print(traceback.format_exc())
 def main():
     # Create CLI.
     parser = argparse.ArgumentParser()

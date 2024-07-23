@@ -3,19 +3,20 @@ from langchain_community.vectorstores import Chroma
 from langchain.text_splitter import RecursiveCharacterTextSplitter
 from langchain.schema import Document
 from dotenv import load_dotenv
-import pandas as pd
 import os
 import shutil
 import pickle
 import time
+from langchain_community.document_loaders.csv_loader import CSVLoader
+import traceback
 
-# Load environment variables. Assumes that project contains .env file with API keys
+# Charger les variables d'environnement
 load_dotenv()
 
 CHROMA_PATH = "chroma"
-DATA_PATH = "data_base.csv"
-BATCH_SIZE = 10000  # Change this to a value that works for your system
-DOCUMENTS_PATH = "stored_documents.pkl"  # Path to store the list of documents
+DATA_PATH = "first_1000_lines.csv"
+BATCH_SIZE = 10000  # Ajustez cette valeur selon votre système
+DOCUMENTS_PATH = "stored_documents.pkl"  # Chemin pour stocker la liste des documents
 
 def generate_data_store():
     try:
@@ -35,26 +36,32 @@ def generate_data_store():
 
 def load_documents():
     try:
-        df = pd.read_csv(DATA_PATH)
-        print(f"CSV columns: {df.columns}")
-        documents = []
-        for index, row in df.sample(frac=0.05).iterrows():  # Sample 5% of the data randomly
-            content = row['description']
-            metadata = {
-                "part": row['part'],
-                "fournisseur": row['fournisseur'],
-                "marque": row['marque'],
-                "prix": row['prix'],
-                "quantity": row['quantity']
-            }
-            doc = Document(
-                page_content=content,
-                metadata=metadata
-            )
-            documents.append(doc)
+        # Vérifiez si le fichier existe
+        if not os.path.exists(DATA_PATH):
+            print(f"Error: The file {DATA_PATH} does not exist.")
+            return []
+
+        # Utiliser CSVLoader pour lire le fichier CSV
+        print(f"Attempting to load CSV file from {DATA_PATH}")
+        loader = CSVLoader(file_path=DATA_PATH, encoding='UTF-8')
+        documents = loader.load()  # Attendre une liste d'objets Document
+
+        # Vérifiez si les documents sont chargés correctement
+        if not documents:
+            print("No documents were loaded from the CSV file.")
+            return []
+
+        # Optionnel : Afficher les détails des documents pour le débogage
+        print(f"Loaded {len(documents)} documents.")
+
+
         return documents
+
+    except FileNotFoundError:
+        print(f"Error: The file {DATA_PATH} does not exist.")
     except Exception as e:
         print(f"An error occurred in load_documents: {e}")
+        print(traceback.format_exc())
         return []
 
 def split_text(documents: list[Document]):
@@ -69,32 +76,31 @@ def split_text(documents: list[Document]):
         return chunks
     except Exception as e:
         print(f"An error occurred in split_text: {e}")
-        return []
 
 def chunk_documents(documents, batch_size):
-    """Divide documents into smaller batches."""
+    """Diviser les documents en petits lots."""
     for i in range(0, len(documents), batch_size):
         yield documents[i:i + batch_size]
 
 def store_documents(documents):
-    """Store the documents in a file."""
+    """Stocker les documents dans un fichier."""
     with open(DOCUMENTS_PATH, 'wb') as f:
         pickle.dump(documents, f)
 
 def save_to_chroma(chunks: list[Document]):
     try:
-        # Clear out the database first.
+        # Nettoyer la base de données d'abord
         if os.path.exists(CHROMA_PATH):
             shutil.rmtree(CHROMA_PATH)
 
-        # Create a valid embedding object for Hugging Face
-        embedding = HuggingFaceEmbeddings(model_name="sentence-transformers/all-MiniLM-L6-v2")
+        # Créer un objet d'embedding valide pour Hugging Face
+        embedding = HuggingFaceEmbeddings(model_name="intfloat/multilingual-e5-large")
 
-        # Create a new Chroma instance
+        # Créer une nouvelle instance Chroma
         print("Creating Chroma instance...")
         db = Chroma(persist_directory=CHROMA_PATH, embedding_function=embedding)
 
-        # Add documents in batches
+        # Ajouter les documents par lots
         for batch_index, batch in enumerate(chunk_documents(chunks, BATCH_SIZE)):
             print(f"Processing batch {batch_index + 1} of {len(chunks)//BATCH_SIZE + 1}...")
             print(f"Adding batch of {len(batch)} chunks to Chroma...")
@@ -104,7 +110,7 @@ def save_to_chroma(chunks: list[Document]):
                 print(f"Batch {batch_index + 1} added in {time.time() - start_time:.2f} seconds.")
             except Exception as e:
                 print(f"An error occurred while adding batch {batch_index + 1}: {e}")
-                break  # Stop processing if an error occurs
+                break  # Arrêter le traitement si une erreur survient
 
         db.persist()
         print(f"Saved all chunks to {CHROMA_PATH}.")

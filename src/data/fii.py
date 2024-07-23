@@ -7,6 +7,7 @@ from langchain.schema import Document
 import pandas as pd
 import os
 
+
 CHROMA_PATH = "chroma"
 DOCUMENTS_PATH = "stored_documents.pkl"  # Path to store the list of documents
 
