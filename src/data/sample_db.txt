@@ -1,0 +1,10 @@
+part: FSP:GD5S60Z00DESV6 fournisseur: macle description: SP 5Y OS 9X5 4H RT marque: fujitsu prix: 1584.0 quantity: 50
+part: TS-464-8G fournisseur: Ingram description: TS-464-8G 4BAY 8GBDDR4 2X2.5GBE marque: qnap prix: 630.74 quantity: 1
+part: D-DDR4-4GB-007 fournisseur: convena description: ProXtend 4GB DDR4 PC4-21300 2666MHz marque: proxtend prix: 22.07 quantity: 3
+part: 46372 fournisseur: PCA description: Fibre optique Duplex LC / LC OM3 3m marque: lindy prix: 7.05 quantity: 1
+part: 21.15.3941 fournisseur: Secomp description: Cordon ROLINE Data Center SLIM, UTP Cat6A/Cl.EA, LSOH, bleu, 0,3m marque: roline prix: 0.86 quantity: 749
+part: HL2P5E fournisseur: Also description: HPE Aruba Foundation Care 5 Years Next Business Day Exchange Hardware Only 6200F 48G 740 POE Switch Service marque: hewlett packard enterprise prix: 386.25 quantity: 100
+part: C13T619100 fournisseur: West Cost description: EPSON BAC RECUP ENCRE marque: epson large format prix: 12.0 quantity: 4
+part: 01ET977 fournisseur: Also description: LENOVO PW 1YR Parts Delivered NBD marque: lenovo prix: 271.68 quantity: 100
+part: SU515A fournisseur: techdata description: Samsung CLT-Y506L - À rendement élevé - jaune - original - cartouche de toner (SU515A) - pour Samsung CLP-680DW, CLP-680ND, CLX-6260FD, CLX-6260FR, CLX-6260FW, CLX-6260ND marque: hp prix: 145.68 quantity: 4
+part: 220-80E-00003 fournisseur: Jarltech description: Zebra 220Xi4, 8 pts/mm (203 dpi), RTC, ZPLII, multi-IF marque: zebra prix: 5995.83 quantity: 17
