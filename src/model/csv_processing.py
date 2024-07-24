@@ -7,11 +7,12 @@ load_dotenv()
 
 CHROMA_PATH = os.path.abspath(f"../{os.getenv('CHROMA_PATH')}")
 BATCH_SIZE = int(os.getenv('BATCH_SIZE'))  # Ajustez cette valeur selon votre système
-DATA_PATH = os.path.abspath(f"../{os.getenv('DATA_PATH_CSV')}")
+DATA_PATH_CSV = os.path.abspath(f"../{os.getenv('DATA_PATH_CSV')}")
+COLLECTION_CSV = os.getenv('COLLECTION_CSV')
 
 def generate_data_store():
     try:
-        loader = CSVLoader(file_path=DATA_PATH, encoding='UTF-8')
+        loader = CSVLoader(file_path=DATA_PATH_CSV, encoding='UTF-8')
         documents = load_documents(loader)
         if not documents:
             return
@@ -20,7 +21,7 @@ def generate_data_store():
         if not chunks:
             return
 
-        save_to_chroma(chunks, CHROMA_PATH, BATCH_SIZE)
+        save_to_chroma(chunks, CHROMA_PATH, COLLECTION_CSV, BATCH_SIZE)
     except Exception as e:
         print(f"An error occurred in generate_data_store: {e}")
 

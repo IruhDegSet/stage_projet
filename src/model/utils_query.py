@@ -1,16 +1,16 @@
-import time  # Importer le module pour mesurer le temps
+import time
 from langchain.vectorstores.chroma import Chroma
 from langchain.prompts import ChatPromptTemplate
-from groq import Groq  # Importer le client Groq
+from groq import Groq
 from langchain_community.embeddings import HuggingFaceInferenceAPIEmbeddings
 import os
 from dotenv import load_dotenv
 
-load_dotenv()  # Charge les variables d'environnement depuis un fichier .env
+load_dotenv()
 
 CHROMA_PATH = "../data/chroma"
-GROQ_TOKEN= os.getenv('GROQ_TOKEN')
-HF_TOKEN= os.getenv('API_TOKEN')
+GROQ_TOKEN = os.getenv('GROQ_TOKEN')
+HF_TOKEN = os.getenv('API_TOKEN')
 
 PROMPT_TEMPLATE = """
 Answer the question based only on the following context:
@@ -24,7 +24,7 @@ Answer the question based on the above context: {question}
 
 def get_groq_response(prompt_text: str) -> str:
     """Generate a response using Groq API."""
-    client = Groq(api_key=GROQ_TOKEN)  # Remplacez par votre clé API réelle
+    client = Groq(api_key=GROQ_TOKEN)
 
     completion = client.chat.completions.create(
         model="llama3-8b-8192",
@@ -43,32 +43,25 @@ def get_groq_response(prompt_text: str) -> str:
 
     return completion.choices[0].message
 
-def normalize_scores(results):
-    """Normalize relevance scores to be between 0 and 1."""
-    normalized_results = []
-    for doc, score in results:
-        normalized_score = max(0, min(1, score))  # Assurer que le score est entre 0 et 1
-        normalized_results.append((doc, normalized_score))
-    return normalized_results
-
 def get_embedding_function():
     """Get Hugging Face embeddings function."""
     return HuggingFaceInferenceAPIEmbeddings(api_key=HF_TOKEN, model_name="intfloat/multilingual-e5-large")
 
-def query_rag(query_text: str) -> str:
+def query_rag(query_text: str, file_type: str) -> str:
     try:
-        start_time = time.time()  # Début du chronométrage
+        start_time = time.time()
         
         # Préparer la fonction d'embedding
         embedding_function = get_embedding_function()
         print(f"Embedding function initialized: {embedding_function}")
 
-        # Charger la base de données vectorielle
-        db = Chroma(persist_directory=CHROMA_PATH, embedding_function=embedding_function)
+        # Charger la base de données vectorielle avec la collection appropriée
+        collection_name = "collection_txt" if file_type == "txt" else "collection_csv"
+        db = Chroma(persist_directory=CHROMA_PATH, embedding_function=embedding_function, collection_name=collection_name)
         print("Chroma vector store loaded.")
 
         # Utiliser Chroma pour la recherche de similarité
-        results = db.similarity_search(query_text, k=10)  # Note: `similarity_search` method
+        results = db.similarity_search(query_text, k=10)
         print(f"Search completed. Number of results: {len(results)}")
 
         if not results:
@@ -86,7 +79,7 @@ def query_rag(query_text: str) -> str:
         # Préparer le texte du contexte à partir des documents top-k
         top_k_results = documents_with_scores[:10]
         context_text = "\n\n---\n\n".join([doc.page_content for doc, _ in top_k_results])
-        print(f"Context Text: {context_text[:500]}...")  # Afficher les premiers 500 caractères pour la brièveté
+        print(f"Context Text: {context_text[:500]}...")
 
         # Préparer le prompt
         prompt_template = ChatPromptTemplate.from_template(PROMPT_TEMPLATE)
@@ -105,9 +98,9 @@ def query_rag(query_text: str) -> str:
         formatted_response = f"Response: {response_text}\nSources: {sources}"
         print(f"Formatted Response: {formatted_response}")
 
-        end_time = time.time()  # Fin du chronométrage
+        end_time = time.time()
         elapsed_time = end_time - start_time
-        print(f"Time taken for query: {elapsed_time:.2f} seconds")  # Afficher le temps écoulé
+        print(f"Time taken for query: {elapsed_time:.2f} seconds")
 
         return formatted_response
 
