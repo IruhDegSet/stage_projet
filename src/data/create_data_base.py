@@ -94,7 +94,7 @@ def save_to_chroma(chunks: list[Document]):
             shutil.rmtree(CHROMA_PATH)
 
         # Créer un objet d'embedding valide pour Hugging Face
-        embedding = HuggingFaceEmbeddings(model_name="intfloat/multilingual-e5-large")
+        embedding = HuggingFaceEmbeddings(model_name="Salesforce/SFR-Embedding-2_R")
 
         # Créer une nouvelle instance Chroma
         print("Creating Chroma instance...")
