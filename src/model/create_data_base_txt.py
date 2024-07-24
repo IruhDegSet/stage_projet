@@ -8,6 +8,7 @@ import shutil
 import pickle
 import time
 from langchain_community.document_loaders.csv_loader import CSVLoader
+from langchain_community.document_loaders import TextLoader
 import traceback
 from langchain_community.document_loaders import DirectoryLoader
 from langchain_community.embeddings import HuggingFaceInferenceAPIEmbeddings
@@ -15,9 +16,11 @@ from langchain_community.embeddings import HuggingFaceInferenceAPIEmbeddings
 # Charger les variables d'environnement
 load_dotenv()
 
-CHROMA_PATH = "../data/chroma"
-DATA_PATH = "../data/sample_db.txt"
-BATCH_SIZE = 10000  # Ajustez cette valeur selon votre système
+CHROMA_PATH = os.path.abspath(f"../{os.getenv('CHROMA_PATH')}")
+RAW_DATA_PATH = os.path.abspath(f"../{os.getenv('RAW_DATA_PATH')}")
+BATCH_SIZE = int(os.getenv('BATCH_SIZE'))  # Ajustez cette valeur selon votre système
+HF_TOKEN= os.getenv('API_TOKEN')
+DATA_PATH= '..data/sample.txt'
 
 def generate_data_store():
     try:
@@ -110,14 +113,14 @@ def chunk_documents(documents, batch_size):
     for i in range(0, len(documents), batch_size):
         yield documents[i:i + batch_size]
 
-def save_to_chroma(chunks: list[Document]):
+def save_to_chroma(chunks: list[Document], collection_name):
     try:
         # Nettoyer la base de données d'abord
         if os.path.exists(CHROMA_PATH):
             shutil.rmtree(CHROMA_PATH)
 
         # Créer un objet d'embedding valide pour Hugging Face
-        embedding = HuggingFaceInferenceAPIEmbeddings(api_key='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', model_name="intfloat/multilingual-e5-large")
+        embedding = HuggingFaceInferenceAPIEmbeddings(api_key=HF_TOKEN, model_name="intfloat/multilingual-e5-large")
 
 
         # Créer une nouvelle instance Chroma
