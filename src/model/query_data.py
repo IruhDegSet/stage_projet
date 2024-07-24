@@ -5,7 +5,11 @@ from langchain.prompts import ChatPromptTemplate
 from groq import Groq  # Importer le client Groq
 from langchain_huggingface import HuggingFaceEmbeddings  # Importer les embeddings Hugging Face
 from langchain.prompts import ChatPromptTemplate  # Mise à jour de l'import
+<<<<<<< HEAD
 from langchain_community.embeddings import HuggingFaceInferenceAPIEmbeddings
+=======
+from langchain_community.embeddings import HuggingFaceInferenceAPIEmbeddings, FastEmbedEmbeddings
+>>>>>>> 458cfe492d75e50ad548bd1fc5fae74ff3407ae7
 
 CHROMA_PATH = "../data/chroma"
 
@@ -50,7 +54,11 @@ def normalize_scores(results):
 
 def get_embedding_function():
     """Get Hugging Face embeddings function."""
+<<<<<<< HEAD
     return HuggingFaceInferenceAPIEmbeddings(api_key='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', model_name="intfloat/multilingual-e5-large")
+=======
+    return HuggingFaceEmbeddings( model_name="intfloat/multilingual-e5-large")
+>>>>>>> 458cfe492d75e50ad548bd1fc5fae74ff3407ae7
 
 def query_rag(query_text: str) -> str:
     try:

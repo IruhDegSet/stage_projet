@@ -18,6 +18,10 @@ load_dotenv()
 CHROMA_PATH = "../data/chroma"
 DATA_PATH = "../data/sample_db.txt"
 BATCH_SIZE = 10000  # Ajustez cette valeur selon votre système
+<<<<<<< HEAD
+=======
+
+>>>>>>> 458cfe492d75e50ad548bd1fc5fae74ff3407ae7
 
 def generate_data_store():
     try:

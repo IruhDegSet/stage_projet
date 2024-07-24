@@ -5,11 +5,14 @@ from langchain.schema import Document
 from dotenv import load_dotenv
 import os
 import shutil
-import pickle
 import time
 from langchain_community.document_loaders.csv_loader import CSVLoader
 import traceback
 from langchain_community.embeddings import HuggingFaceInferenceAPIEmbeddings
+<<<<<<< HEAD
+=======
+
+>>>>>>> 458cfe492d75e50ad548bd1fc5fae74ff3407ae7
 
 # Charger les variables d'environnement
 load_dotenv()
@@ -17,7 +20,10 @@ load_dotenv()
 CHROMA_PATH = "../data/chroma"
 DATA_PATH = "../data/first_1000_lines.csv"
 BATCH_SIZE = 10000  # Ajustez cette valeur selon votre système
+<<<<<<< HEAD
 
+=======
+>>>>>>> 458cfe492d75e50ad548bd1fc5fae74ff3407ae7
 
 def generate_data_store():
     try:
@@ -88,9 +94,13 @@ def save_to_chroma(chunks: list[Document]):
         # Nettoyer la base de données d'abord
         if os.path.exists(CHROMA_PATH):
             shutil.rmtree(CHROMA_PATH)
+<<<<<<< HEAD
 
         # Créer un objet d'embedding valide pour Hugging Face
         embedding = HuggingFaceInferenceAPIEmbeddings(api_key='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', model_name="intfloat/multilingual-e5-large")
+=======
+        embedding =  HuggingFaceEmbeddings( model_name="intfloat/multilingual-e5-large")
+>>>>>>> 458cfe492d75e50ad548bd1fc5fae74ff3407ae7
 
         # Créer une nouvelle instance Chroma
         print("Creating Chroma instance...")
