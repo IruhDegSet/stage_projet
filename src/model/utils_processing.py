@@ -56,9 +56,11 @@ def chunk_documents(documents, batch_size):
         yield documents[i:i + batch_size]
 
 # Fonction pour sauvegarder des documents dans Chroma
-def save_to_chroma(docs, CHROMA_PATH, collection_name, BATCH_SIZE, embedding_function):
+def save_to_chroma(docs, CHROMA_PATH, collection_name, embedding_function):
     try:
-        chroma_instance = Chroma.from_documents(docs, embedding_function, persist_directory=CHROMA_PATH, collection_name=collection_name)
+        chroma_instance = Chroma(embedding_function= embedding_function, persist_directory=CHROMA_PATH, collection_name=collection_name)
+        # chroma_instance.delete(chroma_instance.get()['ids'])
+        chroma_instance.add_documents(docs)
         chroma_instance.persist()
 
         print("There are", chroma_instance._collection.count(), "documents in the collection")
