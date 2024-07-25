@@ -56,7 +56,7 @@ def query_rag(query_text: str, file_type: str) -> str:
         print(f"Embedding function initialized: {embedding_function}")
 
         # Charger la base de données vectorielle avec la collection appropriée
-        collection_name = "collection_txt" if file_type == "txt" else "collection_csv"
+        collection_name = "txt_collection" if file_type == "txt" else "csv_collection"
         db = Chroma(persist_directory=CHROMA_PATH, embedding_function=embedding_function, collection_name=collection_name)
         print("Chroma vector store loaded.")
 
