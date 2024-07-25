@@ -34,7 +34,7 @@ def get_groq_response(prompt_text: str) -> str:
                 "content": prompt_text
             }
         ],
-        temperature=1,
+        temperature=0,
         max_tokens=1024,
         top_p=1,
         stream=False,
@@ -43,9 +43,9 @@ def get_groq_response(prompt_text: str) -> str:
 
     return completion.choices[0].message
 
-def get_embedding_function():
+def get_embedding_function(model_name: str= "intfloat/multilingual-e5-large"):
     """Get Hugging Face embeddings function."""
-    return HuggingFaceInferenceAPIEmbeddings(api_key=HF_TOKEN, model_name="intfloat/multilingual-e5-large")
+    return HuggingFaceInferenceAPIEmbeddings(api_key= HF_TOKEN, model_name= model_name)
 
 def query_rag(query_text: str, file_type: str) -> str:
     try:
