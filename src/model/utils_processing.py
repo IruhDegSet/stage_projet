@@ -55,17 +55,6 @@ def chunk_documents(documents, batch_size):
     for i in range(0, len(documents), batch_size):
         yield documents[i:i + batch_size]
 
-# Fonction pour supprimer une collection
-def remove_collection(CHROMA_PATH, collection_name):
-    try:
-        collection_path = os.path.join(CHROMA_PATH, collection_name)
-        if os.path.exists(collection_path):
-            print(f"Removing existing collection: {collection_name}")
-            shutil.rmtree(collection_path)
-    except Exception as e:
-        print(f"An error occurred while removing the collection: {e}")
-        print(traceback.format_exc())
-
 # Fonction pour sauvegarder des documents dans Chroma
 def save_to_chroma(docs, CHROMA_PATH, collection_name, BATCH_SIZE, embedding_function):
     try:
