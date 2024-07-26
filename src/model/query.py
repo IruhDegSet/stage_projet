@@ -8,20 +8,7 @@ class QueryRequest(BaseModel):
     query_text: str
     file_type: str
 
-@app.get("/")
-async def root():
-    return {"message": "Hello, World!"}
 
-@app.post("/query/")
-async def handle_query(request: QueryRequest):
-    if request.file_type not in ["txt", "csv"]:
-        raise HTTPException(status_code=400, detail="Invalid file type. Must be 'txt' or 'csv'.")
-
-    try:
-        response_text = query_rag(request.query_text, request.file_type)
-        return {"response_text": response_text}
-    except Exception as e:
-        raise HTTPException(status_code=500, detail=str(e))
 
 if __name__ == "__main__":
     import argparse
