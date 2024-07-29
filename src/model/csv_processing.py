@@ -8,7 +8,7 @@ load_dotenv()
 
 CHROMA_PATH = os.path.abspath(f"../{os.getenv('CHROMA_PATH')}")
 BATCH_SIZE = int(os.getenv('BATCH_SIZE'))  # Ajustez cette valeur selon votre système
-DATA_PATH_CSV = os.path.abspath(f"../{os.getenv('DATA_PATH_CSV')}")
+DATA_PATH_CSV = '../data/first_1000_lines.csv'
 COLLECTION_CSV = os.getenv('COLLECTION_CSV')
 HF_TOKEN = os.getenv('API_TOKEN')
 
