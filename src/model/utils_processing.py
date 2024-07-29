@@ -17,7 +17,6 @@ HF_TOKEN = os.getenv('API_TOKEN')
 CHROMA_PATH = os.path.abspath(f"../{os.getenv('CHROMA_PATH')}")
 BATCH_SIZE = int(os.getenv('BATCH_SIZE'))  # Ajustez cette valeur selon votre système
 CHROMA_PATH = os.path.abspath(f"../{os.getenv('CHROMA_PATH')}")
-BATCH_SIZE = int(os.getenv('BATCH_SIZE'))  # Ajustez cette valeur selon votre système
 DATA_PATH_CSV = os.path.abspath(f"../{os.getenv('DATA_PATH_CSV')}")
 COLLECTION_CSV = os.getenv('COLLECTION_CSV')
 HF_TOKEN = os.getenv('API_TOKEN')

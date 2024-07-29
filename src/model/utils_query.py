@@ -33,7 +33,7 @@ def get_groq_response(prompt_text: str) -> str:
     client = Groq(api_key=GROQ_TOKEN)
 
     completion = client.chat.completions.create(
-        model="llama3-8b-8192",
+        model="llama-3.1-70b-versatile",
         messages=[
             {
                 "role": "user",
@@ -65,7 +65,7 @@ def query_rag(query_text: str, file_type: str) -> str:
         db = Chroma(persist_directory=CHROMA_PATH, embedding_function=embedding_function, collection_name=collection_name)
 
         # Utiliser Chroma pour la recherche de similarité
-        results = db.similarity_search(query_text, k=10)
+        results = db.similarity_search(query_text, k=50)  # Par exemple, pour obtenir jusqu'à 20 résultats
 
         if not results:
             print("No documents found.")
