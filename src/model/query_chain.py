@@ -46,12 +46,12 @@ qa_chain = RetrievalQA.from_chain_type(
 )
 
 # Run chain: 
-question = "Je veux u pc de 8gb de ram i7"
+question = "Noise canceling microphone"
 result = qa_chain.invoke({"query": question})
 print('THE CHAIN RESULTS: ')
-print(result["result"])
-# res= vectordb.similarity_search(question, k=10)
-print(f"THE 5 MMR RESULTS:\n{'\n--------------\n'.join([doc.page_content for doc in vectordb.max_marginal_relevance_search(question, k= 20, fetch_k= 5)])}\n")
+print(result["result"], '\n\n')
+# # res= vectordb.similarity_search(question, k=10)
+print(f"THE MMR RESULTS:\n{'\n--------------\n'.join([doc.page_content for doc in vectordb.max_marginal_relevance_search(question, k= 20, fetch_k= 5)])}\n\n")
 print(f"THE 5 SS RESULTS:\n{'\n--------------\n'.join([doc.page_content for doc in vectordb.similarity_search(question, k=5)])}")
-print(f'response in only: {time.time()- t1: .2f}')
+# print(f'response in only: {time.time()- t1: .2f}')
 # print(vectordb._collection.count())
