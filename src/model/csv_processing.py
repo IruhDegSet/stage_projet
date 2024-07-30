@@ -42,7 +42,7 @@ def convert_rows_to_documents(rows, header):
         documents.append(doc)
     return documents
 
-def generate_data_store():
+def generate_data_store(start_chunk):
     try:
         # Définir la fonction d'embedding
         embedding_function = HuggingFaceInferenceAPIEmbeddings(api_key=HF_TOKEN, model_name="intfloat/multilingual-e5-large")
@@ -55,11 +55,19 @@ def generate_data_store():
             chunk_index = 0
 
             for row in reader:
+                if chunk_index < start_chunk:
+                    # Sauter les lignes jusqu'au bloc de départ
+                    if len(chunk) >= chunk_size:
+                        chunk = []  # Réinitialiser le bloc après chaque bloc complet
+                        chunk_index += 1
+                    chunk.append(row)
+                    continue
+
                 chunk.append(row)
                 if len(chunk) >= chunk_size:
                     # Convertir le bloc en documents et sauvegarder
                     documents = convert_rows_to_documents(chunk, header)
-                    save_to_chroma( documents,CHROMA_PATH, COLLECTION_CSV,embedding_function)
+                    save_to_chroma(documents, CHROMA_PATH, COLLECTION_CSV, embedding_function)
                     chunk = []  # Réinitialiser le bloc
                     chunk_index += 1
                     print(f"Processed chunk {chunk_index}")
@@ -67,11 +75,11 @@ def generate_data_store():
             # Traiter le reste des lignes qui ne font pas partie d'un bloc complet
             if chunk:
                 documents = convert_rows_to_documents(chunk, header)
-                save_to_chroma(documents,CHROMA_PATH, COLLECTION_CSV, embedding_function)
+                save_to_chroma(documents, CHROMA_PATH, COLLECTION_CSV, embedding_function)
                 print(f"Processed final chunk {chunk_index + 1}")
 
     except Exception as e:
         print(f"An error occurred in generate_data_store: {e}")
 
 if __name__ == "__main__":
-    generate_data_store()
+    generate_data_store(start_chunk=20)
