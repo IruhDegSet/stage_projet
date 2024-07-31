@@ -57,5 +57,6 @@ interface = gr.Interface(
     description="Ask the bot about products and get a detailed response."
 )
 
-# Launch the Gradio app
-interface.launch()
+# Launch the Gradio app with sharing enabled
+interface.launch(share=True)
+
