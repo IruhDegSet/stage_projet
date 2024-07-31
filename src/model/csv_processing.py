@@ -9,9 +9,9 @@ from langchain_community.embeddings import HuggingFaceInferenceAPIEmbeddings
 load_dotenv()
 
 # Configurations
-CHROMA_PATH = os.path.abspath(f"../{os.getenv('CHROMA_PATH')}")
+CHROMA_PATH_ICECAT = os.path.abspath(f"../{os.getenv('CHROMA_PATH_ICECAT')}")
 BATCH_SIZE = int(os.getenv('BATCH_SIZE'))  # Ajustez cette valeur selon votre système
-DATA_PATH_CSV = '../data/output_data.csv'
+DATA_PATH_CSV = '../data/icecat.csv'
 COLLECTION_CSV = os.getenv('COLLECTION_CSV')
 HF_TOKEN = os.getenv('API_TOKEN')
 
@@ -67,7 +67,7 @@ def generate_data_store(start_chunk):
                 if len(chunk) >= chunk_size:
                     # Convertir le bloc en documents et sauvegarder
                     documents = convert_rows_to_documents(chunk, header)
-                    save_to_chroma(documents, CHROMA_PATH, COLLECTION_CSV, embedding_function)
+                    save_to_chroma(documents, CHROMA_PATH_ICECAT, COLLECTION_CSV, embedding_function)
                     chunk = []  # Réinitialiser le bloc
                     chunk_index += 1
                     print(f"Processed chunk {chunk_index}")
@@ -75,11 +75,11 @@ def generate_data_store(start_chunk):
             # Traiter le reste des lignes qui ne font pas partie d'un bloc complet
             if chunk:
                 documents = convert_rows_to_documents(chunk, header)
-                save_to_chroma(documents, CHROMA_PATH, COLLECTION_CSV, embedding_function)
+                save_to_chroma(documents, CHROMA_PATH_ICECAT, COLLECTION_CSV, embedding_function)
                 print(f"Processed final chunk {chunk_index + 1}")
 
     except Exception as e:
         print(f"An error occurred in generate_data_store: {e}")
 
 if __name__ == "__main__":
-    generate_data_store(start_chunk=20)
+    generate_data_store(start_chunk=1)

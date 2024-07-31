@@ -49,6 +49,7 @@ def ask_bot(query: str, k: int = 10):
 
     # Run chain:
     result = qa_chain.invoke({"query": query})
+    st.write(result) 
     return result['result']
 
 st.title('DGF Product Seeker Bot')
