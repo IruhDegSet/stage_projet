@@ -23,16 +23,20 @@ COLLECTION_CSV = 'csv_collection'
 MBD_MODEL = 'intfloat/multilingual-e5-large'
 
 def ask_bot(query: str, k: int = 10):
-    st.write("Starting ask_bot function...")
     persist_directory = CHROMA_PATH
     embedding = HuggingFaceInferenceAPIEmbeddings(api_key=API_TOKEN, model_name=MBD_MODEL)
     vectordb = Chroma(persist_directory=persist_directory, embedding_function=embedding, collection_name=COLLECTION_CSV)
+    
 
+    if not results:
+        st.write("No documents found in the Chroma database.")
+    for result in results:
+        st.write(f"Document ID: {result.id}, Document Content: {result.page_content}")
     # Initiate model
     llm = ChatGroq(model_name='llama-3.1-70b-versatile', api_key=GROQ_TOKEN, temperature=0)
 
     # Build prompt
-    template = """tu es un assistant vendeur, tu as acces au context seulement. ne generes pas des infos si elles ne sont pas dans le context il faut repondre seulement si tu as la reponse. accompagne chaque reponse du ref_produit, marque et description du produit tel qu'ils sont dans le context. affiche autant de lignes que les produit trouves dans le context. repond a la question de l'utilisateur en francais. tu est oblige de repondre dans un tableau avec comme colonnes: reference, marque et la description
+    template = """tu es un assistant vendeur, tu as acces au context seulement. ne generes pas des infos si elles ne sont pas dans le context il faut repondre seulement si tu as la reponse. accompagne chaque reponse du part, marque et description du produit tel qu'ils sont dans le context. affiche autant de lignes que les produit trouves dans le context. repond a la question de l'utilisateur en francais. tu est oblige de repondre dans un tableau avec comme colonnes: reference, marque et la description
     {context}
     Question: {question}
     Reponse:"""
@@ -47,42 +51,15 @@ def ask_bot(query: str, k: int = 10):
         chain_type_kwargs={"prompt": QA_CHAIN_PROMPT},
     )
 
-    st.write("Running chain...")
-    # Run chain
+    # Run chain:
     result = qa_chain.invoke({"query": query})
-    
-    st.write("Result from QA Chain:")
-    st.write(result)
-    
-    return result.get('result', 'No result found')
 
-def inspect_chroma():
-    st.write("Inspecting Chroma Database...")
-    persist_directory = CHROMA_PATH
-    embedding = HuggingFaceInferenceAPIEmbeddings(api_key=API_TOKEN, model_name=MBD_MODEL)
-    vectordb = Chroma(persist_directory=persist_directory, embedding_function=embedding, collection_name=COLLECTION_CSV)
-
-    # Example query to fetch some documents
-    query = "donner moi des laptop de la marque Lonovo?"  # Use an empty query or a placeholder to fetch a set of documents
-    
-        # Utiliser Chroma pour la recherche de similarité
-    results = vectordb.similarity_search(query, k=50)  # Par exemple, pour obtenir jusqu'à 20 résultats
+    st.write(vectordb.similarity_search(query, k=50))
 
     
-    if not results:
-        st.write("No documents found in the Chroma database.")
-    for result in results:
-        st.write(f"Document ID: {result.id}, Document Content: {result.page_content}")
+    return result['result']
 
-
-# Streamlit UI
 st.title('DGF Product Seeker Bot')
-
-# Sidebar for inspecting Chroma
-if st.sidebar.checkbox('Inspect Chroma Database'):
-    inspect_chroma()
-
-# Main query input
 query = st.chat_input("Qu'est ce que vous cherchez? Ex: Laptop avec 16gb de ram")
 if query:
     answer = ask_bot(query)
