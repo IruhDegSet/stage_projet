@@ -1,6 +1,6 @@
 import chromadb
 # Initialiser le client Chroma en mode lecture seule, si disponible
-db = chromadb.PersistentClient(path="../data/chroma")
+db = chromadb.PersistentClient(path="../data/chroma_icecat")
 
 # Lister toutes les collections
 collections = db.list_collections()
