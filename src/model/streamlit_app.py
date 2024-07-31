@@ -1,6 +1,6 @@
 __import__('pysqlite3')
-import sys
-sys.modules['sqlite3'] = sys.modules.pop('pysqlite3')
+# import sys
+# sys.modules['sqlite3'] = sys.modules.pop('pysqlite3')
 import streamlit as st
 try:
     from langchain_community.document_loaders.csv_loader import CSVLoader
