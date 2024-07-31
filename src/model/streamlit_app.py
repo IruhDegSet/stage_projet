@@ -1,6 +1,3 @@
-__import__('pysqlite3')
-import sys
-sys.modules['sqlite3'] = sys.modules.pop('pysqlite3')
 import streamlit as st
 try:
     from langchain_community.document_loaders.csv_loader import CSVLoader
@@ -10,7 +7,9 @@ except ImportError:
 from langchain_groq import ChatGroq
 from langchain.chains import RetrievalQA
 from langchain.prompts import PromptTemplate
+from langchain_qdrant import QdrantVectorStore as qd
 from langchain_community.vectorstores import Chroma
+
 from langchain_community.embeddings import HuggingFaceInferenceAPIEmbeddings
 
 # Constants
@@ -23,9 +22,12 @@ COLLECTION_CSV = 'csv_collection'
 MBD_MODEL = 'intfloat/multilingual-e5-large'
 
 def ask_bot(query: str, k: int = 10):
-    persist_directory = CHROMA_PATH
-    embedding = HuggingFaceInferenceAPIEmbeddings(api_key=API_TOKEN, model_name=MBD_MODEL)
-    vectordb = Chroma(persist_directory=persist_directory, embedding_function=embedding, collection_name=COLLECTION_CSV)
+    embeddings = HuggingFaceInferenceAPIEmbeddings(api_key=API_TOKEN, model_name=MBD_MODEL)
+    vectordb = qd.from_existing_collection(embedding=embeddings,
+    url='https://c5cf721b-9899-48a6-b9f5-98f015b29a14.us-east4-0.gcp.cloud.qdrant.io:6333',
+    prefer_grpc=True,
+    api_key='N5ynmJyHHD4Da9pD5sTQjBgAVXR4vt0NN57k9Q8AqzsYOrgk4_Q4cg',
+    collection_name="icecat_200k",)
 
     # Initiate model
     llm = ChatGroq(model_name='llama-3.1-70b-versatile', api_key=GROQ_TOKEN, temperature=0)
@@ -46,6 +48,11 @@ def ask_bot(query: str, k: int = 10):
         chain_type_kwargs={"prompt": QA_CHAIN_PROMPT},
     )
 
+    
+    # Run chain:
+    result = qa_chain.invoke({"query": query})
+    # st.write(result) 
+
     # Run chain:
     result = qa_chain.invoke({"query": query})
     return result['result']
@@ -53,5 +60,7 @@ def ask_bot(query: str, k: int = 10):
 st.title('DGF Product Seeker Bot')
 query = st.chat_input("Qu'est ce que vous cherchez? Ex: Laptop avec 16gb de ram")
 if query:
+
+    # inspect_retriever(query)
     answer = ask_bot(query)
     st.markdown(answer)
