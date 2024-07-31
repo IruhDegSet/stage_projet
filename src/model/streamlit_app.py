@@ -55,8 +55,6 @@ def ask_bot(query: str, k: int = 10):
     result = qa_chain.invoke({"query": query})
 
     st.write(vectordb.similarity_search(query, k=50))
-
-    
     return result['result']
 
 st.title('DGF Product Seeker Bot')
