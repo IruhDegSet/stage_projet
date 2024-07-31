@@ -76,5 +76,5 @@ st.title('DGF Product Seeker Bot')
 query = st.text_input("Qu'est ce que vous cherchez? Ex: Laptop avec 16gb de ram")
 if query:
     inspect_retriever(query)
-    # answer = ask_bot(query)
-    # st.markdown(answer)
+    answer = ask_bot(query)
+    st.markdown(answer)
