@@ -1,4 +1,6 @@
-
+__import__('pysqlite3')
+import sys
+sys.modules['sqlite3'] = sys.modules.pop('pysqlite3')
 import streamlit as st
 try:
     from langchain_community.document_loaders.csv_loader import CSVLoader
@@ -32,7 +34,7 @@ def inspect_retriever(query: str, k: int = 10):
     # Display search results
     st.write("Search Results:")
     for doc in search_results:
-        st.write(f"Document ID: {doc}")
+        st.write(f"Document ID: {doc}, Document Content: {doc}")
 
 def ask_bot(query: str, k: int = 10):
     persist_directory = CHROMA_PATH
