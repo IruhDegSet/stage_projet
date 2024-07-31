@@ -28,7 +28,7 @@ def inspect_retriever(query: str, k: int = 10):
     vectordb = Chroma(persist_directory=persist_directory, embedding_function=embedding, collection_name=COLLECTION_CSV)
    
     docs_in_db= vectordb.get()
-    st.write(vectordb._collection,count())
+    st.write(vectordb._collection.count())
     st.write(docs_in_db)
 
     # # Get relevant documents
