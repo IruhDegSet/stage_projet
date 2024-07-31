@@ -22,6 +22,20 @@ BATCH_SIZE = 1000
 COLLECTION_CSV = 'csv_collection'
 MBD_MODEL = 'intfloat/multilingual-e5-large'
 
+def inspect_retriever(query: str, k: int = 10):
+    persist_directory = CHROMA_PATH
+    embedding = HuggingFaceInferenceAPIEmbeddings(api_key=API_TOKEN, model_name=MBD_MODEL)
+    vectordb = Chroma(persist_directory=persist_directory, embedding_function=embedding, collection_name=COLLECTION_CSV)
+    
+    # Perform search with retriever
+    retriever = vectordb.as_retriever(search_type='mmr', search_kwargs={'k': 50, 'fetch_k': k})
+    search_results = retriever.retrieve(query)
+
+    # Display search results
+    st.write("Search Results:")
+    for doc in search_results:
+        st.write(f"Document ID: {doc.id}, Document Content: {doc.content}")
+
 def ask_bot(query: str, k: int = 10):
     persist_directory = CHROMA_PATH
     embedding = HuggingFaceInferenceAPIEmbeddings(api_key=API_TOKEN, model_name=MBD_MODEL)
@@ -45,14 +59,17 @@ def ask_bot(query: str, k: int = 10):
         return_source_documents=True,
         chain_type_kwargs={"prompt": QA_CHAIN_PROMPT},
     )
-    # Définir la fonction d'embedding
-    st.write(vectordb.as_retriever(search_type='mmr', search_kwargs={'k': 50, 'fetch_k': k}))
+
+    # Display retriever results
+    inspect_retriever(query, k)
+    
     # Run chain:
     result = qa_chain.invoke({"query": query})
+    st.write(result) 
     return result['result']
 
 st.title('DGF Product Seeker Bot')
-query = st.chat_input("Qu'est ce que vous cherchez? Ex: Laptop avec 16gb de ram")
+query = st.text_input("Qu'est ce que vous cherchez? Ex: Laptop avec 16gb de ram")
 if query:
     answer = ask_bot(query)
     st.markdown(answer)
