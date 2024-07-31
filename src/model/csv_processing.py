@@ -11,7 +11,7 @@ load_dotenv()
 # Configurations
 CHROMA_PATH_ICECAT = os.path.abspath(f"../{os.getenv('CHROMA_PATH_ICECAT')}")
 BATCH_SIZE = int(os.getenv('BATCH_SIZE'))  # Ajustez cette valeur selon votre système
-DATA_PATH_CSV = '../data/icecat.csv'
+DATA_PATH_CSV = '../data/m.csv'
 COLLECTION_CSV = os.getenv('COLLECTION_CSV')
 HF_TOKEN = os.getenv('API_TOKEN')
 

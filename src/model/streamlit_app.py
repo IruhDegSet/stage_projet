@@ -16,7 +16,7 @@ from langchain_community.embeddings import HuggingFaceInferenceAPIEmbeddings
 # Constants
 API_TOKEN = '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'
 GROQ_TOKEN = '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'
-CHROMA_PATH = "../data/chroma"
+CHROMA_PATH = "../data/chroma_icecat"
 BATCH_SIZE = 1000
 
 COLLECTION_CSV = 'csv_collection'
