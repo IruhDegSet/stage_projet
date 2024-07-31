@@ -1,10 +1,5 @@
-
-import streamlit as st
-try:
-    from langchain_community.document_loaders.csv_loader import CSVLoader
-except ImportError:
-    from langchain.document_loaders.csv_loader import CSVLoader  # Alternative import
-
+import gradio as gr
+from langchain_community.document_loaders.csv_loader import CSVLoader
 from langchain_groq import ChatGroq
 from langchain.chains import RetrievalQA
 from langchain.prompts import PromptTemplate
@@ -48,8 +43,14 @@ def ask_bot(query: str, k: int = 10):
     result = qa_chain.invoke({"query": query})
     return result['result']
 
-st.title('DGF Product Seeker Bot')
-query = st.chat_input("Qu'est ce que vous cherchez? Ex: Laptop avec 16gb de ram")
-if query:
-    answer = ask_bot(query)
-    st.markdown(answer)
+# Create a Gradio interface
+interface = gr.Interface(
+    fn=ask_bot,
+    inputs=gr.Textbox(lines=2, placeholder="Qu'est ce que vous cherchez? Ex: Laptop avec 16gb de ram"),
+    outputs="markdown",
+    title="DGF Product Seeker Bot",
+    description="Ask the bot about products and get a detailed response."
+)
+
+# Launch the Gradio app
+interface.launch(share=True)
