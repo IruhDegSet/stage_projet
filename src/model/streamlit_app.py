@@ -37,6 +37,8 @@ def ask_bot(query: str, k: int = 10):
     Reponse:"""
 
     QA_CHAIN_PROMPT = PromptTemplate.from_template(template)
+    
+    st.write(vectordb.as_retriever(search_type='mmr', search_kwargs={'k': 50, 'fetch_k': k}))
 
     # Build chain
     qa_chain = RetrievalQA.from_chain_type(
