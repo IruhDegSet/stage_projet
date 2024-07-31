@@ -63,8 +63,11 @@ def inspect_chroma():
     vectordb = Chroma(persist_directory=persist_directory, embedding_function=embedding, collection_name=COLLECTION_CSV)
 
     # Example query to fetch some documents
-    query = ""  # Use an empty query or a placeholder to fetch a set of documents
-    results = vectordb.query(query, k=10)
+    query = "donner moi des laptop de la marque Lonovo?"  # Use an empty query or a placeholder to fetch a set of documents
+    
+        # Utiliser Chroma pour la recherche de similarité
+    results = vectordb.similarity_search(query, k=50)  # Par exemple, pour obtenir jusqu'à 20 résultats
+
     
     if not results:
         st.write("No documents found in the Chroma database.")
