@@ -26,12 +26,7 @@ def ask_bot(query: str, k: int = 10):
     persist_directory = CHROMA_PATH
     embedding = HuggingFaceInferenceAPIEmbeddings(api_key=API_TOKEN, model_name=MBD_MODEL)
     vectordb = Chroma(persist_directory=persist_directory, embedding_function=embedding, collection_name=COLLECTION_CSV)
-    
 
-    if not results:
-        st.write("No documents found in the Chroma database.")
-    for result in results:
-        st.write(f"Document ID: {result.id}, Document Content: {result.page_content}")
     # Initiate model
     llm = ChatGroq(model_name='llama-3.1-70b-versatile', api_key=GROQ_TOKEN, temperature=0)
 
@@ -50,11 +45,9 @@ def ask_bot(query: str, k: int = 10):
         return_source_documents=True,
         chain_type_kwargs={"prompt": QA_CHAIN_PROMPT},
     )
-
+    st.write(vectordb.similarity_search(query, k=50))
     # Run chain:
     result = qa_chain.invoke({"query": query})
-
-    st.write(vectordb.similarity_search(query, k=50))
     return result['result']
 
 st.title('DGF Product Seeker Bot')
