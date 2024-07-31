@@ -59,7 +59,7 @@ def ask_bot(query: str, k: int = 10):
     # Build chain
     qa_chain = RetrievalQA.from_chain_type(
         llm,
-        retriever=vectordb.as_retriever(search_type='mmr', search_kwargs={'k': 50, 'fetch_k': k}),
+        retriever=vectordb.as_retriever(search_kwargs={'k':k}),
         return_source_documents=True,
         chain_type_kwargs={"prompt": QA_CHAIN_PROMPT},
     )
