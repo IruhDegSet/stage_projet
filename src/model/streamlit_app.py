@@ -45,7 +45,10 @@ def ask_bot(query: str, k: int = 10):
         return_source_documents=True,
         chain_type_kwargs={"prompt": QA_CHAIN_PROMPT},
     )
-    st.write(vectordb.similarity_search(query, k=50))
+    # Définir la fonction d'embedding
+    embedding_function = HuggingFaceInferenceAPIEmbeddings(api_key="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", model_name="intfloat/multilingual-e5-large")
+    db = Chroma(persist_directory=CHROMA_PATH, embedding_function=embedding_function, collection_name="csv_collection")
+    st.write(db.similarity_search("donner moi de laptops de la marque Lonovo ?", k=50))
     # Run chain:
     result = qa_chain.invoke({"query": query})
     return result['result']
