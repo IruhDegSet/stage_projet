@@ -62,11 +62,15 @@ def inspect_chroma():
     embedding = HuggingFaceInferenceAPIEmbeddings(api_key=API_TOKEN, model_name=MBD_MODEL)
     vectordb = Chroma(persist_directory=persist_directory, embedding_function=embedding, collection_name=COLLECTION_CSV)
 
-    all_docs = vectordb.get_all_documents()
-    if not all_docs:
+    # Example query to fetch some documents
+    query = ""  # Use an empty query or a placeholder to fetch a set of documents
+    results = vectordb.query(query, k=10)
+    
+    if not results:
         st.write("No documents found in the Chroma database.")
-    for doc in all_docs:
-        st.write(f"Document ID: {doc.id}, Document Content: {doc.content}")
+    for result in results:
+        st.write(f"Document ID: {result.id}, Document Content: {result.page_content}")
+
 
 # Streamlit UI
 st.title('DGF Product Seeker Bot')
