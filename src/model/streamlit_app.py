@@ -10,7 +10,11 @@ except ImportError:
 from langchain_groq import ChatGroq
 from langchain.chains import RetrievalQA
 from langchain.prompts import PromptTemplate
+<<<<<<< HEAD
 from langchain_qdrant import QdrantVectorStore as qd
+=======
+from langchain_community.vectorstores import Chroma
+>>>>>>> 3c65813bc94dfe3d694643c400c2a8305d89c3f6
 from langchain_community.embeddings import HuggingFaceInferenceAPIEmbeddings
 
 # Constants
@@ -22,7 +26,10 @@ BATCH_SIZE = 1000
 COLLECTION_CSV = 'csv_collection'
 MBD_MODEL = 'intfloat/multilingual-e5-large'
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 3c65813bc94dfe3d694643c400c2a8305d89c3f6
 def ask_bot(query: str, k: int = 10):
     embeddings = HuggingFaceInferenceAPIEmbeddings(api_key=API_TOKEN, model_name=MBD_MODEL)
     vectordb = qd.from_existing_collection(embedding=embeddings,
@@ -45,20 +52,28 @@ def ask_bot(query: str, k: int = 10):
     # Build chain
     qa_chain = RetrievalQA.from_chain_type(
         llm,
-        retriever=vectordb.as_retriever(search_kwargs={'k':k}),
+        retriever=vectordb.as_retriever(search_type='mmr', search_kwargs={'k': 50, 'fetch_k': k}),
         return_source_documents=True,
         chain_type_kwargs={"prompt": QA_CHAIN_PROMPT},
     )
 
+<<<<<<< HEAD
     
     # Run chain:
     result = qa_chain.invoke({"query": query})
     # st.write(result) 
+=======
+    # Run chain:
+    result = qa_chain.invoke({"query": query})
+>>>>>>> 3c65813bc94dfe3d694643c400c2a8305d89c3f6
     return result['result']
 
 st.title('DGF Product Seeker Bot')
 query = st.chat_input("Qu'est ce que vous cherchez? Ex: Laptop avec 16gb de ram")
 if query:
+<<<<<<< HEAD
     # inspect_retriever(query)
+=======
+>>>>>>> 3c65813bc94dfe3d694643c400c2a8305d89c3f6
     answer = ask_bot(query)
     st.markdown(answer)
