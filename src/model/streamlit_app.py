@@ -37,8 +37,14 @@ def ask_bot(query: str, k: int = 10):
     Reponse:"""
 
     QA_CHAIN_PROMPT = PromptTemplate.from_template(template)
+
+   # Inspect retrieved documents
+    retriever = vectordb.as_retriever(search_type='mmr', search_kwargs={'k': 50, 'fetch_k': k})
+    retrieved_docs = retriever.retrieve(query)
     
-    st.write(vectordb.as_retriever(search_type='mmr', search_kwargs={'k': 50, 'fetch_k': k}))
+    st.write("Retrieved Documents:")
+    for doc in retrieved_docs:
+        st.write(f"Document ID: {doc.id}, Document Content: {doc.content}")
 
     # Build chain
     qa_chain = RetrievalQA.from_chain_type(
