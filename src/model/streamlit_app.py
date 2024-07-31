@@ -26,10 +26,10 @@ def inspect_retriever(query: str, k: int = 10):
     persist_directory = CHROMA_PATH
     embedding = HuggingFaceInferenceAPIEmbeddings(api_key=API_TOKEN, model_name=MBD_MODEL)
     vectordb = Chroma(persist_directory=persist_directory, embedding_function=embedding, collection_name=COLLECTION_CSV)
-    
-    # Perform search with retriever
+
+    # Get relevant documents
     retriever = vectordb.as_retriever(search_type='mmr', search_kwargs={'k': 50, 'fetch_k': k})
-    search_results = retriever.retrieve(query)
+    search_results = retriever.get_relevant_documents(query)
 
     # Display search results
     st.write("Search Results:")
