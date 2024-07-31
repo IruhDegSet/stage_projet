@@ -10,7 +10,7 @@ except ImportError:
 from langchain_groq import ChatGroq
 from langchain.chains import RetrievalQA
 from langchain.prompts import PromptTemplate
-from langchain_chroma.vectorstores import Chroma
+from langchain_community.vectorstores import Chroma
 from langchain_community.embeddings import HuggingFaceInferenceAPIEmbeddings
 
 # Constants
@@ -21,53 +21,6 @@ BATCH_SIZE = 1000
 
 COLLECTION_CSV = 'csv_collection'
 MBD_MODEL = 'intfloat/multilingual-e5-large'
-
-import chromadb
-# Initialiser le client Chroma en mode lecture seule, si disponible
-db = chromadb.PersistentClient(path="../data/chroma")
-
-# Lister toutes les collections
-collections = db.list_collections()
-
-
-# Afficher la liste des collections
-print("Collections in Chroma DB:", collections)
-
-# Optionnel: afficher le nombre de collections
-print("Number of collections:", len(collections))
-if collections:
-    print("Collections in Chroma DB:")
-    for collection_name in collections:
-        print(f"Processing collection '{collection_name}'...")
-        
-else:
-    print("No collections found in Chroma DB.")
-
-csv = db.get_or_create_collection("csv_collection")
-
-txt = db.get_or_create_collection("txt_collection")
-
-
-st.write("There are csv", csv.count(), "in the collection")
-st.write("There are txt", txt.count(), "in the collection")
-
-def inspect_retriever(query: str, k: int = 10):
-    persist_directory = CHROMA_PATH
-    embedding = HuggingFaceInferenceAPIEmbeddings(api_key=API_TOKEN, model_name=MBD_MODEL)
-    vectordb = Chroma(persist_directory=persist_directory, embedding_function=embedding, collection_name=COLLECTION_CSV)
-   
-    docs_in_db= vectordb.get()
-    st.write(vectordb._collection.count())
-    st.write(docs_in_db)
-
-    # # Get relevant documents
-    # retriever = vectordb.as_retriever(search_type='mmr', search_kwargs={'k': 50, 'fetch_k': k})
-    # search_results = retriever.get_relevant_documents(query)
-
-    # # Display search results
-    # st.write("Search Results:")
-    # for doc in search_results:
-    #     st.write(f"Document ID: {doc}, Document Content: {doc}")
 
 def ask_bot(query: str, k: int = 10):
     persist_directory = CHROMA_PATH
@@ -88,22 +41,17 @@ def ask_bot(query: str, k: int = 10):
     # Build chain
     qa_chain = RetrievalQA.from_chain_type(
         llm,
-        retriever=vectordb.as_retriever(search_kwargs={'k':k}),
+        retriever=vectordb.as_retriever(search_type='mmr', search_kwargs={'k': 50, 'fetch_k': k}),
         return_source_documents=True,
         chain_type_kwargs={"prompt": QA_CHAIN_PROMPT},
     )
 
-    # Display retriever results
-    inspect_retriever(query, k)
-    
     # Run chain:
     result = qa_chain.invoke({"query": query})
-    st.write(result) 
     return result['result']
 
 st.title('DGF Product Seeker Bot')
-query = st.text_input("Qu'est ce que vous cherchez? Ex: Laptop avec 16gb de ram")
+query = st.chat_input("Qu'est ce que vous cherchez? Ex: Laptop avec 16gb de ram")
 if query:
-    inspect_retriever(query)
     answer = ask_bot(query)
     st.markdown(answer)

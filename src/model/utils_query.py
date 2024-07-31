@@ -10,7 +10,7 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-CHROMA_PATH = "../data/chroma"
+CHROMA_PATH = "../data/chroma_icecat"
 GROQ_TOKEN = os.getenv('GROQ_TOKEN')
 HF_TOKEN = os.getenv('API_TOKEN')
 
