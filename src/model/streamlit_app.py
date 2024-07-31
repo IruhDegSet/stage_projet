@@ -52,8 +52,26 @@ def ask_bot(query: str, k: int = 10):
     st.write(result) 
     return result['result']
 
+def inspect_chroma():
+    persist_directory = CHROMA_PATH
+    embedding = HuggingFaceInferenceAPIEmbeddings(api_key=API_TOKEN, model_name=MBD_MODEL)
+    vectordb = Chroma(persist_directory=persist_directory, embedding_function=embedding, collection_name=COLLECTION_CSV)
+
+    # Example: Print all document IDs
+    st.write("Inspecting Chroma Database...")
+    all_docs = vectordb.get_all_documents()
+    for doc in all_docs:
+        st.write(f"Document ID: {doc.id}, Document Content: {doc.content}")
+
 st.title('DGF Product Seeker Bot')
-query = st.chat_input("Qu'est ce que vous cherchez? Ex: Laptop avec 16gb de ram")
+
+st.sidebar.title('Options')
+show_chroma = st.sidebar.checkbox('Inspect Chroma Database')
+
+if show_chroma:
+    inspect_chroma()
+
+query = st.text_input("Qu'est ce que vous cherchez? Ex: Laptop avec 16gb de ram")
 if query:
     answer = ask_bot(query)
     st.markdown(answer)
