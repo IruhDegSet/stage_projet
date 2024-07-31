@@ -10,7 +10,7 @@ except ImportError:
 from langchain_groq import ChatGroq
 from langchain.chains import RetrievalQA
 from langchain.prompts import PromptTemplate
-from langchain_community.vectorstores import Chroma
+from langchain_chroma.vectorstores import Chroma
 from langchain_community.embeddings import HuggingFaceInferenceAPIEmbeddings
 
 # Constants
