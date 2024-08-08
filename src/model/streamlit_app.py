@@ -1,14 +1,9 @@
 import streamlit as st
-try:
-    from langchain_community.document_loaders.csv_loader import CSVLoader
-except ImportError:
-    from langchain.document_loaders.csv_loader import CSVLoader  # Alternative import
-
-from langchain_groq import ChatGroq
+from langchain_community.document_loaders.csv_loader import CSVLoader
 from langchain.chains import RetrievalQA
+from langchain_groq import ChatGroq
 from langchain.prompts import PromptTemplate
 from langchain_qdrant import QdrantVectorStore as qd
-from langchain_community.vectorstores import Chroma
 from langchain.memory import ConversationBufferMemory
 from langchain_community.embeddings import HuggingFaceInferenceAPIEmbeddings
 
@@ -16,13 +11,18 @@ from langchain_community.embeddings import HuggingFaceInferenceAPIEmbeddings
 API_TOKEN = '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'
 GROQ_TOKEN = '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'
 CHROMA_PATH = "../data/chroma"
-BATCH_SIZE = 1000
-
 COLLECTION_CSV = 'csv_collection'
 MBD_MODEL = 'intfloat/multilingual-e5-large'
-memory = ConversationBufferMemory()
 
-def ask_bot(query: str, k: int = 10):
+# Initialisation de la mémoire
+memory = ConversationBufferMemory(
+    memory_key="history",
+    input_key="query"
+)
+
+def ask_bot(question: str, k: int = 10):
+    st.write('query:', question)
+
     # Configuration des embeddings et de la base de données
     embeddings = HuggingFaceInferenceAPIEmbeddings(api_key=API_TOKEN, model_name=MBD_MODEL)
     vectordb = qd.from_existing_collection(
@@ -36,56 +36,77 @@ def ask_bot(query: str, k: int = 10):
 
     # Configuration du modèle et du prompt
     llm = ChatGroq(model_name='llama-3.1-70b-versatile', api_key=GROQ_TOKEN, temperature=0)
-    template = """Vous êtes un assistant vendeur. Vous avez accès uniquement au contexte fourni et à 
-    l'historique des questions et réponses. Ne générez pas d'informations si elles ne sont pas dans 
-    le contexte. Répondez seulement si vous avez la réponse. Accompagnez chaque réponse du numéro de référence,
-      de la marque et de la description du produit tel qu'ils sont dans le contexte. Affichez autant de lignes que 
-      les produits trouvés dans le contexte. Répondez à la question de l'utilisateur en français. Vous êtes
-    obligé de répondre dans un tableau avec les colonnes suivantes : référence, marque et description.
-     si je te pose une question sur les questions ou les réponses fournies précédemment, tu dois me répondre selon l'historique.
-    tu ne dois pas oublier l'historique car parfois l'utilisateur continue à poser des questions sur tes réponses déjà fournies auparavant.
+    template = """
+                    Tu es un assistant vendeur. Tu as accès au contexte seulement. Ne génère pas des informations si elles ne sont pas dans le contexte. 
+                    Répond seulement si tu as la réponse. Affiche les produits un par un sous forme de tableau qui contient ces colonne Référence,Categorie, Marque, Description.
+                    Il faut savoir que laptop, ordinateur, ordinateurs portable , pc et poste de travail ont tous le même sens.
+                    Il faut savoir que téléphone portable et smartphone ont le même sens.
+                    Il faut savoir que tout autre caractéristique du produit tel que la RAM stockage font partie de la description du produit et il faut filtrer selon la marque et la catégorie seulement.
+                
+                    Si le contexte est vide, dis-moi que tu n'as pas trouvé de produits correspondants. Je veux que la réponse soit claire et facile à lire, avec des sauts de ligne pour séparer chaque produit. Ne me donne pas de produits qui ne sont pas dans le contexte.
+                    si je te pose une question sur les question ou les reponses fournients précédemment tu dois me répondre selon l'historique.
+                    tu ne dois pas oublier l'historique car parfois le user continue à te poser des questions sur tes réponses que tu as déjà fournies auparavant
+    
+                    Contexte: {context}
+                    Historique : {history}
+                    Question: {query}
 
-    Contexte :
-    {context}
-
-    Question : {question}
-        Historique des questions et réponses :
-   
-    Réponse :"""
-
-    QA_CHAIN_PROMPT = PromptTemplate.from_template(template)
-
-    # Initialisation de la chaîne QA
-    qa_chain = RetrievalQA.from_chain_type(
-        llm,
-        retriever=vectordb.as_retriever(search_type='mmr', search_kwargs={'k': 50, 'fetch_k': k}),
-        return_source_documents=True,
-        chain_type_kwargs={"prompt": QA_CHAIN_PROMPT}
+                    Réponse :
+                    """
+  
+    prompt = PromptTemplate(
+        input_variables=["context", "history", "query"],
+        template=template,
     )
 
-    print("Configuration de la chaîne QA : ", qa_chain)
+    chain_type_kwargs = {
+        "prompt": prompt,
+        "memory": memory,
+    }
+    
+    qa = RetrievalQA.from_chain_type(
+        llm=llm,
+        chain_type='stuff',
+        retriever=vectordb.as_retriever(search_type='mmr', search_kwargs={'k': 50, 'fetch_k': k}),
+        verbose=True,
+        chain_type_kwargs=chain_type_kwargs
+    )
+
     # Chargement de l'historique
     conversation_history = memory.load_memory_variables({})
-    history_text = conversation_history.get('histoire', '')
+    history = conversation_history.get('history', "")
 
-    # Préparation des entrées
+    # Préparation des inputs avec les clés correctes
     inputs = {
-        "query": query,
-        "historique": history_text
+        "context": "",  # Contexte vide par défaut
+        "history": history,
+        "query": question  # Utilisation de 'query' comme spécifié dans le PromptTemplate
     }
-    st.write("Clés d'entrée avant invocation:", inputs.keys())
 
-    # Exécution de la chaîne QA
-    result = qa_chain.invoke(inputs)
+    st.write("Inputs fournis à la chaîne:", inputs)
+    
+    # Appel à la chaîne avec les clés appropriées
+    try:
+        result = qa(inputs)
+    except ValueError as e:
+        st.error(f"Erreur de valeur : {e}")
+        return 'Erreur lors de l\'appel de la chaîne.', []
+
+    # Gestion des résultats
+    output = result.get('result', 'Pas de réponse trouvée')
+    sources = result.get('source_documents', [])
 
     # Mise à jour de la mémoire
-    memory.save_context({'input': query}, {"output": result['result']})
-    st.write("Mémoire mise à jour :", memory.load_memory_variables({}))
+    memory.save_context({'query': question}, {'result': output})
 
-    return result['result']
+    return output, sources
 
 st.title('DGF Product Seeker Bot')
-query = st.chat_input("Qu'est-ce que vous cherchez ? Ex : Laptop avec 16 Go de RAM")
-if query:
-    answer = ask_bot(query)
+question = st.chat_input("Qu'est-ce que vous cherchez ? Ex : Laptop avec 16 Go de RAM")
+if question:
+    answer, sources = ask_bot(question)
     st.markdown(answer)
+    if sources:
+        st.write("Sources :")
+        for doc in sources:
+            st.write(doc)
