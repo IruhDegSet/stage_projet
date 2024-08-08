@@ -20,9 +20,9 @@ BATCH_SIZE = 1000
 
 COLLECTION_CSV = 'csv_collection'
 MBD_MODEL = 'intfloat/multilingual-e5-large'
-
+memory = ConversationBufferMemory()
 def ask_bot(query: str, k: int = 10):
-    memory = ConversationBufferMemory()
+    
     embeddings = HuggingFaceInferenceAPIEmbeddings(api_key=API_TOKEN, model_name=MBD_MODEL)
     vectordb = qd.from_existing_collection(embedding=embeddings,
     url='https://a08399e1-9b23-417d-bc6a-88caa066bca4.us-east4-0.gcp.cloud.qdrant.io:6333',
