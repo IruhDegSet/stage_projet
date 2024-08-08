@@ -20,49 +20,72 @@ BATCH_SIZE = 1000
 
 COLLECTION_CSV = 'csv_collection'
 MBD_MODEL = 'intfloat/multilingual-e5-large'
+memory = ConversationBufferMemory()
 
 def ask_bot(query: str, k: int = 10):
-    memory = ConversationBufferMemory()
+    # Configuration des embeddings et de la base de données
     embeddings = HuggingFaceInferenceAPIEmbeddings(api_key=API_TOKEN, model_name=MBD_MODEL)
-    vectordb = qd.from_existing_collection(embedding=embeddings,
-    url='https://a08399e1-9b23-417d-bc6a-88caa066bca4.us-east4-0.gcp.cloud.qdrant.io:6333',
-    prefer_grpc=True,
-    api_key= 'lJo8SY8JQy7W0KftZqO3nw11gYCWIaJ0mmjcjQ9nFhzFiVamf3k6XA',
-    collection_name="lvHP_collection",
-    vector_name='',)
+    vectordb = qd.from_existing_collection(
+        embedding=embeddings,
+        url='https://a08399e1-9b23-417d-bc6a-88caa066bca4.us-east4-0.gcp.cloud.qdrant.io:6333',
+        prefer_grpc=True,
+        api_key='lJo8SY8JQy7W0KftZqO3nw11gYCWIaJ0mmjcjQ9nFhzFiVamf3k6XA',
+        collection_name="lvHP_collection",
+        vector_name=''
+    )
 
-    # Initiate model
+    # Configuration du modèle et du prompt
     llm = ChatGroq(model_name='llama-3.1-70b-versatile', api_key=GROQ_TOKEN, temperature=0)
+    template = """Vous êtes un assistant vendeur. Vous avez accès uniquement au contexte fourni et à 
+    l'historique des questions et réponses. Ne générez pas d'informations si elles ne sont pas dans 
+    le contexte. Répondez seulement si vous avez la réponse. Accompagnez chaque réponse du numéro de référence,
+      de la marque et de la description du produit tel qu'ils sont dans le contexte. Affichez autant de lignes que 
+      les produits trouvés dans le contexte. Répondez à la question de l'utilisateur en français. Vous êtes
+    obligé de répondre dans un tableau avec les colonnes suivantes : référence, marque et description.
+     si je te pose une question sur les questions ou les réponses fournies précédemment, tu dois me répondre selon l'historique.
+    tu ne dois pas oublier l'historique car parfois l'utilisateur continue à poser des questions sur tes réponses déjà fournies auparavant.
 
-    # Build prompt
-    template = """tu es un assistant vendeur, tu as acces au context seulement. ne generes pas des infos si elles ne sont pas dans le context il faut repondre seulement si tu as la reponse. accompagne chaque reponse du part, marque et description du produit tel qu'ils sont dans le context. affiche autant de lignes que les produit trouves dans le context. repond a la question de l'utilisateur en francais. tu est oblige de repondre dans un tableau avec comme colonnes: reference, marque et la description
+    Contexte :
     {context}
-    Question: {question}
-    Reponse:"""
+
+    Question : {question}
+        Historique des questions et réponses :
+   
+    Réponse :"""
 
     QA_CHAIN_PROMPT = PromptTemplate.from_template(template)
 
-    # Build chain
+    # Initialisation de la chaîne QA
     qa_chain = RetrievalQA.from_chain_type(
         llm,
         retriever=vectordb.as_retriever(search_type='mmr', search_kwargs={'k': 50, 'fetch_k': k}),
         return_source_documents=True,
-        chain_type_kwargs={"prompt": QA_CHAIN_PROMPT},
+        chain_type_kwargs={"prompt": QA_CHAIN_PROMPT}
     )
 
-
+    print("Configuration de la chaîne QA : ", qa_chain)
+    # Chargement de l'historique
     conversation_history = memory.load_memory_variables({})
-    st.write("Conversation History Loaded:", conversation_history)
-    # Execute QA chain
-    result = qa_chain.invoke({"query": query, "historique": conversation_history.get('history', [])})
+    history_text = conversation_history.get('histoire', '')
+
+    # Préparation des entrées
+    inputs = {
+        "query": query,
+        "historique": history_text
+    }
+    st.write("Clés d'entrée avant invocation:", inputs.keys())
+
+    # Exécution de la chaîne QA
+    result = qa_chain.invoke(inputs)
+
+    # Mise à jour de la mémoire
     memory.save_context({'input': query}, {"output": result['result']})
-    st.write("Memory Updated:", memory.load_memory_variables({}))
+    st.write("Mémoire mise à jour :", memory.load_memory_variables({}))
+
     return result['result']
 
 st.title('DGF Product Seeker Bot')
-query = st.chat_input("Qu'est ce que vous cherchez? Ex: Laptop avec 16gb de ram")
+query = st.chat_input("Qu'est-ce que vous cherchez ? Ex : Laptop avec 16 Go de RAM")
 if query:
-
-    # inspect_retriever(query)
     answer = ask_bot(query)
     st.markdown(answer)
