@@ -9,7 +9,7 @@ from langchain.chains import RetrievalQA
 from langchain.prompts import PromptTemplate
 from langchain_qdrant import QdrantVectorStore as qd
 from langchain_community.vectorstores import Chroma
-
+from langchain.memory import ConversationBufferMemory
 from langchain_community.embeddings import HuggingFaceInferenceAPIEmbeddings
 
 # Constants
@@ -22,6 +22,7 @@ COLLECTION_CSV = 'csv_collection'
 MBD_MODEL = 'intfloat/multilingual-e5-large'
 
 def ask_bot(query: str, k: int = 10):
+    memory = ConversationBufferMemory()
     embeddings = HuggingFaceInferenceAPIEmbeddings(api_key=API_TOKEN, model_name=MBD_MODEL)
     vectordb = qd.from_existing_collection(embedding=embeddings,
     url='https://a08399e1-9b23-417d-bc6a-88caa066bca4.us-east4-0.gcp.cloud.qdrant.io:6333',
@@ -49,13 +50,13 @@ def ask_bot(query: str, k: int = 10):
         chain_type_kwargs={"prompt": QA_CHAIN_PROMPT},
     )
 
-    
-    # Run chain:
-    result = qa_chain.invoke({"query": query})
-    # st.write(result) 
 
-    # Run chain:
-    result = qa_chain.invoke({"query": query})
+    conversation_history = memory.load_memory_variables({})
+    st.write("Conversation History Loaded:", conversation_history)
+    # Execute QA chain
+    result = qa_chain.invoke({"query": query, "historique": conversation_history.get('history', [])})
+    memory.save_context({'input': query}, {"output": result['result']})
+    st.write("Memory Updated:", memory.load_memory_variables({}))
     return result['result']
 
 st.title('DGF Product Seeker Bot')
