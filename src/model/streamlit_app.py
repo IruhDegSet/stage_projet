@@ -42,8 +42,8 @@ def ask_bot(query: str, k: int = 10):
         url='https://a08399e1-9b23-417d-bc6a-88caa066bca4.us-east4-0.gcp.cloud.qdrant.io:6333',
         prefer_grpc=True,
         api_key='lJo8SY8JQy7W0KftZqO3nw11gYCWIaJ0mmjcjQ9nFhzFiVamf3k6XA',
-        collection_name="icecat_collection",
-        vector_name='vector_params'
+        collection_name="collection_icecat",
+        vector_name=''
     )
     
     llm = ChatGroq(model_name='llama-3.1-70b-versatile', api_key=GROQ_TOKEN, temperature=0)
@@ -70,8 +70,8 @@ def ask_bot(query: str, k: int = 10):
 
     template = """
         Tu es un assistant vendeur. Tu as accès au contexte seulement. Ne génère pas des informations si elles ne sont pas dans le contexte. 
-        Répond seulement si tu as la réponse. Affiche les produits un par un sous forme de tableau qui contient ces colonnes Référence, Categorie, Marque, Description.
-        Il faut savoir que laptop, ordinateur, ordinateurs portables, pc et poste de travail ont tous le même sens.
+        Répond seulement si tu as la réponse. il est obligatoire d'Affiche les produits un par un sous forme de tableau qui contient ces colonnes Référence, Categorie, Marque, Description.
+        Il faut savoir que Laptops,PC/postes de travail, ordinateur, ordinateurs portables, pc et poste de travail ont tous le même sens.
         Il faut savoir que téléphone portable et smartphone ont le même sens.
         Tout autre caractéristique du produit tel que la RAM et le stockage font partie de la description du produit et il faut filtrer selon la marque et la catégorie seulement.
         Si le contexte est vide, dis-moi que tu n'as pas trouvé de produits correspondants. Je veux que la réponse soit claire et facile à lire, avec des sauts de ligne pour séparer chaque produit. Ne me donne pas de produits qui ne sont pas dans le contexte.
