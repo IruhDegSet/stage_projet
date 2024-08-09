@@ -42,8 +42,8 @@ def ask_bot(query: str, k: int = 10):
         url='https://a08399e1-9b23-417d-bc6a-88caa066bca4.us-east4-0.gcp.cloud.qdrant.io:6333',
         prefer_grpc=True,
         api_key='lJo8SY8JQy7W0KftZqO3nw11gYCWIaJ0mmjcjQ9nFhzFiVamf3k6XA',
-        collection_name="lvHP_collection",
-        vector_name=''
+        collection_name="icecat_collection",
+        vector_name='vector_params'
     )
     
     llm = ChatGroq(model_name='llama-3.1-70b-versatile', api_key=GROQ_TOKEN, temperature=0)
@@ -55,7 +55,6 @@ def ask_bot(query: str, k: int = 10):
         "qui pourrait faire référence au contexte de l'historique de conversation, "
         "formulez une question autonome qui peut être comprise "
         "sans l'historique de conversation. NE RÉPONDEZ PAS à la question, "
-        "reformulez-la si nécessaire et, sinon, renvoyez-la telle quelle."
     )
 
     contextualize_q_prompt = ChatPromptTemplate.from_messages(
@@ -117,7 +116,6 @@ def ask_bot(query: str, k: int = 10):
     )
 
     st.write("Store After:", st.session_state.store)
-    st.write("Response:", response["answer"])
 
     return response["answer"]
 
