@@ -13,7 +13,7 @@ API_KEY = 'lJo8SY8JQy7W0KftZqO3nw11gYCWIaJ0mmjcjQ9nFhzFiVamf3k6XA'
 
 # Charger les données du CSV avec CSVLoader
 loader = CSVLoader(
-    file_path='../data/dossier_de_sortie/partie_2.csv',
+    file_path='../data/dossier_de_sortie/partie_3.csv',
     csv_args={"delimiter": ","},
     encoding="utf-8"
 )

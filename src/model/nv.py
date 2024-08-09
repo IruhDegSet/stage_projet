@@ -28,14 +28,13 @@ def initialize_store():
         st.session_state.store = {}
 
 def get_session_id():
-    # Générer un identifiant de session basé sur les sessions Streamlit
     if 'session_id' not in st.session_state:
         st.session_state.session_id = str(uuid.uuid4())
     return st.session_state.session_id
 
 def ask_bot(query: str, k: int = 10):
     initialize_store()
-    session_id = get_session_id()  # Utiliser l'identifiant de session Streamlit
+    session_id = get_session_id()
     
     embeddings = HuggingFaceInferenceAPIEmbeddings(api_key=API_TOKEN, model_name=MBD_MODEL)
     vectordb = qd.from_existing_collection(
@@ -75,7 +74,7 @@ def ask_bot(query: str, k: int = 10):
         Répond seulement si tu as la réponse. Affiche les produits un par un sous forme de tableau qui contient ces colonnes Référence, Categorie, Marque, Description.
         Il faut savoir que laptop, ordinateur, ordinateurs portables, pc et poste de travail ont tous le même sens.
         Il faut savoir que téléphone portable et smartphone ont le même sens.
-        Il faut savoir que tout autre caractéristique du produit tel que la RAM et le stockage font partie de la description du produit et il faut filtrer selon la marque et la catégorie seulement.
+        Tout autre caractéristique du produit tel que la RAM et le stockage font partie de la description du produit et il faut filtrer selon la marque et la catégorie seulement.
         Si le contexte est vide, dis-moi que tu n'as pas trouvé de produits correspondants. Je veux que la réponse soit claire et facile à lire, avec des sauts de ligne pour séparer chaque produit. Ne me donne pas de produits qui ne sont pas dans le contexte.
         Si je te pose une question sur les questions ou les réponses fournies précédemment, tu dois me répondre selon l'historique.
         Tu ne dois pas oublier l'historique car parfois l'utilisateur continue à te poser des questions sur tes réponses que tu as déjà fournies auparavant.
@@ -125,5 +124,5 @@ def ask_bot(query: str, k: int = 10):
 st.title('DGF Product Seeker Bot')
 query = st.chat_input("Qu'est-ce que vous cherchez ? Ex : Laptop avec 16 Go de RAM")
 if query:
-    answer = ask_bot(query)  # Receiving only one value
+    answer = ask_bot(query)
     st.markdown(answer)
