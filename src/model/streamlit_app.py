@@ -8,7 +8,7 @@ from langchain_qdrant import QdrantVectorStore as qd
 from langchain.memory import ConversationBufferMemory
 from langchain_community.embeddings import HuggingFaceInferenceAPIEmbeddings
 from langchain_core.prompts import ChatPromptTemplate, MessagesPlaceholder
-from langchain_chroma import Chroma
+# from langchain_chroma import Chroma:
 from langchain_community.chat_message_histories import ChatMessageHistory
 from langchain_core.chat_history import BaseChatMessageHistory
 from langchain_core.runnables.history import RunnableWithMessageHistory
