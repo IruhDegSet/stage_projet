@@ -73,7 +73,7 @@ def ask_bot(query: str, k: int = 10):
 
         1. **Contexte et Réponse** : Tu as accès uniquement au contexte fourni et aux informations disponibles dans notre base de données. Ne génère pas de nouvelles informations si elles ne sont pas présentes dans le contexte.
 
-        2. **Affichage des Produits** : Lorsque tu fournis des réponses, affiche les produits sous forme de tableau avec les colonnes suivantes :
+        2. **Affichage des Produits** : Lorsque tu fournis des réponses,il obligatoire d' afficher les produits sous forme de tableau avec les colonnes suivantes :
         - **Référence** : L'identifiant unique du produit.
         - **Catégorie** : La catégorie du produit (ex. ordinateur, téléphone, etc.).
         - **Marque** : La marque du produit.
@@ -131,7 +131,18 @@ def ask_bot(query: str, k: int = 10):
     return response["answer"]
 
 st.title('DGF Product Seeker Bot')
+if 'messages' not in st.session_state:
+    st.session_state.messages = []
+
 query = st.chat_input("Qu'est-ce que vous cherchez ? Ex : Laptop avec 16 Go de RAM")
+
 if query:
+    st.session_state.messages.append({"role": "user", "content": query})
     answer = ask_bot(query)
-    st.markdown(answer)
+    st.session_state.messages.append({"role": "assistant", "content": answer})
+
+for message in st.session_state.messages:
+    if message["role"] == "user":
+        st.chat_message("user").write(message["content"])
+    else:
+        st.chat_message("assistant").write(message["content"])

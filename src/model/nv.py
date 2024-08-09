@@ -42,7 +42,7 @@ def ask_bot(query: str, k: int = 10):
         url='https://a08399e1-9b23-417d-bc6a-88caa066bca4.us-east4-0.gcp.cloud.qdrant.io:6333',
         prefer_grpc=True,
         api_key='lJo8SY8JQy7W0KftZqO3nw11gYCWIaJ0mmjcjQ9nFhzFiVamf3k6XA',
-        collection_name="lvHP_collection",
+        collection_name="collection_icecat",
         vector_name=''
     )
     
@@ -55,7 +55,6 @@ def ask_bot(query: str, k: int = 10):
         "qui pourrait faire référence au contexte de l'historique de conversation, "
         "formulez une question autonome qui peut être comprise "
         "sans l'historique de conversation. NE RÉPONDEZ PAS à la question, "
-        "reformulez-la si nécessaire et, sinon, renvoyez-la telle quelle."
     )
 
     contextualize_q_prompt = ChatPromptTemplate.from_messages(
@@ -70,17 +69,32 @@ def ask_bot(query: str, k: int = 10):
     )
 
     template = """
-        Tu es un assistant vendeur. Tu as accès au contexte seulement. Ne génère pas des informations si elles ne sont pas dans le contexte. 
-        Répond seulement si tu as la réponse. Affiche les produits un par un sous forme de tableau qui contient ces colonnes Référence, Categorie, Marque, Description.
-        Il faut savoir que laptop, ordinateur, ordinateurs portables, pc et poste de travail ont tous le même sens.
-        Il faut savoir que téléphone portable et smartphone ont le même sens.
-        Tout autre caractéristique du produit tel que la RAM et le stockage font partie de la description du produit et il faut filtrer selon la marque et la catégorie seulement.
-        Si le contexte est vide, dis-moi que tu n'as pas trouvé de produits correspondants. Je veux que la réponse soit claire et facile à lire, avec des sauts de ligne pour séparer chaque produit. Ne me donne pas de produits qui ne sont pas dans le contexte.
-        Si je te pose une question sur les questions ou les réponses fournies précédemment, tu dois me répondre selon l'historique.
-        Tu ne dois pas oublier l'historique car parfois l'utilisateur continue à te poser des questions sur tes réponses que tu as déjà fournies auparavant.
-        Contexte: {context}
+        Tu es un assistant vendeur spécialisé dans les produits de notre base de données. Voici les règles pour répondre aux questions :
+
+        1. **Contexte et Réponse** : Tu as accès uniquement au contexte fourni et aux informations disponibles dans notre base de données. Ne génère pas de nouvelles informations si elles ne sont pas présentes dans le contexte.
+
+        2. **Affichage des Produits** : Lorsque tu fournis des réponses, affiche les produits sous forme de tableau avec les colonnes suivantes :
+        - **Référence** : L'identifiant unique du produit.
+        - **Catégorie** : La catégorie du produit (ex. ordinateur, téléphone, etc.).
+        - **Marque** : La marque du produit.
+        - **Description** : Une description détaillée du produit, y compris des caractéristiques comme la RAM et le stockage, si elles sont disponibles.
+
+        3. **Synonymes** : Les termes suivants doivent être considérés comme équivalents :
+        - *Laptops, PC/postes de travail, PC tout en un/stations de travail, ordinateur, ordinateurs portables, PC, poste de travail*
+        - *Téléphone portable et smartphone*
+
+        4. **Filtrage** : Filtre les produits selon la marque et la catégorie seulement. Les autres caractéristiques comme la RAM et le stockage font partie de la description et ne doivent pas être utilisées pour le filtrage.
+
+        5. **Contexte Vide** : Si le contexte ne contient aucun produit correspondant à la requête, informe l'utilisateur qu'aucun produit correspondant n'a été trouvé.
+
+        6. **Clarté de la Réponse** : La réponse doit être claire et facile à lire. Sépare chaque produit par des sauts de ligne pour une meilleure lisibilité. Ne donne pas de produits qui ne sont pas dans le contexte.
+
+        7. **Historique des Questions** : Si la question se réfère à des questions ou des réponses précédentes, réponds en tenant compte de l'historique des échanges. Assure-toi de ne pas oublier les informations passées, car l'utilisateur peut poser des questions supplémentaires sur des réponses déjà fournies.
+
+        Contexte : {context}
         Réponse :
     """
+
 
     qa_prompt = ChatPromptTemplate.from_messages(
         [
@@ -106,8 +120,6 @@ def ask_bot(query: str, k: int = 10):
         output_messages_key="answer",
     )
 
-    st.write(f"Session ID: {session_id}")
-    st.write("Store Before:", st.session_state.store)
 
     response = conversational_rag_chain.invoke(
         {"input": query},
@@ -116,13 +128,21 @@ def ask_bot(query: str, k: int = 10):
         },
     )
 
-    st.write("Store After:", st.session_state.store)
-    st.write("Response:", response["answer"])
-
     return response["answer"]
 
 st.title('DGF Product Seeker Bot')
+if 'messages' not in st.session_state:
+    st.session_state.messages = []
+
 query = st.chat_input("Qu'est-ce que vous cherchez ? Ex : Laptop avec 16 Go de RAM")
+
 if query:
+    st.session_state.messages.append({"role": "user", "content": query})
     answer = ask_bot(query)
-    st.markdown(answer)
+    st.session_state.messages.append({"role": "assistant", "content": answer})
+
+for message in st.session_state.messages:
+    if message["role"] == "user":
+        st.chat_message("user").write(message["content"])
+    else:
+        st.chat_message("assistant").write(message["content"])
