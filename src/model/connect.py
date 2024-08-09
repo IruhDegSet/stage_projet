@@ -1,5 +1,5 @@
 from qdrant_client import QdrantClient
-from qdrant_client.models import Distance, VectorParams
+from qdrant_client.models import Distance, VectorParams, CollectionInfo
 
 # Initialiser le client Qdrant
 qdrant_client = QdrantClient(
@@ -13,15 +13,15 @@ vector_params = VectorParams(
     distance=Distance.COSINE
 )
 
-# Configurer les vecteurs pour la collection
-vectors_config = {
-    'vector_params': vector_params
-}
-
 # Nom de la collection
-collection_name = "icecat_collection"
+collection_name = "collection_icecat"
+
 
 
 # Vérifier les collections existantes
 collections = qdrant_client.get_collections()
 print("Collections existantes :", collections)
+
+# Vérifier la configuration de la collection nouvellement créée
+collection_info = qdrant_client.get_collection(collection_name)
+print(f"Configuration de la collection '{collection_name}':", collection_info)

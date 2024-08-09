@@ -6,7 +6,7 @@ import requests
 API_TOKEN = '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'
 MBD_MODEL = 'intfloat/multilingual-e5-large'
 DRANT_URL = "https://a08399e1-9b23-417d-bc6a-88caa066bca4.us-east4-0.gcp.cloud.qdrant.io:6333"
-COLLECTION_NAME = "icecat_collection"
+COLLECTION_NAME = "collection_icecat"
 QDRANT_API_KEY = 'lJo8SY8JQy7W0KftZqO3nw11gYCWIaJ0mmjcjQ9nFhzFiVamf3k6XA'
 # Charger les données du CSV
 df = pd.read_csv('../data/icecat.csv')

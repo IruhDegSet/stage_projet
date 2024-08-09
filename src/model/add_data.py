@@ -8,13 +8,12 @@ from qdrant_client.models import Distance, VectorParams
 API_TOKEN = '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'
 MBD_MODEL = 'intfloat/multilingual-e5-large'
 QDRANT_URL = "https://a08399e1-9b23-417d-bc6a-88caa066bca4.us-east4-0.gcp.cloud.qdrant.io:6333"
-COLLECTION_NAME = "icecat_collection"
+COLLECTION_NAME = "collection_icecat"
 API_KEY = 'lJo8SY8JQy7W0KftZqO3nw11gYCWIaJ0mmjcjQ9nFhzFiVamf3k6XA'
 
 # Charger les données du CSV avec CSVLoader
 loader = CSVLoader(
-    file_path='../data/icecat.csv',
-    metadata_columns=["Marque", "Categorie"],
+    file_path='../data/dossier_de_sortie/partie_2.csv',
     csv_args={"delimiter": ","},
     encoding="utf-8"
 )
@@ -33,7 +32,7 @@ db = qd.from_existing_collection(
     api_key=API_KEY,
     collection_name=COLLECTION_NAME,
     prefer_grpc=True,
-    vector_name='vector_params'  # Utilisez le nom du vecteur dense configuré
+    vector_name=''  # Utilisez le nom du vecteur dense configuré
 )
 
 # Ajouter les documents à la collection

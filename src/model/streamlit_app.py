@@ -14,14 +14,14 @@ CHROMA_PATH = "../data/chroma"
 COLLECTION_CSV = 'csv_collection'
 MBD_MODEL = 'intfloat/multilingual-e5-large'
 
-# Initialisation de la mémoire
-memory = ConversationBufferMemory(
-    memory_key="history",
-    input_key="query"
-)
 
 def ask_bot(question: str, k: int = 10):
     st.write('query:', question)
+    # Initialisation de la mémoire
+    memory = ConversationBufferMemory(
+        input_key='query',
+        memory_key="history",
+    )
 
     # Configuration des embeddings et de la base de données
     embeddings = HuggingFaceInferenceAPIEmbeddings(api_key=API_TOKEN, model_name=MBD_MODEL)
@@ -69,9 +69,10 @@ def ask_bot(question: str, k: int = 10):
         chain_type='stuff',
         retriever=vectordb.as_retriever(search_type='mmr', search_kwargs={'k': 50, 'fetch_k': k}),
         verbose=True,
+        memory=memory,
         chain_type_kwargs=chain_type_kwargs
     )
-
+    st.write(qa)
     # Chargement de l'historique
     conversation_history = memory.load_memory_variables({})
     history = conversation_history.get('history', "")
@@ -87,7 +88,7 @@ def ask_bot(question: str, k: int = 10):
     
     # Appel à la chaîne avec les clés appropriées
     try:
-        result = qa(inputs)
+        result = qa.invoke(inputs)
     except ValueError as e:
         st.error(f"Erreur de valeur : {e}")
         return 'Erreur lors de l\'appel de la chaîne.', []
@@ -102,9 +103,9 @@ def ask_bot(question: str, k: int = 10):
     return output, sources
 
 st.title('DGF Product Seeker Bot')
-question = st.chat_input("Qu'est-ce que vous cherchez ? Ex : Laptop avec 16 Go de RAM")
-if question:
-    answer, sources = ask_bot(question)
+query = st.chat_input("Qu'est-ce que vous cherchez ? Ex : Laptop avec 16 Go de RAM")
+if query:
+    answer, sources = ask_bot(query)
     st.markdown(answer)
     if sources:
         st.write("Sources :")
