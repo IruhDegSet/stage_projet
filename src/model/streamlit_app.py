@@ -23,12 +23,14 @@ MBD_MODEL = 'intfloat/multilingual-e5-large'
 
 def ask_bot(query: str, k: int = 10):
     embeddings = HuggingFaceInferenceAPIEmbeddings(api_key=API_TOKEN, model_name=MBD_MODEL)
-    vectordb = qd.from_existing_collection(embedding=embeddings,
-    url='https://a08399e1-9b23-417d-bc6a-88caa066bca4.us-east4-0.gcp.cloud.qdrant.io:6333',
-    prefer_grpc=True,
-    api_key= 'lJo8SY8JQy7W0KftZqO3nw11gYCWIaJ0mmjcjQ9nFhzFiVamf3k6XA',
-    collection_name="icecat_collection",
-    vector_name='vector_params',)
+    vectordb = qd.from_existing_collection(
+        embedding=embeddings,
+        url='https://a08399e1-9b23-417d-bc6a-88caa066bca4.us-east4-0.gcp.cloud.qdrant.io:6333',
+        prefer_grpc=True,
+        api_key='lJo8SY8JQy7W0KftZqO3nw11gYCWIaJ0mmjcjQ9nFhzFiVamf3k6XA',
+        collection_name="lvHP_collection",
+        vector_name=''
+    )
 
     # Initiate model
     llm = ChatGroq(model_name='llama-3.1-70b-versatile', api_key=GROQ_TOKEN, temperature=0)
